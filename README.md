@@ -5,6 +5,6 @@
 
   # M3-Lab's Website
 
-  Visit **[M3-Lab](https://etnicotinate.github.io/M3-Lab-green)** 🚀
+  Visit **[etnicotinate.github.io/M3-Lab-green](https://etnicotinate.github.io/M3-Lab-green)** 🚀
 
   _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
