@@ -1,8 +1,8 @@
 ---
-name: Jane Smith
+name: Shuo Wang
 image: images/photo.jpg
 role: principal-investigator
-affiliation: University of Colorado
+affiliation: EIT
 aliases:
   - J. Smith
   - J Smith
