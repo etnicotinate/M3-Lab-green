@@ -37,7 +37,6 @@ We work with a wide range of outstanding groups from around the world, and we're
 
 {% include section.html %}
 
-<!-- {% include gallery.html %} -->
 
 ## Alumni
 
