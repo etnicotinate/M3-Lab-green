@@ -1,8 +1,8 @@
 ---
 name: Fucheng Ren
-image: images/photo.jpg
-description: Lead Programmer
-role: programmer
+image: images/Fucheng-Ren.jpg
+description: description
+role: faculty
 links:
   email: sarah.johnson@gmail.com
   twitter: sarahjohnson

@@ -1,7 +1,8 @@
 ---
 name: Chuliang Fu
-image: images/photo.jpg
-role: phd
+image: images/flask.jpg
+description: description
+role: faculty
 group: alum
 links:
   github: john-doe

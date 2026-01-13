@@ -1,8 +1,9 @@
 ---
 name: Shuo Wang
-image: images/photo.jpg
-role: principal-investigator
+image: images/teachers.jpg
+role: pi
 affiliation: EIT
+description: description
 aliases:
   - J. Smith
   - J Smith

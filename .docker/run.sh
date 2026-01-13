@@ -20,9 +20,9 @@ if [[ $OSTYPE == msys* ]] || [[ $OSTYPE == cygwin* ]]; then
 fi
 
 # build docker image
-# docker build ${PLATFORM} \
-#     --tag ${IMAGE} \
-#     --file ./.docker/Dockerfile . && \
+docker build ${PLATFORM} \
+    --tag ${IMAGE} \
+    --file ./.docker/Dockerfile . && \
 
 # run built docker image
 ${DOCKER_RUN} ${PLATFORM} \
@@ -35,3 +35,5 @@ ${DOCKER_RUN} ${PLATFORM} \
     --publish 35729:35729 \
     --volume "${WORKING_DIR}:/usr/src/app" \
     ${IMAGE} "$@"
+
+# docker rm -f lab-website-renderer
