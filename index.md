@@ -1,9 +1,11 @@
 ---
 ---
 
-# M3-Lab's Website
+# Multiscale Modeling and Machine Learning Lab
 
-An engaging 1-3 sentence description of your lab.
+Welcome to the M3-Lab from EIT! 
+
+Our group investigates computational materials science, machine learning, and multiscale modeling and its applications to all-solid-state batteries.
 
 {% include section.html %}
 
