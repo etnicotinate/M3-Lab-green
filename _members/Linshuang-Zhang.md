@@ -1,12 +1,11 @@
 ---
-name: Ren Fucheng
-image: images/Fucheng-Ren.jpg
+name: Zhang Linshuang
+image: images/Linshuang.png
 description: description
-role: faculty
+role: phd
 date: 2025-04-01
 links:
-  email: sarah.johnson@gmail.com
-  twitter: sarahjohnson
+  github: john-doe
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

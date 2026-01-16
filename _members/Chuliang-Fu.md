@@ -1,9 +1,9 @@
 ---
-name: Chuliang Fu
-image: images/flask.jpg
+name: Fu Chuliang
+image: images/Chuliang-Fu.jpg
 description: description
 role: faculty
-group: alum
+date: 2025-10-01
 links:
   github: john-doe
 ---

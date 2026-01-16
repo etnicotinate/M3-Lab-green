@@ -7,27 +7,48 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-Our team consists of members from Eastern Institute of Technology. Find out more about our research group [here](https://www.eitech.edu.cn/en/).
+Our team consists of members from Eastern Institute of Technology. Find out more about EIT [here](https://www.eitech.edu.cn/en/).
 
 ## Principal Investigator
 
-{% include list.html data="members" component="portrait" filters="role: pi" %}
+{% include list.html
+   data="members"
+   component="portrait"
+   filter="role == 'pi'"
+%}
 
 ## Faculty
 
-{% include list.html data="members" component="portrait" filters="role: faculty" %}
+{% include list.html
+   data="members"
+   component="portrait"
+   filter="role == 'faculty'"
+   sort="order"
+%}
 
-## Administration and Research Staff
+## Research Staff
 
-{% include list.html data="members" component="portrait" filters="role: (coordinator|researcher|postdoc)" %}
+{% include list.html
+   data="members"
+   component="portrait"
+   filter="role == 'postdoc'"
+%}
 
 ## Students
 
-{% include list.html data="members" component="portrait" filters="role: (phd|undergrad|assistant)" %}
+{% include list.html
+   data="members"
+   component="portrait"
+   filter="role == 'phd' or role == 'undergrad' or role == 'assistant'"
+%}
 
-## Affiliated and Visiting Students
+## Visiting People
 
-{% include list.html data="members" component="portrait" filters="role: (summer|affiliated|visiting)" %}
+{% include list.html
+   data="members"
+   component="portrait"
+   filter="role == 'visiting'"
+%}
 
 {% include section.html dark=true %}
 
@@ -40,7 +61,12 @@ We work with a wide range of outstanding groups from around the world, and we're
 
 ## Alumni
 
-{% include list.html data="members" component="portrait" style="small" filters="role: alumni" %}
+{% include list.html
+   data="members"
+   component="portrait"
+   style="small"
+   filter="role == 'alumni'"
+%}
 
 {% include section.html background="images/background.jpg" dark=true %}
 
