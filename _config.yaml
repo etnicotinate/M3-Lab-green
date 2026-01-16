@@ -1,7 +1,7 @@
 # site properties and page defaults
-title: M3-Lab
-subtitle: 
-description: An engaging 1-3 sentence description of your lab.
+title: Multiscale Modeling and Machine Learning Lab
+subtitle: Led by Prof. Wang Show at the Eastern Institute of Technology, Ningbo (EIT)
+description: Welcome to the M3-Lab from EIT! Our group investigates computational materials science, machine learning, and multiscale modeling and its applications to all-solid-state batteries.
 header: images/background.jpg
 footer: images/background.jpg
 proofer: false
