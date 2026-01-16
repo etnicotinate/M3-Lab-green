@@ -1,6 +1,6 @@
 ---
 name: Wang Shuo
-image: images/Shuo-Wang.png
+image: team/photos/Shuo-Wang.png
 role: pi
 affiliation: EIT
 description: description

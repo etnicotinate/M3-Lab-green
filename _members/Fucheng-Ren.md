@@ -1,6 +1,6 @@
 ---
 name: Ren Fucheng
-image: images/Fucheng-Ren.jpg
+image: team/photos/Fucheng-Ren.jpg
 description: description
 role: faculty
 date: 2025-04-01

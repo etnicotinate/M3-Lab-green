@@ -26,7 +26,7 @@ Our team consists of members from Eastern Institute of Technology. Find out more
    sort="order"
 %}
 
-## Research Staff
+## Research Fellow
 
 {% include list.html
    data="members"
@@ -76,9 +76,11 @@ Our team thrives on collaboration across disciplines and institutions, bringing 
 
 {% capture content %}
 
-{% include figure.html image="images/dinner.jpg" %}
-{% include figure.html image="images/teachers-day.png" %}
-{% include figure.html image="images/group-meeting.jpg" %}
+{% include figure.html image="team/photos/dinner.jpg" %}
+{% include figure.html image="team/photos/teachers-day.png" %}
+{% include figure.html image="team/photos/group-meeting.jpg" %}
+{% include figure.html image="team/photos/teachers.jpg" %}
+{% include figure.html image="team/photos/conference.jpg" %}
 
 {% endcapture %}
 

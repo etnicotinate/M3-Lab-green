@@ -1,6 +1,6 @@
 ---
 name: Fu Chuliang
-image: images/Chuliang-Fu.jpg
+image: team/photos/Chuliang-Fu.jpg
 description: description
 role: faculty
 date: 2025-10-01

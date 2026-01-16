@@ -1,6 +1,6 @@
 ---
 name: Zhang Linshuang
-image: images/Linshuang.png
+image: team/photos/Linshuang.png
 description: description
 role: phd
 date: 2025-04-01
