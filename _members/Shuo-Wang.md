@@ -1,21 +1,25 @@
 ---
-name: Wang Shuo
+name: Shuo Wang
 image: team/photos/Shuo-Wang.png
 role: pi
-affiliation: EIT
-description: description
+affiliation: Department of Materials Science
+description: Assistant Professor
 aliases:
-  - J. Smith
-  - J Smith
+  - Wang Show
+  - Prof. Wang
 links:
-  home-page: https://janesmith.com
-  orcid: 0000-0001-8713-9213
+  email: shuowang@eitech.edu.cn
+  orcid: 0000-0001-8713-xxxx
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Faucibus purus in massa tempor nec feugiat nisl pretium fusce.
-Elit at imperdiet dui accumsan.
-Duis tristique sollicitudin nibh sit amet commodo nulla facilisi.
-Vitae elementum curabitur vitae nunc sed velit dignissim sodales.
-Lacinia at quis risus sed vulputate odio ut.
-Magna eget est lorem ipsum.
+## Intro
+
+- Postdoctoral Research Associate, Massachusetts Institute of Technology, 2023-2024
+- Postdoctoral Research Associate, University of Maryland, College Park, 2020-2023
+- Ph.D., Peking University
+- B.S., Jilin University
+
+## Research Interests
+
+- Materials Science
+- Machine Learning

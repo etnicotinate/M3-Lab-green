@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brick Breaker</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #171717;
+    }
+
+    canvas {
+      display: block;
+      background: #171717;
+    }
+
+    video#backgroundVideo {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: 0;
+      pointer-events: none;
+    }
+
+#countdown {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  z-index: 2;
+}
+
+#countdown p {
+  margin: 0 0 10px; /* Adds spacing below the text */
+  font-size: 14px;
+  text-transform: uppercase;
+  opacity: .5;
+}
+
+#countdownNumber {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  border: 4px solid white;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+}
+
+    #gameOverScreen {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.7);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      z-index: 20;
+    }
+
+    .smash-again {
+      width: 200px; /* Adjust width */
+      height: 60px; /* Adjust height */
+      background-color: white;
+      background-size: cover;
+      background-position: center;
+      border: none;
+      cursor: pointer;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: transform 0.3s ease, background-image 0.3s ease;
+    }
+
+    .smash-again:hover {
+      transform: scale(1.1);
+    }
+
+    .smash-again span {
+      font-family: 'Montserrat', sans-serif;
+      color: black; /* Text color on the button */
+      font-size: 20px; /* Text size */
+      font-weight: bold;
+      text-transform: uppercase;
+      position: absolute; /* Position text on top */
+    }
+
+    .helper-text {
+      font-family: 'Montserrat', sans-serif;
+      margin-top: 20px;
+      font-size: 20px;
+      color: white;
+    }
+
+    .options {
+      font-family: 'Montserrat', sans-serif;
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      width: 700px;
+    }
+
+    .option {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      color: white;
+      font-size: 20px;
+      cursor: pointer;
+      transition: color 0.3s ease;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+      height: 50px;
+    }
+
+    .option:last-child {
+      border-bottom: none;
+    }
+
+    .option:hover {
+      background-color: white;
+      color: black;
+    }
+
+    .option img {
+      width: 19px;
+      height: 16px;
+      transition: transform 0.3s ease;
+    }
+
+    .option:hover img {
+      transform: translateX(5px);
+    }
+  </style>
+</head>
+<body>
+  <video id="backgroundVideo" autoplay muted loop>
+    <source src="background.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <canvas id="brickBreaker"></canvas>
+  <div id="countdown">
+    <p>Get your hands on the keyboard!</p>
+    <span id="countdownNumber"></span>
+  </div>
+  <div id="gameOverScreen" style="display: none;">
+    <button class="smash-again" id="restartButton">
+      <span>
+        Smash Again
+      </span>
+    </button>
+    <p class="helper-text">Ready to build your dream to last? We're here to help.</p>
+    <div class="options">
+      <div class="option">
+        Back to Home 
+        <img src="images/WArrow.png" alt="Arrow Icon">
+      </div>
+      <div class="option">
+        View Our Projects 
+        <img src="images/WArrow.png" alt="Arrow Icon">
+      </div>
+      <div class="option">
+        Talk to the Builders 
+        <img src="images/WArrow.png" alt="Arrow Icon">
+      </div>
+    </div>
+  </div>
+
+  <script>
+  const canvas = document.getElementById("brickBreaker");
+  const ctx = canvas.getContext("2d");
+  const countdownElement = document.getElementById('countdown');
+  const countdownNumber = document.getElementById('countdownNumber');
+  const restartButton = document.getElementById("restartButton");
+
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+
+  const brickWidth = 50, brickHeight = 20, padding = 10;
+  const offsetTop = 50;
+  const offsetLeft = (canvas.width - (brickWidth + padding) * 7) / 2;
+
+  const bricks = [
+  {x: offsetLeft - 1 * (brickWidth + padding), y: offsetTop + 3 * (brickHeight + padding), status: 1},  // Top vertical line of "4"
+            {x: offsetLeft - 1 * (brickWidth + padding), y: offsetTop + 30 + 3 * (brickHeight + padding), status: 1},   // Vertical line of "4"
+                  {x: offsetLeft - 1 * (brickWidth + padding), y: offsetTop + 60 + 3 * (brickHeight + padding), status: 1},   // Vertical line of "4"
+      {x: offsetLeft - 1 * (brickWidth + padding), y: offsetTop + 90 + 3 * (brickHeight + padding), status: 1},   // Diagonal line of "4"
+           {x: offsetLeft - 1 * (brickWidth + padding), y: offsetTop + 120 + 3 * (brickHeight + padding), status: 1},   // Diagonal line of "4"
+                {x: offsetLeft - 1 * (brickWidth + padding), y: offsetTop + 150 + 3 * (brickHeight + padding), status: 1},   // Diagonal line of "4"
+                      {x: offsetLeft - 1 * (brickWidth + padding), y: offsetTop + 180 + 3 * (brickHeight + padding), status: 1},   // Diagonal line of "4"
+                {x: offsetLeft + 0 * (brickWidth + padding), y: offsetTop + 120 + 3 * (brickHeight + padding), status: 1},  // Diagonal line of "4"
+                   {x: offsetLeft - 2 * (brickWidth + padding), y: offsetTop + 120 + 3 * (brickHeight + padding), status: 1},  // Diagonal line of "4"
+                           {x: offsetLeft - 3 * (brickWidth + padding), y: offsetTop + 120 + 3 * (brickHeight + padding), status: 1},  // Diagonal line of "4"
+                                   {x: offsetLeft - 4 * (brickWidth + padding), y: offsetTop + 120 + 3 * (brickHeight + padding), status: 1},  // Diagonal line of "4"
+                                      {x: offsetLeft - 3.7 * (brickWidth + padding), y: offsetTop + 90 + 3 * (brickHeight + padding), status: 1},  // Diagonal line of "4"
+                                       {x: offsetLeft - 3.1 * (brickWidth + padding), y: offsetTop + 60 + 3 * (brickHeight + padding), status: 1},  // Diagonal line of "4"
+                                        {x: offsetLeft - 2.7 * (brickWidth + padding), y: offsetTop + 30 + 3 * (brickHeight + padding), status: 1},  // Diagonal line of "4"
+                                          {x: offsetLeft - 2.1 * (brickWidth + padding), y: offsetTop + 0 + 3 * (brickHeight + padding), status: 1},  // Diagonal line of "4"
+                                          {x: offsetLeft - 1.3 * (brickWidth + padding), y: offsetTop - 30 + 3 * (brickHeight + padding), status: 1},  // Diagonal line of "4"
+   
+     // "0"
+  ...Array.from({ length: 6 }, (_, i) => ({
+    x: offsetLeft + (brickWidth + padding) * 2,
+    y: offsetTop + i * (brickHeight + padding) + 3 * (brickHeight + padding),
+    status: 1,
+  })), // Left vertical line
+  ...Array.from({ length: 6 }, (_, i) => ({
+    x: offsetLeft + (brickWidth + padding) * 5,
+    y: offsetTop + i * (brickHeight + padding) + 3 * (brickHeight + padding),
+    status: 1,
+  })), // Right vertical line
+  ...Array.from({ length: 4 }, (_, i) => ({
+    x: offsetLeft + (brickWidth + padding) * (2 + i),
+    y: offsetTop + 3 * (brickHeight + padding),
+    status: 1,
+  })), // Top horizontal line
+  ...Array.from({ length: 4 }, (_, i) => ({
+    x: offsetLeft + (brickWidth + padding) * (2 + i),
+    y: offsetTop + 5 * (brickHeight + padding) + 3 * (brickHeight + padding),
+    status: 1,
+  })), // Bottom horizontal line
+   
+      
+  {x: offsetLeft + 10 * (brickWidth + padding), y: offsetTop + 3 * (brickHeight + padding) , status: 1},  // Top vertical line of "4"
+            {x: offsetLeft + 10 * (brickWidth + padding), y: offsetTop + 30 + 3 * (brickHeight + padding) , status: 1},   // Vertical line of "4"
+                  {x: offsetLeft + 10 * (brickWidth + padding), y: offsetTop + 60 + 3 * (brickHeight + padding) , status: 1},   // Vertical line of "4"
+      {x: offsetLeft + 10 * (brickWidth + padding), y: offsetTop + 90 + 3 * (brickHeight + padding) , status: 1},   // Diagonal line of "4"
+           {x: offsetLeft + 10 * (brickWidth + padding), y: offsetTop + 120 + 3 * (brickHeight + padding), status: 1},   // Diagonal line of "4"
+                {x: offsetLeft + 10 * (brickWidth + padding), y: offsetTop + 150 + 3 * (brickHeight + padding), status: 1},   // Diagonal line of "4"
+                      {x: offsetLeft + 10 * (brickWidth + padding), y: offsetTop + 180 + 3 * (brickHeight + padding), status: 1},   // Diagonal line of "4"
+                {x: offsetLeft + 11 * (brickWidth + padding), y: offsetTop + 120 + 3  * (brickHeight + padding), status: 1},  // Diagonal line of "4"
+                   {x: offsetLeft + 9 * (brickWidth + padding), y: offsetTop + 120 + 3 * (brickHeight + padding), status: 1},  // Diagonal line of "4"
+                           {x: offsetLeft + 8 * (brickWidth + padding), y: offsetTop + 120 + 3 * (brickHeight + padding) , status: 1},  // Diagonal line of "4"
+                                   {x: offsetLeft + 7 * (brickWidth + padding), y: offsetTop + 120 + 3 * (brickHeight + padding) , status: 1},  // Diagonal line of "4"
+                                      {x: offsetLeft + 7.3 * (brickWidth + padding), y: offsetTop + 90 + 3 * (brickHeight + padding) , status: 1},  // Diagonal line of "4"
+                                       {x: offsetLeft + 7.9 * (brickWidth + padding), y: offsetTop + 60 + 3 * (brickHeight + padding), status: 1},  // Diagonal line of "4"
+                                        {x: offsetLeft + 8.3 * (brickWidth + padding), y: offsetTop + 30 + 3 * (brickHeight + padding), status: 1},  // Diagonal line of "4"
+                                          {x: offsetLeft + 8.9 * (brickWidth + padding), y: offsetTop + 0 + 3 * (brickHeight + padding), status: 1},  // Diagonal line of "4"
+                                          {x: offsetLeft + 9.7 * (brickWidth + padding), y: offsetTop - 30 + 3 * (brickHeight + padding) , status: 1},  // Diagonal line of "4"
+
+];
+
+  let paddleWidth = 100, paddleHeight = 10, paddleX = (canvas.width - paddleWidth) / 2;
+  let ballRadius = 10, x = canvas.width / 2, y = canvas.height - 30, dx = 2, dy = -2;
+  let gameOver = false;
+  let gameStarted = false;
+  const paddle = { rightPressed: false, leftPressed: false };
+
+  // Event listeners for paddle movement
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "ArrowRight") paddle.rightPressed = true;
+    else if (e.key === "ArrowLeft") paddle.leftPressed = true;
+  });
+
+  document.addEventListener("keyup", (e) => {
+    if (e.key === "ArrowRight") paddle.rightPressed = false;
+    else if (e.key === "ArrowLeft") paddle.leftPressed = false;
+  });
+
+  // Draw the paddle
+  function drawPaddle() {
+    ctx.fillStyle = "white";
+    ctx.fillRect(paddleX, canvas.height - paddleHeight - 10, paddleWidth, paddleHeight);
+  }
+
+  // Draw the ball
+  function drawBall() {
+    ctx.beginPath();
+    ctx.arc(x, y, ballRadius, 0, Math.PI * 2);
+    ctx.fillStyle = "white";
+    ctx.fill();
+    ctx.closePath();
+  }
+
+  // Draw the bricks
+  function drawBricks() {
+    bricks.forEach(brick => {
+      if (brick.status === 1) {
+        ctx.beginPath();
+        ctx.rect(brick.x, brick.y, brickWidth, brickHeight);
+        ctx.fillStyle = "white";
+        ctx.fill();
+        ctx.closePath();
+      }
+    });
+  }
+
+  // Function to check if all bricks are destroyed
+function checkWinCondition() {
+  return bricks.every(brick => brick.status === 0);  // If all bricks are destroyed, return true
+}
+  // Detect collisions with bricks
+  function collisionDetection() {
+    bricks.forEach(brick => {
+      if (brick.status === 1 && x > brick.x && x < brick.x + brickWidth && y > brick.y && y < brick.y + brickHeight) {
+        dy = -dy;
+        brick.status = 0;
+      }
+    });
+
+      // Check if all bricks are hit
+  if (checkWinCondition()) {
+    gameOver = true;
+    document.getElementById("gameOverScreen").style.display = "flex";  // Show game over screen when all bricks are hit
+  }
+  }
+
+  // Start the countdown
+  function startCountdown() {
+    let count = 3;
+    countdownNumber.textContent = count;
+
+    const interval = setInterval(() => {
+      count--;
+      countdownNumber.textContent = count;
+      if (count === 0) {
+        clearInterval(interval);
+        countdownElement.style.display = "none";
+        gameStarted = true;
+        draw();  // Start drawing the game after countdown ends
+      }
+    }, 1000);
+
+    // Draw bricks during countdown
+    drawBricks();
+  }
+
+  function restartGame() {
+  gameOver = false;
+  x = canvas.width / 2;
+  y = canvas.height - 30;
+  paddleX = (canvas.width - paddleWidth) / 2;  // Reset paddle position
+
+  randomizeBallMotion();
+
+  bricks.forEach(brick => (brick.status = 1));
+  
+  // Hide game over screen and show countdown
+  document.getElementById("gameOverScreen").style.display = "none";
+  countdownElement.style.display = "block";
+  
+  // Clear the canvas before restarting the game
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  
+  // Draw the initial game elements
+  drawBricks();
+  drawBall();
+  drawPaddle();
+  
+  // Start the countdown
+  startCountdown();
+}
+
+  // Add event listener for restart button
+  restartButton.addEventListener("click", restartGame);
+
+      // Initialize random speed and direction for the ball's motion
+function randomizeBallMotion() {
+  // Random speed between 2 and 4 for both directions
+  const speedX = Math.random() * 2 + 2;
+  const speedY = Math.random() * 2 + 2;
+
+  // Randomize direction
+  dx = Math.random() > 0.5 ? speedX : -speedX;
+  dy = Math.random() > 0.5 ? speedY : -speedY;
+}
+
+  // Draw the game
+  function draw() {
+    if (!gameStarted || gameOver) return;
+
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    drawBricks();
+    drawBall();
+    drawPaddle();
+    collisionDetection();
+
+    if (x + dx > canvas.width - ballRadius || x + dx < ballRadius) dx = -dx;
+    if (y + dy < ballRadius) dy = -dy;
+    else if (y + dy > canvas.height - ballRadius - 10) {
+      if (x > paddleX && x < paddleX + paddleWidth) dy = -dy;
+      else {
+        gameOver = true;
+        document.getElementById("gameOverScreen").style.display = "flex";
+        return;
+      }
+    }
+
+    x += dx;
+    y += dy;
+
+    if (paddle.rightPressed && paddleX < canvas.width - paddleWidth) paddleX += 7;
+    if (paddle.leftPressed && paddleX > 0) paddleX -= 7;
+
+    requestAnimationFrame(draw);
+  }
+
+  startCountdown();  // Start countdown as soon as the game loads
+ 
+</script>
+</body>
+</html>
