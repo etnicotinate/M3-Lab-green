@@ -3,9 +3,9 @@
 
 # Multiscale Modeling and Machine Learning Lab
 
-Welcome to the M3-Lab from EIT! 
+Welcome to the M3-Lab! 
 
-Our group investigates computational materials science, machine learning, and multiscale modeling and its applications to all-solid-state batteries.
+Our mission is to advance the understanding of materials across multiple scales through innovative modeling and simulation techniques. Explore our work to see how we bridge the gap between theory and application in materials science.
 
 {% include section.html %}
 
