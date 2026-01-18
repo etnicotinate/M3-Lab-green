@@ -79,8 +79,8 @@ Our team thrives on collaboration across disciplines and institutions, bringing 
 {% include figure.html image="team/photos/dinner.jpg" %}
 {% include figure.html image="team/photos/teachers-day.png" %}
 {% include figure.html image="team/photos/group-meeting.jpg" %}
-{% include figure.html image="team/photos/teachers.jpg" %}
-{% include figure.html image="team/photos/conference.jpg" %}
+<!-- {% include figure.html image="team/photos/teachers.jpg" %}
+{% include figure.html image="team/photos/conference.jpg" %} -->
 
 {% endcapture %}
 

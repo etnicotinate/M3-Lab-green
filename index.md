@@ -3,14 +3,24 @@
 
 # Multiscale Modeling and Machine Learning Lab
 
-<!-- ![plain image](/images/M3-logo.png) -->
-{% include figure.html image="/images/M3-logo.png" width="100%" %}
-
-Welcome to the M3-Lab!
+{% capture text %}
 
 Our mission is to advance the understanding of materials across multiple scales through innovative modeling and simulation techniques.
 
 Explore our work to see how we bridge the gap between theory and application in materials science.
+
+{% endcapture %}
+
+<!-- ![plain image](/images/M3-logo.png) -->
+<!-- {% include figure.html image="/images/M3-logo.png" width="20%" %} -->
+{%
+  include feature.html
+  image="/images/index-m3-logo.png"
+  link="research"
+  title="Welcome to the M3-Lab"
+  text=text
+%}
+
 {% include section.html %}
 
 ## Research Interests
@@ -166,7 +176,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 %}
 
 <!-- Easter Egg -->
-<div style="text-align: center; margin-top: 50px; opacity: 0.3;">
+<div style="text-align: center; margin-top: -50 px; margin-bottom: -50 px;opacity: 0.3;">
 {%
   include button.html
   link="/404.html"
