@@ -66,7 +66,7 @@ We work with a wide range of outstanding groups from around the world, and we're
    filter="role == 'alumni'"
 %}
 
-{% include section.html background="images/background.jpg" dark=true %}
+{% include section.html background="images/background.bac.jpg" dark=true %}
 
 ## Gallery
 
