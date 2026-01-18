@@ -2,7 +2,7 @@
 name: Shuo Wang
 image: team/photos/Shuo-Wang.png
 role: pi
-affiliation: Department of Materials Science
+affiliation: Eastern Institute of Technology
 description: Assistant Professor
 aliases:
   - Wang Show
@@ -10,7 +10,9 @@ aliases:
 links:
   email: shuowang@eitech.edu.cn
   orcid: 0000-0001-8713-xxxx
+
 ---
+
 
 ## Intro
 

@@ -23,7 +23,6 @@ Our team consists of members from Eastern Institute of Technology. Find out more
    data="members"
    component="portrait"
    filter="role == 'faculty'"
-   sort="order"
 %}
 
 ## Research Fellow
