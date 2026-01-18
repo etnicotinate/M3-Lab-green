@@ -3,7 +3,10 @@
 
 # Multiscale Modeling and Machine Learning Lab
 
-Welcome to the M3-Lab! 
+<!-- ![plain image](/images/M3-logo.png) -->
+{% include figure.html image="/images/M3-logo.png" width="100%" %}
+
+Welcome to the M3-Lab!
 
 Our mission is to advance the understanding of materials across multiple scales through innovative modeling and simulation techniques.
 

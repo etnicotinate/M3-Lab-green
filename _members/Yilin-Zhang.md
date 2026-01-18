@@ -1,7 +1,7 @@
 ---
 name: Zhang Yilin
 image: team/photos/Yilin.png
-description: description
+description: Postdoctoral Researcher
 role: postdoc
 date: 2025-04-01
 links:
