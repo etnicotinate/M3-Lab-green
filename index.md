@@ -164,3 +164,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   title="Our Team"
   text=text
 %}
+
+<!-- Easter Egg -->
+<div style="text-align: center; margin-top: 50px; opacity: 0.3;">
+{%
+  include button.html
+  link="/404.html"
+  text="🎁"
+  style="bare"
+%}
+</div>
