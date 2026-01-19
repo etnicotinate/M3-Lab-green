@@ -1,265 +1,1468 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1101/2025.06.19.660613
-  title: Scalable data harmonization for single-cell image-based profiling with CytoTable
+- id: doi:10.1021/acs.jpclett.5c02453
+  title: Lithium-Compatible Halide Superionic Conductors
   authors:
-  - Dave Bunten
-  - Jenna Tomkinson
-  - Erik Serrano
-  - Michael J. Lippincott
-  - Kenneth I. Brewer
-  - Vince Rubinetti
-  - Faisal Alquaddoomi
-  - Gregory P. Way
-  publisher: Cold Spring Harbor Laboratory
+  - Fiaz Hussain
+  - Chunlei Zhao
+  - Hailun Jin
+  - Shuo Wang
+  - Wei Xia
+  publisher: The Journal of Physical Chemistry Letters
+  date: '2025-11-12'
+  link: https://doi.org/hbkhdv
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1126/science.adt9678
+  title: Anion sublattice design enables superionic conductivity in crystalline oxyhalides
+  authors:
+  - Feipeng Zhao
+  - Shumin Zhang
+  - Shuo Wang
+  - Joel W. Reid
+  - Wei Xia
+  - Jue Liu
+  - Graham King
+  - James A. Kaduk
+  - Jianwen Liang
+  - Jing Luo
+  - Yingjie Gao
+  - Feipeng Yang
+  - Yang Zhao
+  - Weihan Li
+  - Sandamini H. Alahakoon
+  - Jinghua Guo
+  - Yining Huang
+  - Tsun-Kong Sham
+  - Yifei Mo
+  - Xueliang Sun
+  publisher: Science
+  date: '2025-10-09'
+  link: https://doi.org/hbjc9k
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.ensm.2025.104547
+  title: Bandgap-preserving co-doping strategy for NASICON electrolytes with concurrent
+    optimization of ionic and electronic transport
+  authors:
+  - Ming Zhang
+  - Yuan He
+  - Jitao Li
+  - Shuo Wang
+  - Fucheng Ren
+  - Zixuan Fang
+  - Mengqiang Wu
+  publisher: Energy Storage Materials
+  date: '2025-09-01'
+  link: https://doi.org/hbkhdx
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1021/jacs.5c06156
+  title: "Stable Metal\u2013Organic Electrocatalysts for Anion-Exchange Membrane Water\
+    \ Electrolyzers by Defect Engineering"
+  authors:
+  - Hongbin Xu
+  - Daniel J. Zheng
+  - Shuo Wang
+  - Ethan Yupeng Zheng
+  - Yilin Zhang
+  - Tongchao Liu
+  - Junxiang Liu
+  - Davide Menga
+  - Junghwa Kim
+  - Jen-Hung Fang
+  - Xiao Wang
+  - Zhen Zhang
+  - "Lena Schr\xF6ck"
+  - Jiaqi Wang
+  - Sungsik Lee
+  - Sunmoon Yu
+  - Haldrian Iriawan
+  - Guanzhou Zhu
+  - "Yuriy Rom\xE1n-Leshkov"
+  - Ju Li
+  - Yang Shao-Horn
+  publisher: Journal of the American Chemical Society
+  date: '2025-08-11'
+  link: https://doi.org/hbkhdz
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/ange.202508835
+  title: "Chemical Bond Covalency in Superionic Halide Solid\u2010State Electrolytes"
+  authors:
+  - Jiamin Fu
+  - Han Su
+  - Jing Luo
+  - Xiaona Li
+  - Jianwen Liang
+  - Changhong Wang
+  - Jung Tae Kim
+  - Yang Hu
+  - Feipeng Zhao
+  - Shumin Zhang
+  - Hui Duan
+  - Xiaoge Hao
+  - Weihan Li
+  - Jian Peng
+  - Jue Liu
+  - Shuo Wang
+  - "Tsun\u2010Kong Sham"
+  - Xueliang Sun
+  publisher: Angewandte Chemie
+  date: '2025-06-16'
+  link: https://doi.org/hbkhd3
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/s41586-025-09153-1
+  title: A cost-effective all-in-one halide material for all-solid-state batteries
+  authors:
+  - Jiamin Fu
+  - Changhong Wang
+  - Shuo Wang
+  - Joel W. Reid
+  - Jianwen Liang
+  - Jing Luo
+  - Jung Tae Kim
+  - Yang Zhao
+  - Xiaofei Yang
+  - Feipeng Zhao
+  - Weihan Li
+  - Bolin Fu
+  - Xiaoting Lin
+  - Yang Hu
+  - Han Su
+  - Xiaoge Hao
+  - Yingjie Gao
+  - Shutao Zhang
+  - Ziqing Wang
+  - Jue Liu
+  - Hamid Abdolvand
+  - Tsun-Kong Sham
+  - Yifei Mo
+  - Xueliang Sun
+  publisher: Nature
   date: '2025-06-25'
-  link: https://doi.org/g9rfr3
-  orcid: 0000-0002-4655-3773
+  link: https://doi.org/hbj6g3
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1093/nar/gkad1082
-  title: "The Monarch Initiative in 2024: an analytic platform integrating phenotypes,\
-    \ genes\_and diseases across species"
+- id: doi:10.1039/D5EE03490F
+  title: "A new class of carbonate\u2013oxychloride solid electrolytes for high-performance\
+    \ sodium-ion all-solid-state batteries"
   authors:
-  - Tim E Putman
-  - Kevin Schaper
-  - Nicolas Matentzoglu
-  - "Vincent\_P Rubinetti"
-  - "Faisal\_S Alquaddoomi"
-  - Corey Cox
-  - J Harry Caufield
-  - Glass Elsarboukh
-  - Sarah Gehrke
-  - Harshad Hegde
-  - "Justin\_T Reese"
-  - Ian Braun
-  - "Richard\_M Bruskiewich"
-  - Luca Cappelletti
-  - Seth Carbon
-  - "Anita\_R Caron"
-  - "Lauren\_E Chan"
-  - "Christopher\_G Chute"
-  - "Katherina\_G Cortes"
-  - "Vin\xEDcius De\_Souza"
-  - Tommaso Fontana
-  - "Nomi\_L Harris"
-  - "Emily\_L Hartley"
-  - Eric Hurwitz
-  - "Julius\_O B Jacobsen"
-  - Madan Krishnamurthy
-  - "Bryan\_J Laraway"
-  - "James\_A McLaughlin"
-  - "Julie\_A McMurry"
-  - "Sierra\_A T Moxon"
-  - "Kathleen\_R Mullen"
-  - "Shawn\_T O\u2019Neil"
-  - "Kent\_A Shefchek"
-  - Ray Stefancsik
-  - Sabrina Toro
-  - "Nicole\_A Vasilevsky"
-  - "Ramona\_L Walls"
-  - "Patricia\_L Whetzel"
-  - David Osumi-Sutherland
-  - Damian Smedley
-  - "Peter\_N Robinson"
-  - "Christopher\_J Mungall"
-  - "Melissa\_A Haendel"
-  - "Monica\_C Munoz-Torres"
-  publisher: Nucleic Acids Research
-  date: '2023-11-24'
-  link: https://doi.org/gs6kmr
-  orcid: 0000-0002-4655-3773
+  - Xinmiao Wang
+  - Simeng Zhang
+  - Junyi Yue
+  - Xingyu Wang
+  - Yang Xu
+  - Yue Gong
+  - Liyu Zhou
+  - Changtai Zhao
+  - Jianwen Liang
+  - Xiangzhen Zhu
+  - Han Wu
+  - Xiaolong Yan
+  - Biwei Xiao
+  - Meng Li
+  - Chenxiang Li
+  - Shuo Wang
+  - Xueliang Sun
+  - Xiaona Li
+  publisher: Energy &amp; Environmental Science
+  date: '2025-01-01'
+  link: https://doi.org/hbkhd4
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2023.10.11.560955
-  title: Integration of 168,000 samples reveals global patterns of the human gut microbiome
+- id: doi:10.1002/ANIE.202508835
+  title: "Chemical Bond Covalency in Superionic Halide Solid\u2010State Electrolytes"
   authors:
-  - Richard J. Abdill
-  - Samantha P. Graham
-  - Vincent Rubinetti
-  - Frank W. Albert
-  - Casey S. Greene
-  - Sean Davis
-  - Ran Blekhman
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-10-11'
-  link: https://doi.org/gsvf5z
-  orcid: 0000-0002-4655-3773
+  - Jiamin Fu
+  - Han Su
+  - Jing Luo
+  - Xiaona Li
+  - Jianwen Liang
+  - Changhong Wang
+  - Jung Tae Kim
+  - Yang Hu
+  - Feipeng Zhao
+  - Shumin Zhang
+  - Hui Duan
+  - Xiaoge Hao
+  - Weihan Li
+  - Jian Peng
+  - Jue Liu
+  - Shuo Wang
+  - "Tsun\u2010Kong Sham"
+  - Xueliang Sun
+  publisher: Angewandte Chemie International Edition
+  date: '2025-06-16'
+  link: https://doi.org/hbkhd5
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1093/nar/gkad289
-  title: 'MyGeneset.info: an interactive and programmatic platform for community-curated
-    and user-created collections of genes'
+- id: doi:10.1021/JACS.5C02411
+  title: Reactivating Molecular Cobalt Catalysts for Electrochemical CO<sub>2</sub>
+    Conversion to Methanol
   authors:
-  - Ricardo Avila
-  - Vincent Rubinetti
-  - Xinghua Zhou
-  - Dongbo Hu
-  - Zhongchao Qian
-  - Marco Alvarado Cano
-  - Everaldo Rodolpho
-  - Ginger Tsueng
-  - Casey Greene
-  - Chunlei Wu
-  publisher: Nucleic Acids Research
-  date: '2023-04-18'
-  link: https://doi.org/gr5hb5
-  orcid: 0000-0002-4655-3773
+  - Sunmoon Yu
+  - Hiroki Yamauchi
+  - Davide Menga
+  - Shuo Wang
+  - Antonia Herzog
+  - Hongbin Xu
+  - Daniel J. Zheng
+  - Xiao Wang
+  - Haldrian Iriawan
+  - Botao Huang
+  - Alexander Nitsche
+  - Yang Shao-Horn
+  publisher: Journal of the American Chemical Society
+  date: '2025-03-29'
+  link: https://doi.org/hbkhd6
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2023.01.05.522941
-  title: Hetnet connectivity search provides rapid insights into how two biomedical
-    entities are related
+- id: doi:10.1002/ADFM.202506144
+  title: Reduction Resistible Halide Solid Electrolytes Enabled by Orbital Gap Modulation
   authors:
-  - Daniel S. Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J. Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N. Nicholson
-  - Yun Hao
-  - Blair D. Sullivan
-  - Michael W. Nagle
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-01-07'
-  link: https://doi.org/grmcb9
-  orcid: 0000-0002-4655-3773
+  - Chunlei Zhao
+  - Yilin Zhang
+  - Jianming Tao
+  - Zhicong Liu
+  - Liang Zhao
+  - Fiaz Hussain
+  - Jiuwei Lei
+  - Pengcheng Yu
+  - Hailun Jin
+  - Wen Tang
+  - Haochang Zhang
+  - Pushun Lu
+  - Shuaika Liang
+  - Caijin Xiao
+  - Shuo Wang
+  - Yusheng Zhao
+  - Wei Xia
+  publisher: Advanced Functional Materials
+  date: '2025-08-24'
+  link: https://doi.org/hbkhd7
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1093/gigascience/giad047
-  title: Hetnet connectivity search provides rapid insights into how biomedical entities
-    are related
+- id: doi:10.1002/ADMA.202502067
+  title: "Revealing the Underlying Role of Li<sub>2</sub>CO<sub>3</sub> in Enhancing\
+    \ Performance of Oxyhalide\u2010Based Solid\u2010State Batteries"
   authors:
-  - Daniel S Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N Nicholson
-  - Yun Hao
-  - Blair D Sullivan
-  - Michael W Nagle
-  - Casey S Greene
-  publisher: GigaScience
-  date: '2022-12-28'
-  link: https://doi.org/gsd85n
-  orcid: 0000-0002-4655-3773
+  - Han Wu
+  - Jie Qu
+  - Xiaolong Yan
+  - Simeng Zhang
+  - Xingyu Wang
+  - Jianwen Liang
+  - Nian Zhang
+  - Bona Dai
+  - Junyi Yue
+  - Tianlu Pang
+  - Tao Mei
+  - Yongrui Luo
+  - Hao Lai
+  - Xinmiao Wang
+  - Liyu Zhou
+  - Shuo Wang
+  - Xueliang Sun
+  - Xiaona Li
+  publisher: Advanced Materials
+  date: '2025-06-02'
+  link: https://doi.org/hbkhd8
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2022.02.18.461833
-  title: 'MolEvolvR: A web-app for characterizing proteins using molecular evolution
-    and phylogeny'
+- id: doi:10.1038/S41565-024-01813-Z
+  title: "Superionic conducting vacancy-rich \u03B2-Li3N electrolyte for stable cycling\
+    \ of all-solid-state lithium metal batteries"
   authors:
-  - Faisal S Alquaddoomi
-  - Joseph T Burke
-  - Lo Sosinski
-  - David A Mayer
-  - Evan P Brenner
-  - Samuel Z Chen
-  - Jacob D Krol
-  - Ethan P Wolfe
-  - Vincent P Rubinetti
-  - Shaddai Amolitos
-  - Kellen M Reason
-  - John B Johnston
-  - Janani Ravi
-  publisher: Cold Spring Harbor Laboratory
-  date: '2022-02-22'
-  link: https://doi.org/gstx7j
-  orcid: 0000-0002-4655-3773
+  - Weihan Li
+  - Minsi Li
+  - Shuo Wang
+  - Po-Hsiu Chien
+  - Jing Luo
+  - Jiamin Fu
+  - Xiaoting Lin
+  - Graham King
+  - Renfei Feng
+  - Jian Wang
+  - Jigang Zhou
+  - Ruying Li
+  - Jue Liu
+  - Yifei Mo
+  - Tsun-Kong Sham
+  - Xueliang Sun
+  publisher: Nature Nanotechnology
+  date: '2024-11-25'
+  link: https://doi.org/g8r2kh
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1186/s13059-020-02021-3
-  title: Compressing gene expression data using multiple latent space dimensionalities
-    learns complementary biological representations
+- id: doi:10.1002/SSTR.202500172
+  title: "Unveiling the Impact of Porosity on Electrolyte Electronic Conduction and\
+    \ Electric Potential Field in Sulfide\u2010Based Solid\u2010State Lithium Metal\
+    \ Batteries"
   authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Genome Biology
-  date: '2020-05-11'
-  link: https://doi.org/gg2mjh
-  orcid: 0000-0002-4655-3773
+  - Shuangquan Lin
+  - Hang Zhang
+  - Yilin Zhang
+  - Zaifa Wang
+  - XiaoLong Yan
+  - Shuaike Wang
+  - Yingying Jiang
+  - Biwei Xiao
+  - Xiaona Li
+  - Jianwen Liang
+  - Zhiqiang Fang
+  - Shuo Wang
+  - Shangqian Zhao
+  - Xueliang Sun
+  - Changtai Zhao
+  publisher: Small Structures
+  date: '2025-06-29'
+  link: https://doi.org/hbkhd9
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1371/journal.pcbi.1007128
-  title: Open collaborative writing with Manubot
+- id: doi:10.1021/acs.chemmater.4c02257
+  title: 'Multimodal Machine Learning for Materials Science: Discovery of Novel Li-Ion
+    Solid Electrolytes'
   authors:
-  - Daniel S. Himmelstein
-  - Vincent Rubinetti
-  - David R. Slochower
-  - Dongbo Hu
-  - Venkat S. Malladi
-  - Casey S. Greene
-  - Anthony Gitter
-  publisher: PLOS Computational Biology
-  date: '2020-12-04'
-  link: https://doi.org/c7np
-  orcid: 0000-0002-4655-3773
-  plugin: sources.py
-  file: sources.yaml
-  type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
-    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
-  buttons:
-  - type: manubot
-    link: https://greenelab.github.io/meta-review/
-  - type: source
-    text: Manuscript Source
-    link: https://github.com/greenelab/meta-review
-  - type: website
-    link: http://manubot.org/
-  tags:
-  - open science
-  - collaboration
-  repo: greenelab/meta-review
-- id: doi:10.1101/573782
-  title: Sequential compression of gene expression across dimensionalities and methods
-    reveals no single best method or dimensionality
-  authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2019-03-11'
-  link: https://doi.org/gfxjxf
-  orcid: 0000-0002-4655-3773
+  - Shuo Wang
+  - Sheng Gong
+  - "Thorben B\xF6ger"
+  - Jon A. Newnham
+  - Daniele Vivona
+  - Muy Sokseiha
+  - Kiarash Gordiz
+  - Abhishek Aggarwal
+  - Taishan Zhu
+  - Wolfgang G. Zeier
+  - Jeffrey C. Grossman
+  - Yang Shao-Horn
+  publisher: Chemistry of Materials
+  date: '2024-11-29'
+  link: https://doi.org/hbc4v4
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1016/j.csbj.2020.05.017
-  title: Constructing knowledge graphs and their biomedical applications
+- id: doi:10.1021/jacs.4c06498
+  title: Amorphous AlOCl Compounds Enabling Nanocrystalline LiCl with Abnormally High
+    Ionic Conductivity
   authors:
-  - David N. Nicholson
-  - Casey S. Greene
-  publisher: Computational and Structural Biotechnology Journal
-  date: '2020-01-01'
-  link: https://doi.org/gg7m48
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.7554/eLife.32822
-  title: Sci-Hub provides access to nearly all scholarly literature
+  - Hui Duan
+  - Changhong Wang
+  - Xu-Sheng Zhang
+  - Jiamin Fu
+  - Weihan Li
+  - Jing Wan
+  - Ruizhi Yu
+  - Min Fan
+  - Fucheng Ren
+  - Shuo Wang
+  - Matthew Zheng
+  - Xiaona Li
+  - Jianwen Liang
+  - Rui Wen
+  - Sen Xin
+  - Yu-Guo Guo
+  - Xueliang Sun
+  publisher: Journal of the American Chemical Society
+  date: '2024-10-19'
+  link: https://doi.org/g8nk4c
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.26434/CHEMRXIV-2023-20V8P-V2
+  title: CO2-to-methanol electroconversion on a molecular cobalt catalyst facilitated
+    by acidic cations
   authors:
-  - Daniel S Himmelstein
-  - Ariel Rodriguez Romero
-  - Jacob G Levernier
-  - Thomas Anthony Munro
-  - Stephen Reid McLaughlin
-  - Bastian Greshake Tzovaras
-  - Casey S Greene
-  publisher: eLife
-  date: '2018-03-01'
-  link: https://doi.org/ckcj
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
-  plugin: sources.py
-  file: sources.yaml
+  - Sunmoon Yu
+  - Hiroki Yamauchi
+  - Shuo Wang
+  - Abhishek Aggarwal
+  - Junghwa Kim
+  - Botao Huang
+  - Hongbin Xu
+  - Daniel Zheng
+  - Xiao Wang
+  - Haldrian Iriawan
+  - Davide Menga
+  - Yang Shao-Horn
+  publisher: American Chemical Society (ACS)
+  date: '2024-04-24'
+  link: https://doi.org/hbkhfc
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/ADMA.202308012
+  title: "Halide Heterogeneous Structure Boosting Ionic Diffusion and High\u2010Voltage\
+    \ Stability of Sodium Superionic Conductors"
+  authors:
+  - Jiamin Fu
+  - Shuo Wang
+  - Duojie Wu
+  - Jing Luo
+  - Changhong Wang
+  - Jianwen Liang
+  - Xiaoting Lin
+  - Yang Hu
+  - Shumin Zhang
+  - Feipeng Zhao
+  - Weihan Li
+  - Minsi Li
+  - Hui Duan
+  - Yang Zhao
+  - Meng Gu
+  - "Tsun\u2010Kong Sham"
+  - Yifei Mo
+  - Xueliang Sun
+  publisher: Advanced Materials
+  date: '2023-11-30'
+  link: https://doi.org/gs6z9m
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1039/D4EE00750F
+  title: Revealing unprecedented cathode interface behavior in all-solid-state batteries
+    with oxychloride solid electrolytes
+  authors:
+  - Feipeng Zhao
+  - Shumin Zhang
+  - Shuo Wang
+  - Carmen M. Andrei
+  - Hui Yuan
+  - Jigang Zhou
+  - Jian Wang
+  - Zengqing Zhuo
+  - Yu Zhong
+  - Han Su
+  - Jung Tae Kim
+  - Ruizhi Yu
+  - Yingjie Gao
+  - Jinghua Guo
+  - Tsun-Kong Sham
+  - Yifei Mo
+  - Xueliang Sun
+  publisher: Energy &amp; Environmental Science
+  date: '2024-01-01'
+  link: https://doi.org/gtqgqv
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/S41557-024-01634-6
+  title: Tuning collective anion motion enables superionic conductivity in solid-state
+    halide electrolytes
+  authors:
+  - Zhantao Liu
+  - Po-Hsiu Chien
+  - Shuo Wang
+  - Shaowei Song
+  - Mu Lu
+  - Shuo Chen
+  - Shuman Xia
+  - Jue Liu
+  - Yifei Mo
+  - Hailong Chen
+  publisher: Nature Chemistry
+  date: '2024-09-23'
+  link: https://doi.org/g5v9w6
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/cey2.220
+  title: "Engineering homotype heterojunctions in hard carbon to induce stable solid\
+    \ electrolyte interfaces for sodium\u2010ion batteries"
+  authors:
+  - Chengxin Yu
+  - Yu Li
+  - Haixia Ren
+  - Ji Qian
+  - Shuo Wang
+  - Xin Feng
+  - Mingquan Liu
+  - Ying Bai
+  - Chuan Wu
+  publisher: Carbon Energy
+  date: '2022-06-15'
+  link: https://doi.org/g78tr4
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/S41467-023-43436-3
+  title: Design principles for sodium superionic conductors
+  authors:
+  - Shuo Wang
+  - Jiamin Fu
+  - Yunsheng Liu
+  - Ramanuja Srinivasan Saravanan
+  - Jing Luo
+  - Sixu Deng
+  - Tsun-Kong Sham
+  - Xueliang Sun
+  - Yifei Mo
+  publisher: Nature Communications
+  date: '2023-11-22'
+  link: https://doi.org/hbkhfg
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/ANIE.202215544
+  title: "Frustration in Super\u2010Ionic Conductors Unraveled by the Density of Atomistic\
+    \ States"
+  authors:
+  - Shuo Wang
+  - Yunsheng Liu
+  - Yifei Mo
+  publisher: Angewandte Chemie International Edition
+  date: '2023-02-23'
+  link: https://doi.org/hbkhfh
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1126/SCIADV.ADH4626
+  title: "Lithium-compatible and air-stable vacancy-rich Li\n            <sub>9</sub>\n\
+    \            N\n            <sub>2</sub>\n            Cl\n            <sub>3</sub>\n\
+    \            for high\u2013areal capacity, long-cycling all\u2013solid-state lithium\
+    \ metal batteries"
+  authors:
+  - Weihan Li
+  - Minsi Li
+  - Po-Hsiu Chien
+  - Shuo Wang
+  - Chuang Yu
+  - Graham King
+  - Yongfeng Hu
+  - Qunfeng Xiao
+  - Mohsen Shakouri
+  - Renfei Feng
+  - Bolin Fu
+  - Hamidreza Abdolvand
+  - Adam Fraser
+  - Ruying Li
+  - Yining Huang
+  - Jue Liu
+  - Yifei Mo
+  - Tsun-Kong Sham
+  - Xueliang Sun
+  publisher: Science Advances
+  date: '2023-10-20'
+  link: https://doi.org/gs4n8q
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1039/D3EE01119D
+  title: New insights into aliovalent substituted halide solid electrolytes for cobalt-free
+    all-solid state batteries
+  authors:
+  - Changhong Wang
+  - Shuo Wang
+  - Xudong Liu
+  - Yanlong Wu
+  - Ruizhi Yu
+  - Hui Duan
+  - Jung Tae Kim
+  - Huan Huang
+  - Jiantao Wang
+  - Yifei Mo
+  - Xueliang Sun
+  publisher: Energy &amp; Environmental Science
+  date: '2023-01-01'
+  link: https://doi.org/gst2hm
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1021/jacs.2c09446
+  title: Superionic Conducting Halide Frameworks Enabled by Interface-Bonded Halides
+  authors:
+  - Jiamin Fu
+  - Shuo Wang
+  - Jianwen Liang
+  - Sandamini H. Alahakoon
+  - Duojie Wu
+  - Jing Luo
+  - Hui Duan
+  - Shumin Zhang
+  - Feipeng Zhao
+  - Weihan Li
+  - Minsi Li
+  - Xiaoge Hao
+  - Xiaona Li
+  - Jiatang Chen
+  - Ning Chen
+  - Graham King
+  - Lo-Yueh Chang
+  - Ruying Li
+  - Yining Huang
+  - Meng Gu
+  - Tsun-Kong Sham
+  - Yifei Mo
+  - Xueliang Sun
+  publisher: Journal of the American Chemical Society
+  date: '2022-12-30'
+  link: https://doi.org/hbkhfj
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1021/acsenergylett.2c00438
+  title: 'Emerging Halide Superionic Conductors for All-Solid-State Batteries: Design,
+    Synthesis, and Practical Applications'
+  authors:
+  - Hiram Kwak
+  - Shuo Wang
+  - Juhyoun Park
+  - Yunsheng Liu
+  - Kyu Tae Kim
+  - Yeji Choi
+  - Yifei Mo
+  - Yoon Seok Jung
+  publisher: ACS Energy Letters
+  date: '2022-04-26'
+  link: https://doi.org/gs2hx7
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1021/acsmaterialslett.2c00194
+  title: Mechanisms of Ionic Diffusion and Stability of the Na<sub>4</sub>MnCr(PO<sub>4</sub>)<sub>3</sub>
+    Cathode
+  authors:
+  - Jiahui Liu
+  - Shuo Wang
+  - Yoshiyuki Kawazoe
+  - Qiang Sun
+  publisher: ACS Materials Letters
+  date: '2022-04-04'
+  link: https://doi.org/hbkhfk
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1021/JACSAU.2C00235
+  title: Calibrating DFT Formation Enthalpy Calculations by Multifidelity Machine
+    Learning
+  authors:
+  - Sheng Gong
+  - Shuo Wang
+  - Tian Xie
+  - Woo Hyun Chae
+  - Runze Liu
+  - Yang Shao-Horn
+  - Jeffrey C. Grossman
+  publisher: JACS Au
+  date: '2022-09-09'
+  link: https://doi.org/gqtdqh
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: wosuid:PPRN:12114052
+  title: Web of Science
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:PPRN:12114052
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1021/ACS.CHEMMATER.2C00867
+  title: First-Principles Computational Design and Discovery of Solid-Oxide Proton
+    Conductors
+  authors:
+  - Md Shafiqul Islam
+  - Shuo Wang
+  - Alex T. Hall
+  - Yifei Mo
+  publisher: Chemistry of Materials
+  date: '2022-06-22'
+  link: https://doi.org/hbkhfm
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1021/acs.chemmater.1c02432
+  title: First-Principles Computational Design and Discovery of Novel Double-Perovskite
+    Proton Conductors
+  authors:
+  - Md Shafiqul Islam
+  - Shuo Wang
+  - Adelaide M. Nolan
+  - Yifei Mo
+  publisher: Chemistry of Materials
+  date: '2021-10-27'
+  link: https://doi.org/hbkhfn
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1021/jacsau.1c00260
+  title: Screening and Understanding Li Adsorption on Two-Dimensional Metallic Materials
+    by Learning Physics and Physics-Simplified Learning
+  authors:
+  - Sheng Gong
+  - Shuo Wang
+  - Taishan Zhu
+  - Xi Chen
+  - Zhenze Yang
+  - Markus J. Buehler
+  - Yang Shao-Horn
+  - Jeffrey C. Grossman
+  publisher: JACS Au
+  date: '2021-10-06'
+  link: https://doi.org/gnfsz2
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.mtener.2021.100719
+  title: Identifying lithium fluorides for promising solid-state electrolyte and coating
+    material of high-voltage cathode
+  authors:
+  - J. Liu
+  - S. Wang
+  - Y. Qie
+  - Q. Sun
+  publisher: Materials Today Energy
+  date: '2021-09-01'
+  link: https://doi.org/gqcnhj
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/aenm.202100836
+  title: "Advanced High\u2010Voltage All\u2010Solid\u2010State Li\u2010Ion Batteries\
+    \ Enabled by a Dual\u2010Halogen Solid Electrolyte"
+  authors:
+  - Shumin Zhang
+  - Feipeng Zhao
+  - Shuo Wang
+  - Jianwen Liang
+  - Jian Wang
+  - Changhong Wang
+  - Hao Zhang
+  - Keegan Adair
+  - Weihan Li
+  - Minsi Li
+  - Hui Duan
+  - Yang Zhao
+  - Ruizhi Yu
+  - Ruying Li
+  - Huan Huang
+  - Li Zhang
+  - Shangqian Zhao
+  - Shigang Lu
+  - "Tsun\u2010Kong Sham"
+  - Yifei Mo
+  - Xueliang Sun
+  publisher: Advanced Energy Materials
+  date: '2021-07-04'
+  link: https://doi.org/gk6ccw
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1021/acs.jpclett.1c00908
+  title: "Ultrathin Carbon Deficient Molybdenum Carbide (\u03B1-MoC<sub>1\u2013<i>x</i></sub>)\
+    \ Enables High-Rate Mg-Ion-based Energy Storage"
+  authors:
+  - Xining Zang
+  - Shuo Wang
+  - Ruopeng Zhang
+  publisher: The Journal of Physical Chemistry Letters
+  date: '2021-05-05'
+  link: https://doi.org/hbkhfp
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/adfm.202006950
+  title: "Lithium Induced Nano\u2010Sized Copper with Exposed Lithiophilic Surfaces\
+    \ to Achieve Dense Lithium Deposition for Lithium Metal Anode"
+  authors:
+  - Ji Qian
+  - Shuo Wang
+  - Yu Li
+  - Menglu Zhang
+  - Fujie Wang
+  - Yuanyuan Zhao
+  - Qiang Sun
+  - Li Li
+  - Feng Wu
+  - Renjie Chen
+  publisher: Advanced Functional Materials
+  date: '2020-11-06'
+  link: https://doi.org/ghs2gr
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/adma.202005802
+  title: "Co\u2010Construction of Sulfur Vacancies and Heterojunctions in Tungsten\
+    \ Disulfide to Induce Fast Electronic/Ionic Diffusion Kinetics for Sodium\u2010\
+    Ion Batteries"
+  authors:
+  - Yu Li
+  - Ji Qian
+  - Minghao Zhang
+  - Shuo Wang
+  - Zhaohua Wang
+  - Maosheng Li
+  - Ying Bai
+  - Qinyou An
+  - Huajie Xu
+  - Feng Wu
+  - Liqiang Mai
+  - Chuan Wu
+  publisher: Advanced Materials
+  date: '2020-10-21'
+  link: https://doi.org/ghgg6h
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.carbon.2020.06.070
+  title: A 3D porous honeycomb carbon as Na-ion battery anode material with high capacity,
+    excellent rate performance, and robust stability
+  authors:
+  - Wenyang Zhou
+  - Huanhuan Xie
+  - Shuo Wang
+  - Qian Wang
+  - Puru Jena
+  publisher: Carbon
+  date: '2020-10-01'
+  link: https://doi.org/hbkhfr
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.arabjc.2020.08.013
+  title: Study of oxidative dehydrogenation of ethylbenzene with CO2 on supported
+    CeO2-Fe2O3 binary oxides
+  authors:
+  - Kechen Song
+  - Shuo Wang
+  - Qiang Sun
+  - Deping Xu
+  publisher: Arabian Journal of Chemistry
+  date: '2020-10-01'
+  link: https://doi.org/hbkhfs
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/aenm.202002356
+  title: "Tailoring the Cation Lattice for Chloride Lithium\u2010Ion Conductors"
+  authors:
+  - Yunsheng Liu
+  - Shuo Wang
+  - Adelaide M. Nolan
+  - Chen Ling
+  - Yifei Mo
+  publisher: Advanced Energy Materials
+  date: '2020-09-27'
+  link: https://doi.org/gnss52
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/adfm.202000742
+  title: "Electrocatalytic Interlayer with Fast Lithium\u2013Polysulfides Diffusion\
+    \ for Lithium\u2013Sulfur Batteries to Enhance Electrochemical Kinetics under\
+    \ Lean Electrolyte Conditions"
+  authors:
+  - Ji Qian
+  - Fujie Wang
+  - Yu Li
+  - Shuo Wang
+  - Yuanyuan Zhao
+  - Wanlong Li
+  - Yi Xing
+  - Lei Deng
+  - Qiang Sun
+  - Li Li
+  - Feng Wu
+  - Renjie Chen
+  publisher: Advanced Functional Materials
+  date: '2020-05-20'
+  link: https://doi.org/gg468c
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1021/acs.chemmater.0c00544
+  title: A Computational Study of Fast Proton Diffusion in Brownmillerite Sr<sub>2</sub>Co<sub>2</sub>O<sub>5</sub>
+  authors:
+  - Md Shafiqul Islam
+  - Adelaide M. Nolan
+  - Shuo Wang
+  - Qiang Bai
+  - Yifei Mo
+  publisher: Chemistry of Materials
+  date: '2020-05-21'
+  link: https://doi.org/gpwvvp
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1021/acsenergylett.0c00413
+  title: A Three-Dimensional Carbon Framework Constructed by N/S Co-doped Graphene
+    Nanosheets with Expanded Interlayer Spacing Facilitates Potassium Ion Storage
+  authors:
+  - Wenxiu Yang
+  - Jinhui Zhou
+  - Shuo Wang
+  - Zichen Wang
+  - Fan Lv
+  - Wenshu Zhang
+  - Weiyu Zhang
+  - Qiang Sun
+  - Shaojun Guo
+  publisher: ACS Energy Letters
+  date: '2020-04-22'
+  link: https://doi.org/ghvj6r
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1021/acs.jpclett.0c00010
+  title: "Yttrium\u2013Sodium Halides as Promising Solid-State Electrolytes with High\
+    \ Ionic Conductivity and Stability for Na-Ion Batteries"
+  authors:
+  - Yu Qie
+  - Shuo Wang
+  - Sijie Fu
+  - Huanhuan Xie
+  - Qiang Sun
+  - Puru Jena
+  publisher: The Journal of Physical Chemistry Letters
+  date: '2020-04-13'
+  link: https://doi.org/hbkhfv
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1021/jacs.0c00134
+  title: Site-Occupation-Tuned Superionic Li<sub><i>x</i></sub>ScCl<sub>3+<i>x</i></sub>Halide
+    Solid Electrolytes for All-Solid-State Batteries
+  authors:
+  - Jianwen Liang
+  - Xiaona Li
+  - Shuo Wang
+  - Keegan R. Adair
+  - Weihan Li
+  - Yang Zhao
+  - Changhong Wang
+  - Yongfeng Hu
+  - Li Zhang
+  - Shangqian Zhao
+  - Shigang Lu
+  - Huan Huang
+  - Ruying Li
+  - Yifei Mo
+  - Xueliang Sun
+  publisher: Journal of the American Chemical Society
+  date: '2020-03-26'
+  link: https://doi.org/ggrmg8
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: wosuid:PPRN:12113762
+  title: Web of Science
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:PPRN:12113762
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1103/physrevb.100.184103
+  title: Predicting charge density distribution of materials using a local-environment-based
+    graph convolutional network
+  authors:
+  - Sheng Gong
+  - Tian Xie
+  - Taishan Zhu
+  - Shuo Wang
+  - Eric R. Fadel
+  - Yawei Li
+  - Jeffrey C. Grossman
+  publisher: Physical Review B
+  date: '2019-11-07'
+  link: https://doi.org/gndvt2
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.nanoen.2019.103862
+  title: 'Three dimensional metallic porous SiC4 allotropes: Stability and battery
+    applications'
+  authors:
+  - Yu Qie
+  - Shuo Wang
+  - Qiang Sun
+  publisher: Nano Energy
+  date: '2019-09-01'
+  link: https://doi.org/hbkhfw
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/anie.201901938
+  title: "Lithium Chlorides and Bromides as Promising Solid\u2010State Chemistries\
+    \ for Fast Ion Conductors with Good Electrochemical Stability"
+  authors:
+  - Shuo Wang
+  - Qiang Bai
+  - Adelaide M. Nolan
+  - Yunsheng Liu
+  - Sheng Gong
+  - Qiang Sun
+  - Yifei Mo
+  publisher: Angewandte Chemie International Edition
+  date: '2019-05-15'
+  link: https://doi.org/gmmrdm
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1103/physreva.99.022110
+  title: Classifying superheavy elements by machine learning
+  authors:
+  - Sheng Gong
+  - Wei Wu
+  - Fancy Qian Wang
+  - Jie Liu
+  - Yu Zhao
+  - Yiheng Shen
+  - Shuo Wang
+  - Qiang Sun
+  - Qian Wang
+  publisher: Physical Review A
+  date: '2019-02-08'
+  link: https://doi.org/hbkhfx
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1063/1.5079928
+  title: Boron-graphdiyne as an anode material for Li, Na, and K ion batteries with
+    high capacities and low diffusion barriers
+  authors:
+  - Imran Muhammad
+  - Shuo Wang
+  - Junyi Liu
+  - Huanhuan Xie
+  - Qiang Sun
+  publisher: Journal of Renewable and Sustainable Energy
+  date: '2019-01-01'
+  link: https://doi.org/hbkhfz
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1039/c8cp04851g
+  title: 2D planar penta-MN<sub>2</sub> (M = Pd, Pt) sheets identified through structure
+    search
+  authors:
+  - Kexian Zhao
+  - Xiaoyin Li
+  - Shuo Wang
+  - Qian Wang
+  publisher: Physical Chemistry Chemical Physics
+  date: '2019-01-01'
+  link: https://doi.org/gpfrsg
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1039/c9ta03369f
+  title: A high-pressure induced stable phase of Li<sub>2</sub>MnSiO<sub>4</sub> as
+    an effective poly-anion cathode material from simulations
+  authors:
+  - Shuo Wang
+  - Junyi Liu
+  - Yu Qie
+  - Sheng Gong
+  - Cunzhi Zhang
+  - Qiang Sun
+  - Puru Jena
+  publisher: Journal of Materials Chemistry A
+  date: '2019-01-01'
+  link: https://doi.org/hbkhf3
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1039/c9ee00536f
+  title: Freestanding film made by necklace-like N-doped hollow carbon with hierarchical
+    pores for high-performance potassium-ion storage
+  authors:
+  - Wenxiu Yang
+  - Jinhui Zhou
+  - Shuo Wang
+  - Weiyu Zhang
+  - Zichen Wang
+  - Fan Lv
+  - Kai Wang
+  - Qiang Sun
+  - Shaojun Guo
+  publisher: Energy &amp; Environmental Science
+  date: '2019-01-01'
+  link: https://doi.org/gpm6cg
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1039/c8ta11276b
+  title: 'Tetragonal C24: a topological nodal-surface semimetal with potential as
+    an anode material for sodium ion batteries'
+  authors:
+  - Yu Qie
+  - Junyi Liu
+  - Shuo Wang
+  - Qiang Sun
+  - Puru Jena
+  publisher: Journal of Materials Chemistry A
+  date: '2019-03-05'
+  link: https://doi.org/gr6wj7
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.carbon.2018.09.021
+  title: A new porous metallic silicon dicarbide for highly efficient Li-ion battery
+    anode identified by targeted structure search
+  authors:
+  - Junyi Liu
+  - Shuo Wang
+  - Yu Qie
+  - Jiabing Yu
+  - Qiang Sun
+  publisher: Carbon
+  date: '2018-12-01'
+  link: https://doi.org/gfq5rg
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1103/physrevmaterials.2.084201
+  title: 'Interpenetrating silicene networks: A topological nodal-line semimetal with
+    potential as an anode material for sodium ion batteries'
+  authors:
+  - Yu Qie
+  - Junyi Liu
+  - Xiaoyin Li
+  - Shuo Wang
+  - Qiang Sun
+  - Puru Jena
+  publisher: Physical Review Materials
+  date: '2018-08-27'
+  link: https://doi.org/gr6wjf
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.carbon.2017.11.068
+  title: C3B monolayer as an anchoring material for lithium-sulfur batteries
+  authors:
+  - Yu Qie
+  - Junyi Liu
+  - Shuo Wang
+  - Sheng Gong
+  - Qiang Sun
+  publisher: Carbon
+  date: '2018-04-01'
+  link: https://doi.org/gc4fjq
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1103/physrevmaterials.2.025403
+  title: High-pressure-assisted design of porous topological semimetal carbon for
+    Li-ion battery anode with high-rate performance
+  authors:
+  - Junyi Liu
+  - Shuo Wang
+  - Yu Qie
+  - Cunzhi Zhang
+  - Qiang Sun
+  publisher: Physical Review Materials
+  date: '2018-02-26'
+  link: https://doi.org/hbkhf5
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1039/c8ta05840g
+  title: Discovery of a high-pressure phase of rutile-like CoO<sub>2</sub> and its
+    potential as a cathode material
+  authors:
+  - Shuo Wang
+  - Junyi Liu
+  - Yu Qie
+  - Sheng Gong
+  - Qiang Sun
+  - Puru Jena
+  publisher: Journal of Materials Chemistry A
+  date: '2018-01-01'
+  link: https://doi.org/hbkhf6
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1039/c8ta02277a
+  title: Graphdiyne as an ideal monolayer coating material for lithium-ion battery
+    cathodes with ultralow areal density and ultrafast Li penetration
+  authors:
+  - Sheng Gong
+  - Shuo Wang
+  - Junyi Liu
+  - Yaguang Guo
+  - Qian Wang
+  publisher: Journal of Materials Chemistry A
+  date: '2018-01-01'
+  link: https://doi.org/hbkhf7
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.apsusc.2017.02.199
+  title: 'Tailoring the surface chemical bond states of the NbN films by doping Ag:
+    Achieving hard hydrophobic surface'
+  authors:
+  - Ping Ren
+  - Kan Zhang
+  - Suxuan Du
+  - Qingnan Meng
+  - Xin He
+  - Shuo Wang
+  - Mao Wen
+  - Weitao Zheng
+  publisher: Applied Surface Science
+  date: '2017-06-01'
+  link: https://doi.org/f95s5g
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1021/acs.jpcc.7b02826
+  title: Ground-State Structure of YN<sub>2</sub> Monolayer Identified by Global Search
+  authors:
+  - Sheng Gong
+  - Cunzhi Zhang
+  - Shuo Wang
+  - Qian Wang
+  publisher: The Journal of Physical Chemistry C
+  date: '2017-05-02'
+  link: https://doi.org/f99d38
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1073/pnas.1618051114
+  title: All-carbon-based porous topological semimetal for Li-ion battery anode material
+  authors:
+  - Junyi Liu
+  - Shuo Wang
+  - Qiang Sun
+  publisher: Proceedings of the National Academy of Sciences
+  date: '2017-01-09'
+  link: https://doi.org/f9nhnd
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: wosuid:WOS:000416878000007
+  title: Web of Science
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:000416878000007
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1039/c7ta04941b
+  title: New allotropes of Li<sub>2</sub>MnO<sub>3</sub> as cathode materials with
+    better cycling performance predicted in high pressure synthesis
+  authors:
+  - Shuo Wang
+  - Junyi Liu
+  - Qiang Sun
+  publisher: Journal of Materials Chemistry A
+  date: '2017-01-01'
+  link: https://doi.org/hbkhgc
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1039/c7ta01648d
+  title: Superhalogen-based lithium superionic conductors
+  authors:
+  - Hong Fang
+  - Shuo Wang
+  - Junyi Liu
+  - Qiang Sun
+  - Puru Jena
+  publisher: Journal of Materials Chemistry A
+  date: '2017-01-01'
+  link: https://doi.org/hbkhgd
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: wosuid:WOS:000371563300011
+  title: Web of Science
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:000371563300011
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.4028/www.scientific.net/msf.817.143
+  title: Effect of Nitrogen Content on Mechanical and Tribological Properties of HfC&lt;sub&gt;x&lt;/sub&gt;N&lt;sub&gt;y&lt;/sub&gt;
+    Films Deposited by Reactive Magnetron Sputtering
+  authors:
+  - Shuo Wang
+  - Kan Zhang
+  - Xin Guo
+  - Su Xuan Du
+  - Mao Wen
+  - Wei Tao Zheng
+  publisher: Materials Science Forum
+  date: '2015-04-01'
+  link: https://doi.org/ghm6hp
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.apsusc.2014.11.130
+  title: Structure, mechanical and tribological properties of HfCx films deposited
+    by reactive magnetron sputtering
+  authors:
+  - Wang Shuo
+  - Zhang Kan
+  - An Tao
+  - Hu Chaoquan
+  - Meng Qingnan
+  - Ma Yuanzhi
+  - Wen Mao
+  - Zheng Weitao
+  publisher: Applied Surface Science
+  date: '2015-02-01'
+  link: https://doi.org/f6xskc
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.surfcoat.2014.07.086
+  title: 'Sputter deposited NbCxNy films: Effect of nitrogen content on structure
+    and mechanical and tribological properties'
+  authors:
+  - Kan Zhang
+  - M. Wen
+  - S. Wang
+  - R.P. Deng
+  - D. Gall
+  - W.T. Zheng
+  publisher: Surface and Coatings Technology
+  date: '2014-11-01'
+  link: https://doi.org/f6tbkv
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/J.CHROMA.2011.07.016
+  title: Preparation and evaluation of molecularly imprinted ionic liquids polymer
+    as sorbent for on-line solid-phase extraction of chlorsulfuron in environmental
+    water samples
+  authors:
+  - Lu Guo
+  - Qiliang Deng
+  - Guozhen Fang
+  - Wei Gao
+  - Shuo Wang
+  publisher: Journal of Chromatography A
+  date: '2011-09-01'
+  link: https://doi.org/d87dfp
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/S00604-009-0205-8
+  title: Preparation of a novel molecularly imprinted polymer by a sol-gel process
+    for on-line solid-phase extraction coupled with high performance liquid chromatography
+    to detect trace enrofloxacin in fish and chicken samples
+  authors:
+  - Wang Junping
+  - Pan Mingfei
+  - Fang Guozhen
+  - Wang Shuo
+  publisher: Microchimica Acta
+  date: '2009-08-12'
+  link: https://doi.org/fhzp6f
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: wosuid:WOS:000250759100503
+  title: Web of Science
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:000250759100503
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: wosuid:WOS:000239906200394
+  title: Web of Science
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:000239906200394
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml

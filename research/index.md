@@ -7,10 +7,25 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Dr. Wang’s publication record on [Google Scholar],  [ORCID], [ResearchGate]
+
+\* corresponding author;   † co-first author; # group members in multiple-group collaboration;
 
 {% include section.html %}
+
+{%
+  include button.html
+  icon="fa-brands fa-google"
+  text="More on Google Scholar"
+  link="https://scholar.google.com/citations?user=DN3xCtoAAAAJ&hl=en"
+%}
+
+{%
+  include button.html
+  icon="fa-brands fa-orcid"
+  text="More on ORCID"
+  link="https://orcid.org/0000-0002-7907-9676"
+%}
 
 ## Highlighted
 
