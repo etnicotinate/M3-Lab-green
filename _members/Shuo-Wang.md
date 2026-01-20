@@ -9,7 +9,7 @@ aliases:
   - Prof. Wang
 links:
   email: shuowang@eitech.edu.cn
-  orcid: 0000-0001-8713-xxxx
+  orcid: https://orcid.org/0000-0002-7907-9676
 
 ---
 

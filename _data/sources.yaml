@@ -1,18 +1,860 @@
-- id: doi:10.1038/s41563-025-02403-7
-  type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  date: 2099-12-4
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
-  buttons:
-    - type: manubot
-      link: https://greenelab.github.io/meta-review/
-    - type: source
-      text: Manuscript Source
-      link: https://github.com/greenelab/meta-review
-    - type: website
-      link: http://manubot.org/
-  tags:
-    - test
-    - test
-  repo: greenelab/meta-review
-  remove: true
+# ^(- id: .+\n)(?:  (?!authors).*\n)*?(  authors:\n(?:    - .+\n)+)(?:  (?!id).*\n)*
+# - id: doi:10.1038/s41563-025-02403-7
+#   authors:
+#     - "**A B**"
+#     - B C
+
+# Override citation.yaml
+- id: doi:10.1021/acs.jpclett.5c02453
+  authors:
+    - Fiaz Hussain
+    - Chunlei Zhao
+    - Hailun Jin
+    - "**Shuo Wang#**"
+    - Wei Xia
+- id: doi:10.1126/science.adt9678
+  authors:
+    - Feipeng Zhao
+    - Shumin Zhang
+    - "**Shuo Wang#**"
+    - Joel W. Reid
+    - Wei Xia
+    - Jue Liu
+    - Graham King
+    - James A. Kaduk
+    - Jianwen Liang
+    - Jing Luo
+    - Yingjie Gao
+    - Feipeng Yang
+    - Yang Zhao
+    - Weihan Li
+    - Sandamini H. Alahakoon
+    - Jinghua Guo
+    - Yining Huang
+    - Tsun-Kong Sham
+    - Yifei Mo
+    - Xueliang Sun
+- id: doi:10.1016/j.ensm.2025.104547
+  authors:
+    - Ming Zhang
+    - Yuan He
+    - Jitao Li
+    - "**Shuo Wang#**"
+    - Fucheng Ren
+    - Zixuan Fang
+    - Mengqiang Wu
+- id: doi:10.1021/jacs.5c06156
+  authors:
+    - Hongbin Xu
+    - Daniel J. Zheng
+    - "**Shuo Wang#**"
+    - Ethan Yupeng Zheng
+    - Yilin Zhang
+    - Tongchao Liu
+    - Junxiang Liu
+    - Davide Menga
+    - Junghwa Kim
+    - Jen-Hung Fang
+    - Xiao Wang
+    - Zhen Zhang
+    - "Lena Schr\xF6ck"
+    - Jiaqi Wang
+    - Sungsik Lee
+    - Sunmoon Yu
+    - Haldrian Iriawan
+    - Guanzhou Zhu
+    - "Yuriy Rom\xE1n-Leshkov"
+    - Ju Li
+    - Yang Shao-Horn
+- id: doi:10.1002/ange.202508835
+  authors:
+    - Jiamin Fu
+    - Han Su
+    - Jing Luo
+    - Xiaona Li
+    - Jianwen Liang
+    - Changhong Wang
+    - Jung Tae Kim
+    - Yang Hu
+    - Feipeng Zhao
+    - Shumin Zhang
+    - Hui Duan
+    - Xiaoge Hao
+    - Weihan Li
+    - Jian Peng
+    - Jue Liu
+    - "**Shuo Wang#**"
+    - "Tsun\u2010Kong Sham"
+    - Xueliang Sun
+- id: doi:10.1038/s41586-025-09153-1
+  authors:
+    - Jiamin Fu
+    - Changhong Wang
+    - "**Shuo Wang#**"
+    - Joel W. Reid
+    - Jianwen Liang
+    - Jing Luo
+    - Jung Tae Kim
+    - Yang Zhao
+    - Xiaofei Yang
+    - Feipeng Zhao
+    - Weihan Li
+    - Bolin Fu
+    - Xiaoting Lin
+    - Yang Hu
+    - Han Su
+    - Xiaoge Hao
+    - Yingjie Gao
+    - Shutao Zhang
+    - Ziqing Wang
+    - Jue Liu
+    - Hamid Abdolvand
+    - Tsun-Kong Sham
+    - Yifei Mo
+    - Xueliang Sun
+- id: doi:10.1039/D5EE03490F
+  authors:
+    - Xinmiao Wang
+    - Simeng Zhang
+    - Junyi Yue
+    - Xingyu Wang
+    - Yang Xu
+    - Yue Gong
+    - Liyu Zhou
+    - Changtai Zhao
+    - Jianwen Liang
+    - Xiangzhen Zhu
+    - Han Wu
+    - Xiaolong Yan
+    - Biwei Xiao
+    - Meng Li
+    - Chenxiang Li
+    - "**Shuo Wang#**"
+    - Xueliang Sun
+    - Xiaona Li
+- id: doi:10.1002/ANIE.202508835
+  authors:
+    - Jiamin Fu
+    - Han Su
+    - Jing Luo
+    - Xiaona Li
+    - Jianwen Liang
+    - Changhong Wang
+    - Jung Tae Kim
+    - Yang Hu
+    - Feipeng Zhao
+    - Shumin Zhang
+    - Hui Duan
+    - Xiaoge Hao
+    - Weihan Li
+    - Jian Peng
+    - Jue Liu
+    - "**Shuo Wang#**"
+    - "Tsun\u2010Kong Sham"
+    - Xueliang Sun
+- id: doi:10.1021/JACS.5C02411
+  authors:
+    - Sunmoon Yu
+    - Hiroki Yamauchi
+    - Davide Menga
+    - "**Shuo Wang#**"
+    - Antonia Herzog
+    - Hongbin Xu
+    - Daniel J. Zheng
+    - Xiao Wang
+    - Haldrian Iriawan
+    - Botao Huang
+    - Alexander Nitsche
+    - Yang Shao-Horn
+- id: doi:10.1002/ADFM.202506144
+  authors:
+    - Chunlei Zhao
+    - Yilin Zhang
+    - Jianming Tao
+    - Zhicong Liu
+    - Liang Zhao
+    - Fiaz Hussain
+    - Jiuwei Lei
+    - Pengcheng Yu
+    - Hailun Jin
+    - Wen Tang
+    - Haochang Zhang
+    - Pushun Lu
+    - Shuaika Liang
+    - Caijin Xiao
+    - "**Shuo Wang#**"
+    - Yusheng Zhao
+    - Wei Xia
+- id: doi:10.1002/ADMA.202502067
+  authors:
+    - Han Wu
+    - Jie Qu
+    - Xiaolong Yan
+    - Simeng Zhang
+    - Xingyu Wang
+    - Jianwen Liang
+    - Nian Zhang
+    - Bona Dai
+    - Junyi Yue
+    - Tianlu Pang
+    - Tao Mei
+    - Yongrui Luo
+    - Hao Lai
+    - Xinmiao Wang
+    - Liyu Zhou
+    - "**Shuo Wang#**"
+    - Xueliang Sun
+    - Xiaona Li
+- id: doi:10.1038/S41565-024-01813-Z
+  authors:
+    - Weihan Li
+    - Minsi Li
+    - "**Shuo Wang#**"
+    - Po-Hsiu Chien
+    - Jing Luo
+    - Jiamin Fu
+    - Xiaoting Lin
+    - Graham King
+    - Renfei Feng
+    - Jian Wang
+    - Jigang Zhou
+    - Ruying Li
+    - Jue Liu
+    - Yifei Mo
+    - Tsun-Kong Sham
+    - Xueliang Sun
+- id: doi:10.1002/SSTR.202500172
+  authors:
+    - Shuangquan Lin
+    - Hang Zhang
+    - Yilin Zhang
+    - Zaifa Wang
+    - XiaoLong Yan
+    - Shuaike Wang
+    - Yingying Jiang
+    - Biwei Xiao
+    - Xiaona Li
+    - Jianwen Liang
+    - Zhiqiang Fang
+    - "**Shuo Wang#**"
+    - Shangqian Zhao
+    - Xueliang Sun
+    - Changtai Zhao
+- id: doi:10.1021/acs.chemmater.4c02257
+  authors:
+    - "**Shuo Wang#**"
+    - Sheng Gong
+    - "Thorben B\xF6ger"
+    - Jon A. Newnham
+    - Daniele Vivona
+    - Muy Sokseiha
+    - Kiarash Gordiz
+    - Abhishek Aggarwal
+    - Taishan Zhu
+    - Wolfgang G. Zeier
+    - Jeffrey C. Grossman
+    - Yang Shao-Horn
+- id: doi:10.1021/jacs.4c06498
+  authors:
+    - Hui Duan
+    - Changhong Wang
+    - Xu-Sheng Zhang
+    - Jiamin Fu
+    - Weihan Li
+    - Jing Wan
+    - Ruizhi Yu
+    - Min Fan
+    - Fucheng Ren
+    - "**Shuo Wang#**"
+    - Matthew Zheng
+    - Xiaona Li
+    - Jianwen Liang
+    - Rui Wen
+    - Sen Xin
+    - Yu-Guo Guo
+    - Xueliang Sun
+- id: doi:10.26434/CHEMRXIV-2023-20V8P-V2
+  authors:
+    - Sunmoon Yu
+    - Hiroki Yamauchi
+    - "**Shuo Wang#**"
+    - Abhishek Aggarwal
+    - Junghwa Kim
+    - Botao Huang
+    - Hongbin Xu
+    - Daniel Zheng
+    - Xiao Wang
+    - Haldrian Iriawan
+    - Davide Menga
+    - Yang Shao-Horn
+- id: doi:10.1002/ADMA.202308012
+  authors:
+    - Jiamin Fu
+    - "**Shuo Wang#**"
+    - Duojie Wu
+    - Jing Luo
+    - Changhong Wang
+    - Jianwen Liang
+    - Xiaoting Lin
+    - Yang Hu
+    - Shumin Zhang
+    - Feipeng Zhao
+    - Weihan Li
+    - Minsi Li
+    - Hui Duan
+    - Yang Zhao
+    - Meng Gu
+    - "Tsun\u2010Kong Sham"
+    - Yifei Mo
+    - Xueliang Sun
+- id: doi:10.1039/D4EE00750F
+  authors:
+    - Feipeng Zhao
+    - Shumin Zhang
+    - "**Shuo Wang#**"
+    - Carmen M. Andrei
+    - Hui Yuan
+    - Jigang Zhou
+    - Jian Wang
+    - Zengqing Zhuo
+    - Yu Zhong
+    - Han Su
+    - Jung Tae Kim
+    - Ruizhi Yu
+    - Yingjie Gao
+    - Jinghua Guo
+    - Tsun-Kong Sham
+    - Yifei Mo
+    - Xueliang Sun
+- id: doi:10.1038/S41557-024-01634-6
+  authors:
+    - Zhantao Liu
+    - Po-Hsiu Chien
+    - "**Shuo Wang#**"
+    - Shaowei Song
+    - Mu Lu
+    - Shuo Chen
+    - Shuman Xia
+    - Jue Liu
+    - Yifei Mo
+    - Hailong Chen
+- id: doi:10.1002/cey2.220
+  authors:
+    - Chengxin Yu
+    - Yu Li
+    - Haixia Ren
+    - Ji Qian
+    - "**Shuo Wang#**"
+    - Xin Feng
+    - Mingquan Liu
+    - Ying Bai
+    - Chuan Wu
+- id: doi:10.1038/S41467-023-43436-3
+  authors:
+    - "**Shuo Wang#**"
+    - Jiamin Fu
+    - Yunsheng Liu
+    - Ramanuja Srinivasan Saravanan
+    - Jing Luo
+    - Sixu Deng
+    - Tsun-Kong Sham
+    - Xueliang Sun
+    - Yifei Mo
+- id: doi:10.1002/ANIE.202215544
+  authors:
+    - "**Shuo Wang#**"
+    - Yunsheng Liu
+    - Yifei Mo
+- id: doi:10.1126/SCIADV.ADH4626
+  authors:
+    - Weihan Li
+    - Minsi Li
+    - Po-Hsiu Chien
+    - "**Shuo Wang#**"
+    - Chuang Yu
+    - Graham King
+    - Yongfeng Hu
+    - Qunfeng Xiao
+    - Mohsen Shakouri
+    - Renfei Feng
+    - Bolin Fu
+    - Hamidreza Abdolvand
+    - Adam Fraser
+    - Ruying Li
+    - Yining Huang
+    - Jue Liu
+    - Yifei Mo
+    - Tsun-Kong Sham
+    - Xueliang Sun
+- id: doi:10.1039/D3EE01119D
+  authors:
+    - Changhong Wang
+    - "**Shuo Wang#**"
+    - Xudong Liu
+    - Yanlong Wu
+    - Ruizhi Yu
+    - Hui Duan
+    - Jung Tae Kim
+    - Huan Huang
+    - Jiantao Wang
+    - Yifei Mo
+    - Xueliang Sun
+- id: doi:10.1021/jacs.2c09446
+  authors:
+    - Jiamin Fu
+    - "**Shuo Wang#**"
+    - Jianwen Liang
+    - Sandamini H. Alahakoon
+    - Duojie Wu
+    - Jing Luo
+    - Hui Duan
+    - Shumin Zhang
+    - Feipeng Zhao
+    - Weihan Li
+    - Minsi Li
+    - Xiaoge Hao
+    - Xiaona Li
+    - Jiatang Chen
+    - Ning Chen
+    - Graham King
+    - Lo-Yueh Chang
+    - Ruying Li
+    - Yining Huang
+    - Meng Gu
+    - Tsun-Kong Sham
+    - Yifei Mo
+    - Xueliang Sun
+- id: doi:10.1021/acsenergylett.2c00438
+  authors:
+    - Hiram Kwak
+    - "**Shuo Wang#**"
+    - Juhyoun Park
+    - Yunsheng Liu
+    - Kyu Tae Kim
+    - Yeji Choi
+    - Yifei Mo
+    - Yoon Seok Jung
+- id: doi:10.1021/acsmaterialslett.2c00194
+  authors:
+    - Jiahui Liu
+    - "**Shuo Wang#**"
+    - Yoshiyuki Kawazoe
+    - Qiang Sun
+- id: doi:10.1021/JACSAU.2C00235
+  authors:
+    - Sheng Gong
+    - "**Shuo Wang#**"
+    - Tian Xie
+    - Woo Hyun Chae
+    - Runze Liu
+    - Yang Shao-Horn
+    - Jeffrey C. Grossman
+- id: wosuid:PPRN:12114052
+  title: Web of Science
+  authors: []
+  publisher: ""
+  date: ""
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:PPRN:12114052
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1021/ACS.CHEMMATER.2C00867
+  authors:
+    - Md Shafiqul Islam
+    - "**Shuo Wang#**"
+    - Alex T. Hall
+    - Yifei Mo
+- id: doi:10.1021/acs.chemmater.1c02432
+  authors:
+    - Md Shafiqul Islam
+    - "**Shuo Wang#**"
+    - Adelaide M. Nolan
+    - Yifei Mo
+- id: doi:10.1021/jacsau.1c00260
+  authors:
+    - Sheng Gong
+    - "**Shuo Wang#**"
+    - Taishan Zhu
+    - Xi Chen
+    - Zhenze Yang
+    - Markus J. Buehler
+    - Yang Shao-Horn
+    - Jeffrey C. Grossman
+- id: doi:10.1016/j.mtener.2021.100719
+  authors:
+    - J. Liu
+    - S. Wang
+    - Y. Qie
+    - Q. Sun
+- id: doi:10.1002/aenm.202100836
+  authors:
+    - Shumin Zhang
+    - Feipeng Zhao
+    - "**Shuo Wang#**"
+    - Jianwen Liang
+    - Jian Wang
+    - Changhong Wang
+    - Hao Zhang
+    - Keegan Adair
+    - Weihan Li
+    - Minsi Li
+    - Hui Duan
+    - Yang Zhao
+    - Ruizhi Yu
+    - Ruying Li
+    - Huan Huang
+    - Li Zhang
+    - Shangqian Zhao
+    - Shigang Lu
+    - "Tsun\u2010Kong Sham"
+    - Yifei Mo
+    - Xueliang Sun
+- id: doi:10.1021/acs.jpclett.1c00908
+  authors:
+    - Xining Zang
+    - "**Shuo Wang#**"
+    - Ruopeng Zhang
+- id: doi:10.1002/adfm.202006950
+  authors:
+    - Ji Qian
+    - "**Shuo Wang#**"
+    - Yu Li
+    - Menglu Zhang
+    - Fujie Wang
+    - Yuanyuan Zhao
+    - Qiang Sun
+    - Li Li
+    - Feng Wu
+    - Renjie Chen
+- id: doi:10.1002/adma.202005802
+  authors:
+    - Yu Li
+    - Ji Qian
+    - Minghao Zhang
+    - "**Shuo Wang#**"
+    - Zhaohua Wang
+    - Maosheng Li
+    - Ying Bai
+    - Qinyou An
+    - Huajie Xu
+    - Feng Wu
+    - Liqiang Mai
+    - Chuan Wu
+- id: doi:10.1016/j.carbon.2020.06.070
+  authors:
+    - Wenyang Zhou
+    - Huanhuan Xie
+    - "**Shuo Wang#**"
+    - Qian Wang
+    - Puru Jena
+- id: doi:10.1016/j.arabjc.2020.08.013
+  authors:
+    - Kechen Song
+    - "**Shuo Wang#**"
+    - Qiang Sun
+    - Deping Xu
+- id: doi:10.1002/aenm.202002356
+  authors:
+    - Yunsheng Liu
+    - "**Shuo Wang#**"
+    - Adelaide M. Nolan
+    - Chen Ling
+    - Yifei Mo
+- id: doi:10.1002/adfm.202000742
+  authors:
+    - Ji Qian
+    - Fujie Wang
+    - Yu Li
+    - "**Shuo Wang#**"
+    - Yuanyuan Zhao
+    - Wanlong Li
+    - Yi Xing
+    - Lei Deng
+    - Qiang Sun
+    - Li Li
+    - Feng Wu
+    - Renjie Chen
+- id: doi:10.1021/acs.chemmater.0c00544
+  authors:
+    - Md Shafiqul Islam
+    - Adelaide M. Nolan
+    - "**Shuo Wang#**"
+    - Qiang Bai
+    - Yifei Mo
+- id: doi:10.1021/acsenergylett.0c00413
+  authors:
+    - Wenxiu Yang
+    - Jinhui Zhou
+    - "**Shuo Wang#**"
+    - Zichen Wang
+    - Fan Lv
+    - Wenshu Zhang
+    - Weiyu Zhang
+    - Qiang Sun
+    - Shaojun Guo
+- id: doi:10.1021/acs.jpclett.0c00010
+  authors:
+    - Yu Qie
+    - "**Shuo Wang#**"
+    - Sijie Fu
+    - Huanhuan Xie
+    - Qiang Sun
+    - Puru Jena
+- id: doi:10.1021/jacs.0c00134
+  authors:
+    - Jianwen Liang
+    - Xiaona Li
+    - "**Shuo Wang#**"
+    - Keegan R. Adair
+    - Weihan Li
+    - Yang Zhao
+    - Changhong Wang
+    - Yongfeng Hu
+    - Li Zhang
+    - Shangqian Zhao
+    - Shigang Lu
+    - Huan Huang
+    - Ruying Li
+    - Yifei Mo
+    - Xueliang Sun
+- id: wosuid:PPRN:12113762
+  title: Web of Science
+  authors: []
+  publisher: ""
+  date: ""
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:PPRN:12113762
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1103/physrevb.100.184103
+  authors:
+    - Sheng Gong
+    - Tian Xie
+    - Taishan Zhu
+    - "**Shuo Wang#**"
+    - Eric R. Fadel
+    - Yawei Li
+    - Jeffrey C. Grossman
+- id: doi:10.1016/j.nanoen.2019.103862
+  authors:
+    - Yu Qie
+    - "**Shuo Wang#**"
+    - Qiang Sun
+- id: doi:10.1002/anie.201901938
+  authors:
+    - "**Shuo Wang#**"
+    - Qiang Bai
+    - Adelaide M. Nolan
+    - Yunsheng Liu
+    - Sheng Gong
+    - Qiang Sun
+    - Yifei Mo
+- id: doi:10.1103/physreva.99.022110
+  authors:
+    - Sheng Gong
+    - Wei Wu
+    - Fancy Qian Wang
+    - Jie Liu
+    - Yu Zhao
+    - Yiheng Shen
+    - "**Shuo Wang#**"
+    - Qiang Sun
+    - Qian Wang
+- id: doi:10.1063/1.5079928
+  authors:
+    - Imran Muhammad
+    - "**Shuo Wang#**"
+    - Junyi Liu
+    - Huanhuan Xie
+    - Qiang Sun
+- id: doi:10.1039/c8cp04851g
+  authors:
+    - Kexian Zhao
+    - Xiaoyin Li
+    - "**Shuo Wang#**"
+    - Qian Wang
+- id: doi:10.1039/c9ta03369f
+  authors:
+    - "**Shuo Wang#**"
+    - Junyi Liu
+    - Yu Qie
+    - Sheng Gong
+    - Cunzhi Zhang
+    - Qiang Sun
+    - Puru Jena
+- id: doi:10.1039/c9ee00536f
+  authors:
+    - Wenxiu Yang
+    - Jinhui Zhou
+    - "**Shuo Wang#**"
+    - Weiyu Zhang
+    - Zichen Wang
+    - Fan Lv
+    - Kai Wang
+    - Qiang Sun
+    - Shaojun Guo
+- id: doi:10.1039/c8ta11276b
+  authors:
+    - Yu Qie
+    - Junyi Liu
+    - "**Shuo Wang#**"
+    - Qiang Sun
+    - Puru Jena
+- id: doi:10.1016/j.carbon.2018.09.021
+  authors:
+    - Junyi Liu
+    - "**Shuo Wang#**"
+    - Yu Qie
+    - Jiabing Yu
+    - Qiang Sun
+- id: doi:10.1103/physrevmaterials.2.084201
+  authors:
+    - Yu Qie
+    - Junyi Liu
+    - Xiaoyin Li
+    - "**Shuo Wang#**"
+    - Qiang Sun
+    - Puru Jena
+- id: doi:10.1016/j.carbon.2017.11.068
+  authors:
+    - Yu Qie
+    - Junyi Liu
+    - "**Shuo Wang#**"
+    - Sheng Gong
+    - Qiang Sun
+- id: doi:10.1103/physrevmaterials.2.025403
+  authors:
+    - Junyi Liu
+    - "**Shuo Wang#**"
+    - Yu Qie
+    - Cunzhi Zhang
+    - Qiang Sun
+- id: doi:10.1039/c8ta05840g
+  authors:
+    - "**Shuo Wang#**"
+    - Junyi Liu
+    - Yu Qie
+    - Sheng Gong
+    - Qiang Sun
+    - Puru Jena
+- id: doi:10.1039/c8ta02277a
+  authors:
+    - Sheng Gong
+    - "**Shuo Wang#**"
+    - Junyi Liu
+    - Yaguang Guo
+    - Qian Wang
+- id: doi:10.1016/j.apsusc.2017.02.199
+  authors:
+    - Ping Ren
+    - Kan Zhang
+    - Suxuan Du
+    - Qingnan Meng
+    - Xin He
+    - "**Shuo Wang#**"
+    - Mao Wen
+    - Weitao Zheng
+- id: doi:10.1021/acs.jpcc.7b02826
+  authors:
+    - Sheng Gong
+    - Cunzhi Zhang
+    - "**Shuo Wang#**"
+    - Qian Wang
+- id: doi:10.1073/pnas.1618051114
+  authors:
+    - Junyi Liu
+    - "**Shuo Wang#**"
+    - Qiang Sun
+- id: wosuid:WOS:000416878000007
+  title: Web of Science
+  authors: []
+  publisher: ""
+  date: ""
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:000416878000007
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1039/c7ta04941b
+  authors:
+    - "**Shuo Wang#**"
+    - Junyi Liu
+    - Qiang Sun
+- id: doi:10.1039/c7ta01648d
+  authors:
+    - Hong Fang
+    - "**Shuo Wang#**"
+    - Junyi Liu
+    - Qiang Sun
+    - Puru Jena
+- id: wosuid:WOS:000371563300011
+  title: Web of Science
+  authors: []
+  publisher: ""
+  date: ""
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:000371563300011
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.4028/www.scientific.net/msf.817.143
+  authors:
+    - "**Shuo Wang#**"
+    - Kan Zhang
+    - Xin Guo
+    - Su Xuan Du
+    - Mao Wen
+    - Wei Tao Zheng
+- id: doi:10.1016/j.apsusc.2014.11.130
+  authors:
+    - Wang Shuo
+    - Zhang Kan
+    - An Tao
+    - Hu Chaoquan
+    - Meng Qingnan
+    - Ma Yuanzhi
+    - Wen Mao
+    - Zheng Weitao
+- id: doi:10.1016/j.surfcoat.2014.07.086
+  authors:
+    - Kan Zhang
+    - M. Wen
+    - S. Wang
+    - R.P. Deng
+    - D. Gall
+    - W.T. Zheng
+- id: doi:10.1016/J.CHROMA.2011.07.016
+  authors:
+    - Lu Guo
+    - Qiliang Deng
+    - Guozhen Fang
+    - Wei Gao
+    - "**Shuo Wang#**"
+- id: doi:10.1007/S00604-009-0205-8
+  authors:
+    - Wang Junping
+    - Pan Mingfei
+    - Fang Guozhen
+    - Wang Shuo
+- id: wosuid:WOS:000250759100503
+  title: Web of Science
+  authors: []
+  publisher: ""
+  date: ""
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:000250759100503
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: wosuid:WOS:000239906200394
+  title: Web of Science
+  authors: []
+  publisher: ""
+  date: ""
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:000239906200394
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
