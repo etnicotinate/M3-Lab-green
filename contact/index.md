@@ -14,13 +14,13 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 {%
   include button.html
   type="email"
-  text="jane@smith.com"
-  link="jane@smith.com"
+  text="shuowang@eitech.edu.cn"
+  link="shuowang@eitech.edu.cn"
 %}
 {%
   include button.html
   type="phone"
-  text="(555) 867-5309"
+  text="(86) xxx-xxxx"
   link="+1-555-867-5309"
 %}
 {%
