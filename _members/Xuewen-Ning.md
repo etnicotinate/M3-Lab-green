@@ -1,6 +1,6 @@
 ---
 name: Ning Xuewen
-image: team/photos/Xuewen.jpg
+image: team/photos/Xuewen-Ning.jpg
 description: PhD Student
 role: phd
 date: 2025-06-01

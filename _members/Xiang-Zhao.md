@@ -1,8 +1,9 @@
 ---
 name: Xiang Zhao
-image: team/photos/Xiang-Zhao.png
-role: student
-affiliation: Ninbo College of Materials Technology & Engineering, UCAS  
+image: team/photos/Xiang-Zhao.jpg
+date: 2025-07-01
+role: phd
+affiliation: NCMTE, UCAS
 description: Postgraduate
 links:
   email: zhaoxiang@nimte.ac.cn 
