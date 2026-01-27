@@ -15,6 +15,7 @@
   Show-Wang: true
   plugin: sources.py
   file: sources.yaml
+  image: pubs.acs.org/cms/10.1021/acs.jpclett.5c02453/asset/images/medium/jz5c02453_0007.gif
 - id: doi:10.1126/science.adt9678
   title: Anion sublattice design enables superionic conductivity in crystalline oxyhalides
   authors:

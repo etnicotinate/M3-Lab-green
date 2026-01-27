@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-Dr. Wang’s publication record on [Google Scholar](https://scholar.google.com/citations?user=DN3xCtoAAAAJ&hl=en),  [ORCID](https://orcid.org/0000-0002-7907-9676), [ResearchGate](https://www.researchgate.net/profile/Shuo-Wang-158)
+Prof. Wang’s publication record on [Google Scholar](https://scholar.google.com/citations?user=DN3xCtoAAAAJ&hl=en),  [ORCID](https://orcid.org/0000-0002-7907-9676), [ResearchGate](https://www.researchgate.net/profile/Shuo-Wang-158)
 
 \*: corresponding author;   †: co-first author; **#: group members** in multiple-group collaboration;
 
