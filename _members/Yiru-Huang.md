@@ -5,7 +5,7 @@ description: PhD Student
 role: phd
 date: 2025-04-01
 links:
-  orcid: https://orcid.org/0009-0007-7531-2235
+  orcid: 0009-0007-7531-2235
 ---
 
 ## Intro

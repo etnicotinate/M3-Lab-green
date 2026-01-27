@@ -1,8 +1,8 @@
 ---
 name: Xiang Zhao
 image: team/photos/Xiang-Zhao.jpg
-date: 2025-07-01
-role: phd
+role: master
+date: 2025-06-1
 affiliation: NCMTE, UCAS
 description: Postgraduate
 links:

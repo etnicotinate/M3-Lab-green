@@ -38,7 +38,7 @@ Our team consists of members from Eastern Institute of Technology. Find out more
 {% include list.html
    data="members"
    component="portrait"
-   filter="role == 'phd' or role == 'undergrad' or role == 'assistant'"
+   filter="role == 'phd' or role == 'master' or role == 'undergrad' or role == 'assistant'"
 %}
 
 ## Visiting People

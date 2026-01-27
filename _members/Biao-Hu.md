@@ -2,11 +2,11 @@
 name: Biao Hu
 image: team/photos/Biao-Hu.jpg
 role: undergrad
-date: 2025-12-01
-description: intern
+date: 2025-11-1
+description: Intern
 links:
   email: chuxue_hu@foxmail.com
-  orcid: https://orcid.org/0009-0002-3567-6839
+  orcid: 0009-0002-3567-6839
 ---
 
 ## Research Interests
