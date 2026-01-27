@@ -1,5 +1,5 @@
 ---
-name: Zhang Linshuang
+name: Linshuang Zhang
 image: team/photos/Linshuang.png
 description: PhD Student
 role: phd
@@ -8,6 +8,11 @@ links:
   github: john-doe
 ---
 
-## Research Interests
+## Educational Background
 
-- Amorphous Solid Electrolytes, Cathode Materials
+- M.S. Northernwestern Polytechnical University
+
+## Research Field
+
+- Amorphous Solid Electrolytes
+- Cathode Materials

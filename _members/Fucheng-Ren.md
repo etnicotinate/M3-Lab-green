@@ -3,14 +3,14 @@ name: Ren Fucheng
 image: team/photos/Fucheng-Ren.jpg
 description: Research Assistant Professor
 role: faculty
-date: 2025-04-01
+date: 2025-03-01
 links:
   email: fcren@eitech.edu.cn
 ---
 
-## Background Information
+## Intro
 
-Fucheng Ren, Associate Research Professor at Ningbo Oriental Institute of Technology (tentative name), obtained his PhD in Energy and Chemical Engineering from Xiamen University in 2024. His primary research focuses on the thermodynamics and kinetics of solid-liquid and solid-solid interfacial reactions in lithium batteries. He has published 29 SCI papers in international academic journals, including Nat. Commun., J. Am. Chem. Soc., Energy Environ. Sci., Angew. Chem. Int. Ed., Adv. Energy Mater., Adv. Funct. Mater., and Nano Energy, with over 1600 citations and an H-index of 20. He has extensive research experience in the doping and modification mechanisms of cathode materials for lithium/sodium-ion batteries, electrolyte additive reaction mechanisms and film-forming processes, interfacial reaction thermodynamics and kinetics in solid-state batteries, as well as machine learning and high-throughput screening.
+- Fucheng Ren, Associate Research Professor at Ningbo Oriental Institute of Technology (tentative name), obtained his PhD in Energy and Chemical Engineering from Xiamen University in 2024. His primary research focuses on the thermodynamics and kinetics of solid-liquid and solid-solid interfacial reactions in lithium batteries. He has published 29 SCI papers in international academic journals, including Nat. Commun., J. Am. Chem. Soc., Energy Environ. Sci., Angew. Chem. Int. Ed., Adv. Energy Mater., Adv. Funct. Mater., and Nano Energy, with over 1600 citations and an H-index of 20. He has extensive research experience in the doping and modification mechanisms of cathode materials for lithium/sodium-ion batteries, electrolyte additive reaction mechanisms and film-forming processes, interfacial reaction thermodynamics and kinetics in solid-state batteries, as well as machine learning and high-throughput screening.
 
 ## Research Field
 
