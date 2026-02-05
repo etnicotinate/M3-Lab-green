@@ -1,1 +1,1 @@
-Sitemap: http://m3-lab.run.place/sitemap.xml
+Sitemap: http://m3-lab.wang/sitemap.xml
