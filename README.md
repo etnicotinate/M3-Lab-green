@@ -5,6 +5,6 @@
 
   # M3-Lab's Website
 
-  Visit **[m3-lab.run.place](http://m3-lab.run.place)** 🚀
+  Visit **[m3-lab.wang](http://m3-lab.wang)** 🚀
 
   _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
