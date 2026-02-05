@@ -8,8 +8,8 @@ proofer: false
 
 # site social media and other links
 links:
-  email: contact@xxx.com
-  orcid: 0000-0001-8713-9213
+  email: shuowang@eitech.edu.cn
+  orcid: https://orcid.org/0000-0002-7907-9676
   google-scholar: ETJoidYAAAAJ
   github: xxx
   twitter: xxx

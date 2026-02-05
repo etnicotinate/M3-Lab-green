@@ -3,13 +3,14 @@ name: Shuo Wang
 image: team/photos/Shuo-Wang.png
 role: pi
 affiliation: Eastern Institute of Technology
-description: Assistant Professor
+description: Principal Investigator
 aliases:
-  - Wang Show
+  - Wang Shuo
   - Prof. Wang
 links:
   email: shuowang@eitech.edu.cn
-  orcid: https://orcid.org/0000-0002-7907-9676
+  google-scholar: https://scholar.google.com/citations?user=DN3xCtoAAAAJ&hl=en
+  orcid: 0000-0002-7907-9676
 
 ---
 

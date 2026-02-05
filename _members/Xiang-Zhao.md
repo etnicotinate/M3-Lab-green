@@ -11,7 +11,7 @@ links:
 
 ## Intro
 
-- Xiang Zhao is a postgraduate student at Ninbo College of Materials Technology & Engineering, UCAS.
+- Xiang Zhao is a postgraduate student at [Ninbo College of Materials Technology & Engineering, UCAS](http://english.nimte.cas.cn/).
 
 ## Research Interests
 
