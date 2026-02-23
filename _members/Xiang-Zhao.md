@@ -4,7 +4,7 @@ image: team/photos/Xiang-Zhao.jpg
 role: master
 date: 2025-06-1
 affiliation: NCMTE, UCAS
-description: Postgraduate
+description: Master Student
 links:
   email: zhaoxiang@nimte.ac.cn 
 ---
