@@ -32,20 +32,11 @@ Explore our work to see how we bridge the gap between theory and application in 
 - **Diffusion in Solid Electrolytes:** Unravel the atomic-scale dynamics driving ion transport insolid-state ionic conductors.
 - **Interfacial Kinetics and Thermodynamics:** Analyze failure mechanisms at multi-phaseinterfaces to understand degradation pathways and improve material stability.
 
-<!-- {%
-  include button.html
-  link="research"
-  text="See our publications"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%} -->
-
 {% endcapture %}
 
 {%
   include feature.html
-  image="images/flask.jpg"
+  image="images/index_interests/interest-1-gpt.png"
   link="research"
   title="1. Understanding Materials"
   text=text
@@ -56,20 +47,11 @@ Explore our work to see how we bridge the gap between theory and application in 
 - **High-Throughput Materials Design:** Leverage computational tools and multiscale models toexplore vast material spaces.
 - **Property-Driven Optimization:** Develop and optimize materials tailored for specificapplications, such as batteries, fuel cells, and catalysts.
 
-<!-- {%
-  include button.html
-  link="projects"
-  text="Browse our projects"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%} -->
-
 {% endcapture %}
 
 {%
   include feature.html
-  image="images/flask.jpg"
+  image="images/index_interests/interest-2-gpt.png"
   link="projects"
   title="2. Inventing Novel Materials"
   flip=true
@@ -83,20 +65,11 @@ Explore our work to see how we bridge the gap between theory and application in 
 - **Al-Powered Modeling:** Develop machine learning and Al models to accelerate materials discovery, predict properties, and identify optimal candidates.
 - **Integration Across Scales:** Combine Al models with multiscale simulations to bridge atomic micro, and macroscopic scales for holistic material insights.
 
-<!-- {%
-  include button.html
-  link="team"
-  text="Meet our team"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%} -->
-
 {% endcapture %}
 
 {%
   include feature.html
-  image="images/flask.jpg"
+  image="images/index_interests/interest-3-gpt.png"
   link="team"
   title="3. Al for Materials Innovation"
   text=text

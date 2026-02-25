@@ -1,5 +1,32 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1002/ADFM.202506144
+  title: Reduction Resistible Halide Solid Electrolytes Enabled by Orbital Gap Modulation
+  authors:
+  - Chunlei Zhao
+  - '**Yilin Zhang#**'
+  - Jianming Tao
+  - Zhicong Liu
+  - Liang Zhao
+  - Fiaz Hussain
+  - Jiuwei Lei
+  - Pengcheng Yu
+  - Hailun Jin
+  - Wen Tang
+  - Haochang Zhang
+  - Pushun Lu
+  - Shuaika Liang
+  - Caijin Xiao
+  - '**Shuo Wang#**'
+  - Yusheng Zhao
+  - Wei Xia
+  publisher: Advanced Functional Materials
+  date: '2025-08-24'
+  link: https://doi.org/hbkhd7
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1021/acs.jpclett.5c02453
   title: Lithium-Compatible Halide Superionic Conductors
   authors:
@@ -234,33 +261,6 @@
   publisher: Journal of the American Chemical Society
   date: '2025-03-29'
   link: https://doi.org/hbkhd6
-  orcid: 0000-0002-7907-9676
-  Show-Wang: true
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1002/ADFM.202506144
-  title: Reduction Resistible Halide Solid Electrolytes Enabled by Orbital Gap Modulation
-  authors:
-  - Chunlei Zhao
-  - '**Yilin Zhang#**'
-  - Jianming Tao
-  - Zhicong Liu
-  - Liang Zhao
-  - Fiaz Hussain
-  - Jiuwei Lei
-  - Pengcheng Yu
-  - Hailun Jin
-  - Wen Tang
-  - Haochang Zhang
-  - Pushun Lu
-  - Shuaika Liang
-  - Caijin Xiao
-  - '**Shuo Wang#**'
-  - Yusheng Zhao
-  - Wei Xia
-  publisher: Advanced Functional Materials
-  date: '2025-08-24'
-  link: https://doi.org/hbkhd7
   orcid: 0000-0002-7907-9676
   Show-Wang: true
   plugin: sources.py
