@@ -7,9 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Our M3-Lab (Multiscale Modeling and Machine Learning Lab) led by Prof. Wang Shuo is located at the School of Materials Science and engineering at the Eastern Institute of Technology, Ningbo (EIT), Ningbo City, Zhejiang Province, China. We are on the F2 of Chemistry Materials Building.
 
 {%
   include button.html
@@ -19,16 +17,18 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 %}
 {%
   include button.html
-  type="phone"
-  text="(86) xxx-xxxx"
-  link="+1-555-867-5309"
-%}
-{%
-  include button.html
   type="address"
-  tooltip="Our location on Google Maps for easy navigation"
-  link="https://www.google.com/maps"
+  text="Jiaochuan Street, 2911 Haijiang Avenue, Zhenhai District, Ningbo City (315200)"
+  tooltip="宁波市镇海区蛟川街道 海江大道2911号，邮编315200"
+  link="https://surl.amap.com/12T9xuyS0oQ"
 %}
+<!-- 宁波市镇海区蛟川街道 海江大道2911号 邮政编码 315200 -->
+<!-- {%
+  include button.html
+  type="phone"
+  text="(86) \*\*\*-\*\*\*"
+  link="+86-\*\*\*-\*\*\*-\*\*\*\*"
+%} -->
 
 {% include section.html %}
 
@@ -36,8 +36,8 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {%
   include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
+  image="images/EIT/EIT_1.jpg"
+  caption="EIT Campus"
 %}
 
 {% endcapture %}
@@ -46,8 +46,8 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {%
   include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
+  image="images/EIT/EIT_2.jpg"
+  caption="EIT Campus"
 %}
 
 {% endcapture %}
