@@ -47,7 +47,7 @@ Our M3-Lab (Multiscale Modeling and Machine Learning Lab) led by Prof. Wang Shuo
 {%
   include figure.html
   image="images/EIT/EIT_2.jpg"
-  caption="ƎIꓕ Ͻɐɯdns"
+  caption="EIꓕ Cσɯbns"
 %}
 
 {% endcapture %}
