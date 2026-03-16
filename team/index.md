@@ -70,7 +70,7 @@ We work with a wide range of outstanding groups from around the world, and we're
 
 ## Gallery
 
-Our team thrives on collaboration across disciplines and institutions, bringing together innovative ideas and diverse perspectives to tackle the challenges of xxx. Whether you’re interested in joining us or learning more about our research, we encourage you to explore the exciting work we’re doing.
+Our team thrives on collaboration across disciplines and institutions, bringing together innovative ideas and diverse perspectives to tackle the challenges of Multiscale Modeling and Machine Learning. Whether you’re interested in joining us or learning more about our research, we encourage you to explore the exciting work we’re doing.
 
 {% include section.html %}
 
