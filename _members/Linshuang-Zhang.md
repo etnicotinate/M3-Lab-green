@@ -1,6 +1,6 @@
 ---
 name: Linshuang Zhang
-image: team/photos/Linshuang.jpg
+image: team/photos/Linshuang-Zhang.jpg
 description: PhD Student
 role: phd
 date: 2025-04-01

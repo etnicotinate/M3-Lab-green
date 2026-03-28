@@ -11,7 +11,7 @@ Our team consists of members from Eastern Institute of Technology. Find out more
 
 ## Principal Investigator
 
-{% include list.html
+{% include list_team.html
    data="members"
    component="portrait"
    filter="role == 'pi'"
@@ -19,7 +19,7 @@ Our team consists of members from Eastern Institute of Technology. Find out more
 
 ## Faculty
 
-{% include list.html
+{% include list_team.html
    data="members"
    component="portrait"
    filter="role == 'faculty'"
@@ -27,7 +27,7 @@ Our team consists of members from Eastern Institute of Technology. Find out more
 
 ## Research Fellow
 
-{% include list.html
+{% include list_team.html
    data="members"
    component="portrait"
    filter="role == 'postdoc'"
@@ -35,7 +35,7 @@ Our team consists of members from Eastern Institute of Technology. Find out more
 
 ## Students
 
-{% include list.html
+{% include list_team.html
    data="members"
    component="portrait"
    filter="role == 'phd' or role == 'master' or role == 'undergrad' or role == 'assistant'"
@@ -43,7 +43,7 @@ Our team consists of members from Eastern Institute of Technology. Find out more
 
 ## Visiting People
 
-{% include list.html
+{% include list_team.html
    data="members"
    component="portrait"
    filter="role == 'visiting'"
@@ -59,7 +59,7 @@ We work with a wide range of outstanding groups from around the world, and we're
 
 ## Alumni
 
-{% include list.html
+{% include list_team.html
    data="members"
    component="portrait"
    style="small"
