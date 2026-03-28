@@ -3,7 +3,7 @@ name: Liuzhe Qiu
 image: team/photos/Liuzhe-Qiu.jpg
 description: Postdoctoral Researcher
 role: postdoc
-date: 2025-09-01
+date: 2026-09-01
 links:
   email: lzqiu@eitech.edu.cn
 ---
