@@ -416,7 +416,7 @@
   - Davide Menga
   - Yang Shao-Horn
   publisher: American Chemical Society (ACS)
-  date: '2024-04-24'
+  date: '2024-04-23'
   link: https://doi.org/hbkhfc
   orcid: 0000-0002-7907-9676
   Show-Wang: true
@@ -1154,8 +1154,8 @@
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1039/c8ta11276b
-  title: 'Tetragonal C24: a topological nodal-surface semimetal with potential as
-    an anode material for sodium ion batteries'
+  title: 'Tetragonal C<sub>24</sub>: a topological nodal-surface semimetal with potential
+    as an anode material for sodium ion batteries'
   authors:
   - Yu Qie
   - Junyi Liu
@@ -1163,7 +1163,7 @@
   - Qiang Sun
   - Puru Jena
   publisher: Journal of Materials Chemistry A
-  date: '2019-03-05'
+  date: '2019-01-01'
   link: https://doi.org/gr6wj7
   orcid: 0000-0002-7907-9676
   Show-Wang: true
