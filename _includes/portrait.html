@@ -43,7 +43,7 @@
     {% endif %}
 
     {% if member.affiliation %}
-      <span class="portrait-affiliation">
+      <span class="portrait-affiliation" {% if member.affiliation_full %}title="{{ member.affiliation_full }}"{% endif %}>
         {{ member.affiliation }}
       </span>
     {% endif %}

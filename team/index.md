@@ -25,7 +25,7 @@ Our team consists of members from Eastern Institute of Technology. Find out more
    filter="role == 'faculty'"
 %}
 
-## Research Fellow
+## Research Fellows
 
 {% include list_team.html
    data="members"
@@ -33,12 +33,28 @@ Our team consists of members from Eastern Institute of Technology. Find out more
    filter="role == 'postdoc'"
 %}
 
-## Students
+## PhD Students
 
 {% include list_team.html
    data="members"
    component="portrait"
-   filter="role == 'phd' or role == 'master' or role == 'undergrad' or role == 'assistant'"
+   filter="role == 'phd'"
+%}
+
+## Master Students
+
+{% include list_team.html
+   data="members"
+   component="portrait"
+   filter="role == 'master'"
+%}
+
+## Undergrad Students
+
+{% include list_team.html
+   data="members"
+   component="portrait"
+   filter="role == 'undergrad'"
 %}
 
 ## Visiting People
@@ -53,7 +69,7 @@ Our team consists of members from Eastern Institute of Technology. Find out more
 
 We work with a wide range of outstanding groups from around the world, and we're always on the lookout for new and unique perspectives. We want to push the frontier of computatipnal materials science and AI for science, creating new breakthroughs in the field of all-solid-state batteries.
 
-{% include button.html icon="fa-solid fa-handshake-angle" text="Join the Team" link="jobs" style="button" %}
+{% include button.html icon="fa-solid fa-handshake-angle" text="Join the Team" link="contact" style="button" %}
 
 {% include section.html %}
 

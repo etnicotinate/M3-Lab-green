@@ -54,6 +54,9 @@ plugins:
 # code block syntax highlighting
 highlighter: rouge
 
+# render future-dated content (e.g. upcoming members)
+future: true
+
 # jekyll theme
 theme: null
 

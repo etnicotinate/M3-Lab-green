@@ -1,8 +1,10 @@
 ---
 name: Biao Hu
 image: team/photos/Biao-Hu.jpg
+affiliation: NBU (joint)
+affiliation_full: Ningbo University
 role: undergrad
-date: 2025-11-1
+date: 2025-06-01
 description: Intern
 links:
   email: chuxue_hu@foxmail.com

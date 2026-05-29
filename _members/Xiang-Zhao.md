@@ -2,8 +2,9 @@
 name: Xiang Zhao
 image: team/photos/Xiang-Zhao.jpg
 role: master
-date: 2025-06-1
-affiliation: NCMTE, UCAS
+date: 2025-06-01
+affiliation: NCMTE, UCAS (joint)
+affiliation_full: Ningbo College of Materials Technology & Engineering, University of Chinese Academy of Sciences
 description: Master Student
 links:
   email: zhaoxiang@nimte.ac.cn 
