@@ -1,5 +1,32 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1021/jacs.6c02353
+  title: "Increasingly Reversible Na/Cl\n                    <sub>2</sub>\n      \
+    \              and Li/Cl\n                    <sub>2</sub>\n                 \
+    \   Batteries"
+  authors:
+  - Guanzhou Zhu
+  - Hongbin Xu
+  - Shuo Wang
+  - Yilin Zhang
+  - Jen-Hung Fang
+  - Tao Dai
+  - Daniel J. Zheng
+  - Weiyin Chen
+  - Heejung Roh
+  - Daniel Wang
+  - Davide Menga
+  - Sunmoon Yu
+  - Haldrian Iriawan
+  - Yang Shao-Horn
+  - Ju Li
+  publisher: Journal of the American Chemical Society
+  date: '2026-06-01'
+  link: https://doi.org/hb6v59
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1002/ADFM.202506144
   title: Reduction Resistible Halide Solid Electrolytes Enabled by Orbital Gap Modulation
   authors:
