@@ -46,20 +46,28 @@
       .map((element) => element.dataset[attr])
       .join(" ");
 
+  // cache searchable text so each keystroke does not rescan the same DOM subtree
+  const searchTextCache = new WeakMap();
+
+  const getSearchText = (element) => {
+    if (!searchTextCache.has(element)) {
+      const text = (
+        getAttr(element, "search") ||
+        element.innerText + getAttr(element, "tooltip")
+      ).toLowerCase();
+      searchTextCache.set(element, text);
+    }
+
+    return searchTextCache.get(element);
+  };
+
   // determine if element should show up in results based on query
   const elementMatches = (element, { terms, phrases, tags }) => {
     // tag elements within element
     const tagElements = [...element.querySelectorAll(".tag")];
 
     // check if text content exists in element
-    const hasText = (string) =>
-      (
-        element.innerText +
-        getAttr(element, "tooltip") +
-        getAttr(element, "search")
-      )
-        .toLowerCase()
-        .includes(string);
+    const hasText = (string) => getSearchText(element).includes(string);
     // check if text matches a tag in element
     const hasTag = (string) =>
       tagElements.some((tag) => normalizeTag(tag.innerText) === string);
