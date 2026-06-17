@@ -1,11 +1,11 @@
 ---
-title: Contact
+title: JoinUs
 nav:
   order: 5
-  tooltip: Email, address, and location
+  tooltip: Join the M3-Lab
 ---
 
-# {% include icon.html icon="fa-regular fa-envelope" %}Contact
+# {% include icon.html icon="fa-solid fa-handshake-angle" %}JoinUs
 
 Our M3-Lab (Multiscale Modeling and Machine Learning Lab) led by Prof. Wang Shuo is located at the School of Materials Science and engineering at the Eastern Institute of Technology, Ningbo (EIT), Ningbo City, Zhejiang Province, China. We are on 2nd Floor, Chemistry Materials Building.
 
@@ -22,23 +22,23 @@ Our M3-Lab (Multiscale Modeling and Machine Learning Lab) led by Prof. Wang Shuo
   tooltip="浙江省宁波市镇海区蛟川街道 海江大道2911号，邮编315200"
   link="https://surl.amap.com/12T9xuyS0oQ"
 %}
-<!-- 宁波市镇海区蛟川街道 海江大道2911号 邮政编码 315200 -->
-<!-- {%
-  include button.html
-  type="phone"
-  text="(86) \*\*\*-\*\*\*"
-  link="+86-\*\*\*-\*\*\*-\*\*\*\*"
-%} -->
 
 {% include section.html %}
 
-## Team culture: 
+## Computing resources
 
+| Hardware | Vendor | Model | Cores / Memory | Quantity |
+| :--- | :--- | :--- | :--- | ---: |
+| CPU | AMD | **EPYC 9654** | 96 cores | 15 |
+| GPU | NVIDIA | **RTX 4090** | 24 GB | 3 |
+| GPU | NVIDIA | **RTX 5090** | 24 GB | 13 |
 
-- Our Core values:  "**正直善良，勤勉认真**"  (Honest in heart, kind in soul; hard in work, true in deed)
-- Our development philosophy:  "**坚持长期主义**，共创未来"  (Think long, create together.)
+{% include section.html %}
 
+## Team culture
 
+- Our Core values: "**正直善良，勤勉认真**" (Honest in heart, kind in soul; hard in work, true in deed)
+- Our development philosophy: "**坚持长期主义**，共创未来" (Think long, create together.)
 
 {% include section.html %}
 
@@ -57,14 +57,10 @@ Our M3-Lab (Multiscale Modeling and Machine Learning Lab) led by Prof. Wang Shuo
 {%
   include figure.html
   image="images/EIT/EIT_2.jpg"
-  caption="EIꓕ Cσɯbns"
+  caption="EIT Campus"
 %}
 
 {% endcapture %}
-
-
-
-
 
 {% include cols.html col1=col1 col2=col2 %}
 

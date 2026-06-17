@@ -1,0 +1,30 @@
+---
+---
+
+main :where(
+  p,
+  li,
+  td,
+  th,
+  .citation-authors,
+  .citation-details,
+  .citation-description,
+  .post-excerpt-text
+) {
+  font-size: 1.12rem;
+}
+
+@media (max-width: 600px) {
+  main :where(
+    p,
+    li,
+    td,
+    th,
+    .citation-authors,
+    .citation-details,
+    .citation-description,
+    .post-excerpt-text
+  ) {
+    font-size: 1.06rem;
+  }
+}

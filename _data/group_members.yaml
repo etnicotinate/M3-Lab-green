@@ -1,0 +1,93 @@
+# DO NOT EDIT, GENERATED FROM _members
+
+- name: 'Biao Hu'
+  aliases:
+    - 'Hu Biao'
+  role: 'undergrad'
+  file: 'Biao-Hu.md'
+- name: 'Chiran Wang'
+  aliases:
+    - 'Wang Chiran'
+  role: 'phd'
+  file: 'Chiran-Wang.md'
+- name: 'Chuliang Fu'
+  aliases:
+    - 'Fu Chuliang'
+  role: 'faculty'
+  file: 'Chuliang-Fu.md'
+- name: 'Feilong Wang'
+  aliases:
+    - 'Wang Feilong'
+  role: 'postdoc'
+  file: 'Feilong-Wang.md'
+- name: 'Fuchao Yang'
+  aliases:
+    - 'Yang Fuchao'
+  role: 'master'
+  file: 'Fuchao-Yang.md'
+- name: 'Ren Fucheng'
+  aliases:
+    - 'Fucheng Ren'
+  role: 'faculty'
+  file: 'Fucheng-Ren.md'
+- name: 'Huadong Zhang'
+  aliases:
+    - 'Zhang Huadong'
+  role: 'master'
+  file: 'Huadong-Zhang.md'
+- name: 'Jiahua Liu'
+  aliases:
+    - 'Liu Jiahua'
+  role: 'postdoc'
+  file: 'Jiahua-Liu.md'
+- name: 'Lan Lin'
+  aliases:
+    - 'Lin Lan'
+  role: 'master'
+  file: 'Lin-Lan.md'
+- name: 'Linshuang Zhang'
+  aliases:
+    - 'Zhang Linshuang'
+  role: 'phd'
+  file: 'Linshuang-Zhang.md'
+- name: 'Liuzhe Qiu'
+  aliases:
+    - 'Qiu Liuzhe'
+  role: 'postdoc'
+  file: 'Liuzhe-Qiu.md'
+- name: 'Shuo Wang'
+  aliases:
+    - 'Prof. Wang'
+    - 'Wang Shuo'
+  role: 'pi'
+  file: 'Shuo-Wang.md'
+- name: 'Xiang Zhao'
+  aliases:
+    - 'Zhao Xiang'
+  role: 'master'
+  file: 'Xiang-Zhao.md'
+- name: 'Ning Xuewen'
+  aliases:
+    - 'Xuewen Ning'
+  role: 'phd'
+  file: 'Xuewen-Ning.md'
+- name: 'Yanzi Shi'
+  aliases:
+    - 'Shi Yanzi'
+  role: 'phd'
+  file: 'Yanzi-Shi.md'
+- name: 'Yilin Zhang'
+  aliases:
+    - 'Zhang Yilin'
+  role: 'postdoc'
+  file: 'Yilin-Zhang.md'
+- name: 'Yiru Huang'
+  aliases:
+    - 'Huang Yiru'
+  role: 'phd'
+  file: 'Yiru-Huang.md'
+- name: 'Zhihan Li'
+  aliases:
+    - 'Li Zhihan'
+  role: 'undergrad'
+  file: 'Zhihan-Li.md'

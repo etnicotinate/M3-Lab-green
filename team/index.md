@@ -69,7 +69,7 @@ Our team consists of members from Eastern Institute of Technology. Find out more
 
 We work with a wide range of outstanding groups from around the world, and we're always on the lookout for new and unique perspectives. We want to push the frontier of computatipnal materials science and AI for science, creating new breakthroughs in the field of all-solid-state batteries.
 
-{% include button.html icon="fa-solid fa-handshake-angle" text="Join the Team" link="contact" style="button" %}
+{% include button.html icon="fa-solid fa-handshake-angle" text="Join the Team" link="joinUs" style="button" %}
 
 {% include section.html %}
 

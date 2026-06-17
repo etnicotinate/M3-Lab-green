@@ -9,7 +9,20 @@
 {% endif %}
 
 <div class="citation-container">
-  <div class="citation">
+  {% capture citation_search %}
+    {{ citation.title }}
+    {{ citation.authors | join: " " }}
+    {{ citation.publisher }}
+    {{ citation.date | date: "%Y %b %d" }}
+    {{ citation.id }}
+    {{ citation.tags | join: " " }}
+    {{ citation.description | strip_html }}
+  {% endcapture %}
+
+  <div
+    class="citation"
+    data-search="{{ citation_search | strip_html | regex_strip | xml_escape }}"
+  >
     {% if include.style == "rich" %}
       <a
         {% if citation.link %}
