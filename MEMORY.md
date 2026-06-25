@@ -13,5 +13,10 @@
 - 正文字号暂未定位到正确控制点；已确认 `_styles/body.scss`、`_styles/paragraph.scss` 的 `p`、`_styles/feature.scss` 的 `.feature-text` 都不是合适修改点，后续需通过浏览器 DevTools 或构建 CSS 定位真实生效规则。
 - 参考 Lab Website Template 和 Jekyll 文档后，正文字号采用 `_styles/z-text.scss` 作为末尾覆盖样式；该文件只覆盖 `main` 内文本选择器，避免改动 feature 布局或图片尺寸。修改 `_styles/*.scss` 后必须 rebuild/serve 才会更新 `_site` 中的 CSS。
 - `News` 和 `Projects` 页面暂时保留文件但移除 `nav`，不显示在 header 导航中；后续完善后可恢复 `nav` 配置。
-- 本项目本地测试方法：用 Git Bash 运行 `.docker/run.sh`，Docker 容器会挂载当前项目并暴露 `http://localhost:4000`，可在容器内测试 Jekyll 构建和页面效果。
+- 本项目本地测试方法：Git Bash 路径为 `D:\Tools\Git\bin\bash.exe`；用它运行 `.docker/run.sh`，Docker 容器会挂载当前项目并暴露 `http://localhost:4000`，可在容器内测试 Jekyll 构建和页面效果。
 - 正文字号覆盖值为 `_styles/z-text.scss` 中桌面端 `1.12rem`、移动端 `1.06rem`；此前 `1.06rem/1.03rem` 视觉变化过弱。
+- 站点正式英文名应为 `Multiscale Modeling Materials Lab`。
+- 原 `Research` 页面已迁移为 `publication/index.md`，导航标题为 `Publication`；`research/index.md` 仅作为重定向兼容入口。
+- Publication 的 citation 卡片不再显示论文图片/占位图，文字区域占满卡片；`_cite/mark_authors.py` 会过滤 2009-2011 年错误论文。
+- 首页 `Highlights` 占位区块已删除。
+- Footer 链接来自 `_config.yaml` 的 `links`；ORCID 填裸 ID `0000-0002-7907-9676`，Google Scholar 填 user ID `DN3xCtoAAAAJ`，email 使用 PI 邮箱 `shuowang@eitech.edu.cn`；Twitter 和 YouTube 已删除。
