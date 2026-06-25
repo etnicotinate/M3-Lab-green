@@ -1,9 +1,6 @@
 ---
 ---
 
-$thumb-size: 180px;
-$wrap: 800px;
-
 .citation-container {
   container-type: inline-size;
 }
@@ -17,30 +14,16 @@ $wrap: 800px;
   box-shadow: var(--shadow);
 }
 
-.citation-image {
-  position: relative;
-  width: $thumb-size;
-  flex-shrink: 0;
-  // box-shadow: var(--shadow);
-}
-
-.citation-image img {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-
 .citation-text {
   position: relative;
   display: inline-flex;
+  flex: 1 1 auto;
   flex-wrap: wrap;
   gap: 10px;
+  width: 100%;
   max-width: 100%;
   height: min-content;
-  padding: 20px;
-  padding-left: 30px;
+  padding: 24px 30px;
   text-align: left;
   overflow-wrap: break-word;
   z-index: 0;
@@ -89,15 +72,4 @@ $wrap: 800px;
   display: inline-flex;
   justify-content: flex-start;
   margin: 0;
-}
-
-@container (max-width: #{$wrap}) {
-  .citation {
-    flex-direction: column;
-  }
-
-  .citation-image {
-    width: unset;
-    height: $thumb-size;
-  }
 }

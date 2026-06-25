@@ -1,5 +1,5 @@
 # site properties and page defaults
-title: Multiscale Modeling and Machine Learning Lab
+title: Multiscale Modeling Materials Lab
 subtitle: Led by Prof. Wang Shuo at the Eastern Institute of Technology, Ningbo (EIT)
 description: Welcome to the M3-Lab from EIT! Our group investigates computational materials science, machine learning, and multiscale modeling and its applications to all-solid-state batteries.
 header: images/background.bac.jpg
@@ -9,11 +9,9 @@ proofer: false
 # site social media and other links
 links:
   email: shuowang@eitech.edu.cn
-  orcid: https://orcid.org/0000-0002-7907-9676
-  google-scholar: ETJoidYAAAAJ
+  orcid: 0000-0002-7907-9676
+  google-scholar: DN3xCtoAAAAJ
   github: xxx
-  twitter: xxx
-  youtube: xxx
 
 ### jekyll settings
 

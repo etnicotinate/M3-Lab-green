@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-handshake-angle" %}JoinUs
 
-Our M3-Lab (Multiscale Modeling and Machine Learning Lab) led by Prof. Wang Shuo is located at the School of Materials Science and engineering at the Eastern Institute of Technology, Ningbo (EIT), Ningbo City, Zhejiang Province, China. We are on 2nd Floor, Chemistry Materials Building.
+Our M3-Lab (Multiscale Modeling Materials Lab) led by Prof. Wang Shuo is located at the School of Materials Science and engineering at the Eastern Institute of Technology, Ningbo (EIT), Ningbo City, Zhejiang Province, China. We are on 2nd Floor, Chemistry Materials Building.
 
 {%
   include button.html

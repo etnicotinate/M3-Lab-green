@@ -1441,39 +1441,6 @@
   Show-Wang: true
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1016/J.CHROMA.2011.07.016
-  title: Preparation and evaluation of molecularly imprinted ionic liquids polymer
-    as sorbent for on-line solid-phase extraction of chlorsulfuron in environmental
-    water samples
-  authors:
-  - Lu Guo
-  - Qiliang Deng
-  - Guozhen Fang
-  - Wei Gao
-  - '**Shuo Wang#**'
-  publisher: Journal of Chromatography A
-  date: '2011-09-01'
-  link: https://doi.org/d87dfp
-  orcid: 0000-0002-7907-9676
-  Show-Wang: true
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1007/S00604-009-0205-8
-  title: Preparation of a novel molecularly imprinted polymer by a sol-gel process
-    for on-line solid-phase extraction coupled with high performance liquid chromatography
-    to detect trace enrofloxacin in fish and chicken samples
-  authors:
-  - Wang Junping
-  - Pan Mingfei
-  - Fang Guozhen
-  - '**Wang Shuo#**'
-  publisher: Microchimica Acta
-  date: '2009-08-12'
-  link: https://doi.org/fhzp6f
-  orcid: 0000-0002-7907-9676
-  Show-Wang: true
-  plugin: sources.py
-  file: sources.yaml
 - id: wosuid:WOS:000250759100503
   title: Web of Science
   authors: []

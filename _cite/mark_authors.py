@@ -22,6 +22,7 @@ from pathlib import Path
 MARKER_ORDER = ("*", "†", "#")
 MARKER_RE = re.compile(r"([*†#]+)$")
 AUTHOR_LINE_RE = re.compile(r"^(\s*-\s+)(.+?)(\r?\n?)$")
+OBSOLETE_YEARS = {"2009", "2010", "2011"}
 
 
 def normalize_name(name: str) -> str:
@@ -174,8 +175,9 @@ def mark_author(author: str, group_lookup: set[str]) -> str:
 def process_citations(citations_path: Path, group_lookup: set[str]) -> bool:
     """Apply author markers to citation author-list lines."""
     lines = citations_path.read_text(encoding="utf-8").splitlines(keepends=True)
+    lines, removed_count = remove_obsolete_years(lines)
     output: list[str] = []
-    changed = False
+    changed = removed_count > 0
     in_authors = False
 
     for line in lines:
@@ -203,6 +205,43 @@ def process_citations(citations_path: Path, group_lookup: set[str]) -> bool:
         citations_path.write_text("".join(output), encoding="utf-8")
 
     return changed
+
+
+def remove_obsolete_years(lines: list[str]) -> tuple[list[str], int]:
+    """Remove generated citation blocks from years known to be erroneous."""
+    output: list[str] = []
+    block: list[str] = []
+    removed_count = 0
+
+    def should_remove(candidate: list[str]) -> bool:
+        for item in candidate:
+            stripped = item.strip()
+            if stripped.startswith("date:"):
+                return any(f"'{year}-" in stripped or f": {year}-" in stripped
+                           for year in OBSOLETE_YEARS)
+        return False
+
+    def flush_block() -> None:
+        nonlocal block, removed_count
+        if not block:
+            return
+        if should_remove(block):
+            removed_count += 1
+        else:
+            output.extend(block)
+        block = []
+
+    for line in lines:
+        if line.startswith("- id: "):
+            flush_block()
+            block = [line]
+        elif block:
+            block.append(line)
+        else:
+            output.append(line)
+
+    flush_block()
+    return output, removed_count
 
 
 def dump_list(values: list[str], indent: int = 2) -> list[str]:
