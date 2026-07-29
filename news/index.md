@@ -2,17 +2,14 @@
 title: News
 ---
 
-# {% include icon.html icon="fa-solid fa-feather-pointed" %}News
+# News
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Selected recent updates from the M3-Lab. Grant details and additional announcements will be added as the group information is consolidated.
 
-{% include section.html %}
+## Funding Updates
 
-{% include search-box.html %}
+- **Feilong Wang and Yilin Zhang** received support from the National Natural Science Foundation of China (NSFC) Postdoctoral Science Fund General Program.
+- **Yilin Zhang** received a Zhejiang Provincial Natural Science Foundation Exploration Project award.
+- **Shuo Wang** received support from the NSFC General Program and the Zhejiang Provincial Natural Science Foundation.
 
-{% include tags.html tags=site.tags %}
-
-{% include search-info.html %}
-
-{% include list.html data="posts" component="post-excerpt" %}
+Additional publications, awards, and group announcements will be added as information is finalized.

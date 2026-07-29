@@ -1,86 +1,78 @@
 ---
+title: Home
 ---
 
-# Multiscale Modeling Materials Lab
+<div class="home-page">
+  <section class="home-hero" aria-labelledby="home-title">
+    <div class="home-hero-copy">
+      <p class="home-kicker">Multiscale Modeling Materials Lab</p>
+      <h1 id="home-title">Welcome to the M<sup>3</sup>-Lab</h1>
+      <p>We use modeling and simulation to understand, design, and improve materials across multiple length and time scales.</p>
+      <a class="text-link" href="{{ "/research/" | relative_url }}">Explore our research <span aria-hidden="true">&#8594;</span></a>
+    </div>
+  </section>
 
-{% capture text %}
+  <section class="home-explore" aria-labelledby="explore-title">
+    <div class="home-section-heading">
+      <p class="home-kicker">What we do</p>
+      <h2 id="explore-title">Research Interests</h2>
+    </div>
 
-Our mission is to advance the understanding of materials across multiple scales through innovative modeling and simulation techniques.
+    <div class="home-links">
+      <a class="home-link" href="{{ "/research/" | relative_url }}">
+        <img src="{{ "/images/index_interests/interest-1-gpt.png" | relative_url }}" alt="Illustration of understanding materials">
+        <span class="home-link-body">
+          <span class="link-number">01</span>
+          <strong>Understanding Materials</strong>
+          <span class="home-link-description">Ion transport, interfaces, and the mechanisms behind material performance.</span>
+          <span class="link-arrow" aria-hidden="true">&#8594;</span>
+        </span>
+      </a>
+      <a class="home-link" href="{{ "/projects/" | relative_url }}">
+        <img src="{{ "/images/index_interests/interest-2-gpt.png" | relative_url }}" alt="Illustration of inventing novel materials">
+        <span class="home-link-body">
+          <span class="link-number">02</span>
+          <strong>Inventing Novel Materials</strong>
+          <span class="home-link-description">High-throughput design and optimization for next-generation energy materials.</span>
+          <span class="link-arrow" aria-hidden="true">&#8594;</span>
+        </span>
+      </a>
+      <a class="home-link" href="{{ "/team/" | relative_url }}">
+        <img src="{{ "/images/index_interests/interest-3-gpt.png" | relative_url }}" alt="Illustration of AI for materials innovation">
+        <span class="home-link-body">
+          <span class="link-number">03</span>
+          <strong>AI for Materials Innovation</strong>
+          <span class="home-link-description">Data infrastructure and AI-assisted discovery across multiple scales.</span>
+          <span class="link-arrow" aria-hidden="true">&#8594;</span>
+        </span>
+      </a>
+    </div>
+  </section>
 
-Explore our work to see how we bridge the gap between theory and application in materials science.
+  <section class="home-news" aria-labelledby="home-news-title">
+    <div class="news-heading">
+      <div>
+        <p class="home-kicker">Latest from the group</p>
+        <h2 id="home-news-title">News</h2>
+      </div>
+      <a class="news-more" href="{{ "/news/" | relative_url }}">View all news <span aria-hidden="true">&#8594;</span></a>
+    </div>
 
-{% endcapture %}
+    <div class="news-grid">
+      <article class="news-item">
+        <p class="news-label">Funding update</p>
+        <h3>Feilong Wang and Yilin Zhang receive support from the NSFC Postdoctoral Science Fund General Program.</h3>
+      </article>
+      <article class="news-item">
+        <p class="news-label">Funding update</p>
+        <h3>Yilin Zhang receives a Zhejiang Provincial Natural Science Foundation Exploration Project award.</h3>
+      </article>
+      <article class="news-item">
+        <p class="news-label">Funding update</p>
+        <h3>Shuo Wang receives support from the NSFC General Program and the Zhejiang Provincial Natural Science Foundation.</h3>
+      </article>
+    </div>
 
-<!-- ![plain image](/images/M3-logo.png) -->
-<!-- {% include figure.html image="/images/M3-logo.png" width="20%" %} -->
-{%
-  include feature.html
-  image="/images/index-m3-logo.png"
-  link="publication"
-  title="Welcome to the M3-Lab"
-  text=text
-%}
-
-{% include section.html %}
-
-## Research Interests
-
-{% capture text %}
-
-  Investigate fundamental mechanisms in materials, focusing on:
-  
-- **Diffusion in Solid Electrolytes:** Unravel the atomic-scale dynamics driving ion transport insolid-state ionic conductors.
-- **Interfacial Kinetics and Thermodynamics:** Analyze failure mechanisms at multi-phaseinterfaces to understand degradation pathways and improve material stability.
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/index_interests/interest-1-gpt.png"
-  link="publication"
-  title="1. Understanding Materials"
-  text=text
-%}
-
-{% capture text %}
-
-- **High-Throughput Materials Design:** Leverage computational tools and multiscale models toexplore vast material spaces.
-- **Property-Driven Optimization:** Develop and optimize materials tailored for specificapplications, such as batteries, fuel cells, and catalysts.
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/index_interests/interest-2-gpt.png"
-  link="projects"
-  title="2. Inventing Novel Materials"
-  flip=true
-  style="bare"
-  text=text
-%}
-
-{% capture text %}
-
-- **Data Infrastructure:** Build comprehensive materials databases that integrate experimentaland computational results.
-- **Al-Powered Modeling:** Develop machine learning and Al models to accelerate materials discovery, predict properties, and identify optimal candidates.
-- **Integration Across Scales:** Combine Al models with multiscale simulations to bridge atomic micro, and macroscopic scales for holistic material insights.
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/index_interests/interest-3-gpt.png"
-  link="team"
-  title="3. Al for Materials Innovation"
-  text=text
-%}
-
-<!-- Easter Egg -->
-<div style="text-align: center; margin-top: -50 px; margin-bottom: -50 px;opacity: 0.3;">
-{%
-  include button.html
-  link="/404.html"
-  text="🎁"
-  style="bare"
-%}
+    <p class="news-footnote">Grant details and additional group updates will be consolidated here as information is finalized.</p>
+  </section>
 </div>

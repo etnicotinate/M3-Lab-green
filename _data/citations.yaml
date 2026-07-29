@@ -18,15 +18,15 @@
   - Davide Menga
   - Sunmoon Yu
   - Haldrian Iriawan
-  - Yang Shao-Horn
+  - Yang Shao-Horn*
   - Ju Li
   publisher: Journal of the American Chemical Society
   date: '2026-06-01'
   link: https://doi.org/hb6v59
   orcid: 0000-0002-7907-9676
   Show-Wang: true
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1002/ADFM.202506144
   title: Reduction Resistible Halide Solid Electrolytes Enabled by Orbital Gap Modulation
   authors:
@@ -73,9 +73,9 @@
 - id: doi:10.1126/science.adt9678
   title: Anion sublattice design enables superionic conductivity in crystalline oxyhalides
   authors:
-  - Feipeng Zhao
-  - Shumin Zhang
-  - '**Shuo Wang#**'
+  - "Feipeng Zhao\u2020"
+  - "Shumin Zhang\u2020"
+  - "**Shuo Wang#\u2020**"
   - Joel W. Reid
   - Wei Xia
   - Jue Liu
@@ -92,7 +92,7 @@
   - Yining Huang
   - Tsun-Kong Sham
   - Yifei Mo
-  - Xueliang Sun
+  - "Xueliang Sun\u200B*"
   publisher: Science
   date: '2025-10-09'
   link: https://doi.org/hbjc9k
@@ -153,8 +153,8 @@
 - id: doi:10.1002/ange.202508835
   title: "Chemical Bond Covalency in Superionic Halide Solid\u2010State Electrolytes"
   authors:
-  - Jiamin Fu
-  - Han Su
+  - "Jiamin Fu\u2020"
+  - "Han Su\u2020"
   - Jing Luo
   - Xiaona Li
   - Jianwen Liang
@@ -244,8 +244,8 @@
 - id: doi:10.1002/ANIE.202508835
   title: "Chemical Bond Covalency in Superionic Halide Solid\u2010State Electrolytes"
   authors:
-  - Jiamin Fu
-  - Han Su
+  - "Jiamin Fu\u2020"
+  - "Han Su\u2020"
   - Jing Luo
   - Xiaona Li
   - Jianwen Liang
@@ -325,10 +325,10 @@
   title: "Superionic conducting vacancy-rich \u03B2-Li3N electrolyte for stable cycling\
     \ of all-solid-state lithium metal batteries"
   authors:
-  - Weihan Li
-  - Minsi Li
-  - '**Shuo Wang#**'
-  - Po-Hsiu Chien
+  - "Weihan Li\u2020"
+  - "Minsi Li\u2020"
+  - "**Shuo Wang\u2020#**"
+  - "Po-Hsiu Chien\u2020"
   - Jing Luo
   - Jiamin Fu
   - Xiaoting Lin
@@ -550,8 +550,8 @@
 - id: doi:10.1038/S41467-023-43436-3
   title: Design principles for sodium superionic conductors
   authors:
-  - '**Shuo Wang#**'
-  - Jiamin Fu
+  - "**Shuo Wang\u2020#**"
+  - "Jiamin Fu\u2020"
   - Yunsheng Liu
   - Ramanuja Srinivasan Saravanan
   - Jing Luo
@@ -586,10 +586,10 @@
     \            for high\u2013areal capacity, long-cycling all\u2013solid-state lithium\
     \ metal batteries"
   authors:
-  - Weihan Li
-  - Minsi Li
-  - Po-Hsiu Chien
-  - '**Shuo Wang#**'
+  - "Weihan Li\u2020"
+  - "Minsi Li\u2020"
+  - "Po-Hsiu Chien\u2020"
+  - "**Shuo Wang\u2020#**"
   - Chuang Yu
   - Graham King
   - Yongfeng Hu
@@ -1409,7 +1409,7 @@
   title: Structure, mechanical and tribological properties of HfCx films deposited
     by reactive magnetron sputtering
   authors:
-  - '**Wang Shuo#**'
+  - Wang Shuo
   - Zhang Kan
   - An Tao
   - Hu Chaoquan
@@ -1437,6 +1437,39 @@
   publisher: Surface and Coatings Technology
   date: '2014-11-01'
   link: https://doi.org/f6tbkv
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/J.CHROMA.2011.07.016
+  title: Preparation and evaluation of molecularly imprinted ionic liquids polymer
+    as sorbent for on-line solid-phase extraction of chlorsulfuron in environmental
+    water samples
+  authors:
+  - Lu Guo
+  - Qiliang Deng
+  - Guozhen Fang
+  - Wei Gao
+  - '**Shuo Wang#**'
+  publisher: Journal of Chromatography A
+  date: '2011-09-01'
+  link: https://doi.org/d87dfp
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1007/S00604-009-0205-8
+  title: Preparation of a novel molecularly imprinted polymer by a sol-gel process
+    for on-line solid-phase extraction coupled with high performance liquid chromatography
+    to detect trace enrofloxacin in fish and chicken samples
+  authors:
+  - Wang Junping
+  - Pan Mingfei
+  - Fang Guozhen
+  - Wang Shuo
+  publisher: Microchimica Acta
+  date: '2009-08-12'
+  link: https://doi.org/fhzp6f
   orcid: 0000-0002-7907-9676
   Show-Wang: true
   plugin: sources.py

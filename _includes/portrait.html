@@ -16,6 +16,7 @@
     {% endif %}
     class="portrait"
     data-style="{{ include.style }}"
+    data-role="{{ member.role }}"
     aria-label="{{ member.name | default: "member link" | regex_strip }}"
   >
     {% if type %}
@@ -37,9 +38,20 @@
     {% endif %}
 
     {% if member.description or type %}
-      <span class="portrait-description">
-        {{ member.description | default: type.description }}
-      </span>
+      {% if member.role == "alumni" %}
+        <span class="portrait-description portrait-description-alumni">
+          <span class="portrait-path-from">{{ member.description | default: type.description }}</span>
+          {% if member.period %}
+            <span class="portrait-path-period">{{ member.period }}</span>
+          {% endif %}
+          <span class="portrait-path-arrow">↓</span>
+          <span class="portrait-path-to">PhD Student, University of Macau</span>
+        </span>
+      {% else %}
+        <span class="portrait-description">
+          {{ member.description | default: type.description }}
+        </span>
+      {% endif %}
     {% endif %}
 
     {% if member.affiliation %}
