@@ -27,18 +27,54 @@ Our M3-Lab (Multiscale Modeling Materials Lab) led by Prof. Wang Shuo is located
 
 ## Computing resources
 
-| Hardware | Vendor | Model | Cores / Memory | Quantity |
-| :--- | :--- | :--- | :--- | ---: |
-| CPU | AMD | **EPYC 9654** | 96 cores | 15 |
-| GPU | NVIDIA | **RTX 4090** | 24 GB | 3 |
-| GPU | NVIDIA | **RTX 5090** | 24 GB | 13 |
+<table>
+  <thead>
+    <tr>
+      <th>Hardware</th>
+      <th>Vendor</th>
+      <th>Model</th>
+      <th>Cores / Memory</th>
+      <th align="right">Quantity</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+      <td>CPU</td>
+      <td>AMD</td>
+      <td><strong>EPYC 9965</strong></td>
+      <td>192 cores</td>
+      <td align="right">2</td>
+    </tr>
+    <tr>
+      <td>CPU</td>
+      <td>AMD</td>
+      <td><strong>EPYC 9654</strong></td>
+      <td>96 cores</td>
+      <td align="right">16</td>
+    </tr>
+    <tr>
+      <td>GPU</td>
+      <td>NVIDIA</td>
+      <td><strong>RTX 4090</strong></td>
+      <td>24 GB</td>
+      <td align="right">3</td>
+    </tr>
+    <tr>
+      <td>GPU</td>
+      <td>NVIDIA</td>
+      <td><strong>RTX 5090</strong></td>
+      <td>32 GB</td>
+      <td align="right">8</td>
+    </tr>
+  </tbody>
+</table>
 
 {% include section.html %}
 
 ## Team culture
 
 - Our Core values: "**正直善良，勤勉认真**" (Honest in heart, kind in soul; hard in work, true in deed)
-- Our development philosophy: "**坚持长期主义**，共创未来" (Think long, create together.)
+- Our development philosophy: "**坚持长期主义，共创未来**" (Think long, create together.)
 
 {% include section.html %}
 
@@ -63,19 +99,3 @@ Our M3-Lab (Multiscale Modeling Materials Lab) led by Prof. Wang Shuo is located
 {% endcapture %}
 
 {% include cols.html col1=col1 col2=col2 %}
-
-{% include section.html dark=true %}
-
-{% capture col1 %}
-物质科学与能源研究院
-{% endcapture %}
-
-{% capture col2 %}
-全省全固态动力电池技术与应用重点实验室
-{% endcapture %}
-
-{% capture col3 %}
-宁波东方理工大学
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 col3=col3 %}
