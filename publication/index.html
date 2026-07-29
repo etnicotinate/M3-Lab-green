@@ -207,6 +207,10 @@
   
 
   
+    <link href="/_styles/home.css" rel="stylesheet">
+  
+
+  
     <link href="/_styles/icon.css" rel="stylesheet">
   
 
@@ -344,6 +348,8 @@
 
   
 
+  
+
 
 <!-- include all css in styles folder -->
 
@@ -414,8 +420,8 @@
   <g id="letters" font-family="'Montserrat', sans-serif" font-weight="900" font-size="72" text-anchor="middle">
     <text x="200" y="80" fill="url(#textGradient)" filter="url(#glow)">
       <tspan>M</tspan>
-      <tspan dx="-2">3</tspan>
-      <tspan dx="-2">-</tspan>
+      <tspan dx="-2" dy="-18" font-size="48">3</tspan>
+      <tspan dx="-2" dy="18">-</tspan>
       <tspan dx="-2">L</tspan>
       <tspan dx="-2">a</tspan>
       <tspan dx="-2">b</tspan>
@@ -455,6 +461,7 @@
     </circle>
   </g>
 </svg>
+
         
       </span>
     
@@ -520,24 +527,41 @@
     <h1 id="publication">
 <i class="icon fa-solid fa-microscope"></i>Publication</h1>
 
-<p>Prof. Wang’s publication record on <a href="https://scholar.google.com/citations?user=DN3xCtoAAAAJ&hl=en">Google Scholar</a>,  <a href="https://orcid.org/0000-0002-7907-9676">ORCID</a>, <a href="https://www.researchgate.net/profile/Shuo-Wang-158">ResearchGate</a></p>
+<style>
+  .publication-intro {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 8px 0 14px;
+  }
 
-<p><strong>#: group members</strong>
-<!-- \*: corresponding author;   †: co-first author; **#: group members** in multiple-group collaboration; --></p>
-  </section>
+  .publication-legend {
+    margin: 0;
+    line-height: 1.35;
+  }
 
-  
-  
-  
+  .publication-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
 
-  <section class="background" data-size="page">
-    <!--
-  <background></background>
-  <dark></dark>
-  <size></size>
--->
+  .publication-actions .button {
+    margin: 0;
+  }
+</style>
 
-<div class="button-wrapper">
+<div class="publication-intro">
+  <p class="publication-legend">
+    <strong>#: group members, *: corresponding author, †: co-first author</strong>
+  </p>
+
+  <div class="publication-actions">
+    
+
+
+
+  <div class="button-wrapper">
     <a class="button" href="https://scholar.google.com/citations?user=DN3xCtoAAAAJ&hl=en" data-style="" aria-label="fa-brands fa-google">
       <i class="icon fa-brands fa-google"></i>
       
@@ -546,7 +570,13 @@
     </a>
   </div>
 
-<div class="button-wrapper">
+
+
+    
+
+
+
+  <div class="button-wrapper">
     <a class="button" href="https://orcid.org/0000-0002-7907-9676" data-style="" aria-label="fa-brands fa-orcid">
       <i class="icon fa-brands fa-orcid"></i>
       
@@ -554,6 +584,10 @@
       
     </a>
   </div>
+
+
+  </div>
+</div>
 
 <h2 id="all">All</h2>
 
@@ -584,8 +618,8 @@
                     Batteries
       </a>
 
-      <div class="citation-authors" data-tooltip="Guanzhou Zhu, Hongbin Xu, **Shuo Wang#**, **Yilin Zhang#**, Jen-Hung Fang, Tao Dai, Daniel J. Zheng, Weiyin Chen, Heejung Roh, Daniel Wang, Davide Menga, Sunmoon Yu, Haldrian Iriawan, Yang Shao-Horn, Ju Li" tabindex="0">
-        Guanzhou Zhu, Hongbin Xu, <strong>Shuo Wang#</strong>, <strong>Yilin Zhang#</strong>, Jen-Hung Fang, …, Davide Menga, Sunmoon Yu, Haldrian Iriawan, Yang Shao-Horn, Ju Li
+      <div class="citation-authors" data-tooltip="Guanzhou Zhu, Hongbin Xu, **Shuo Wang#**, **Yilin Zhang#**, Jen-Hung Fang, Tao Dai, Daniel J. Zheng, Weiyin Chen, Heejung Roh, Daniel Wang, Davide Menga, Sunmoon Yu, Haldrian Iriawan, Yang Shao-Horn*, Ju Li" tabindex="0">
+        Guanzhou Zhu, Hongbin Xu, <strong>Shuo Wang#</strong>, <strong>Yilin Zhang#</strong>, Jen-Hung Fang, …, Davide Menga, Sunmoon Yu, Haldrian Iriawan, Yang Shao-Horn*, Ju Li
 
       </div>
 
@@ -658,8 +692,8 @@
         Anion sublattice design enables superionic conductivity in crystalline oxyhalides
       </a>
 
-      <div class="citation-authors" data-tooltip="Feipeng Zhao, Shumin Zhang, **Shuo Wang#**, Joel W. Reid, Wei Xia, Jue Liu, Graham King, James A. Kaduk, Jianwen Liang, Jing Luo, Yingjie Gao, Feipeng Yang, Yang Zhao, Weihan Li, Sandamini H. Alahakoon, Jinghua Guo, Yining Huang, Tsun-Kong Sham, Yifei Mo, Xueliang Sun" tabindex="0">
-        Feipeng Zhao, Shumin Zhang, <strong>Shuo Wang#</strong>, Joel W. Reid, Wei Xia, …, Jinghua Guo, Yining Huang, Tsun-Kong Sham, Yifei Mo, Xueliang Sun
+      <div class="citation-authors" data-tooltip="Feipeng Zhao†, Shumin Zhang†, **Shuo Wang†#**, Joel W. Reid, Wei Xia, Jue Liu, Graham King, James A. Kaduk, Jianwen Liang, Jing Luo, Yingjie Gao, Feipeng Yang, Yang Zhao, Weihan Li, Sandamini H. Alahakoon, Jinghua Guo, Yining Huang, Tsun-Kong Sham, Yifei Mo, Xueliang Sun​*" tabindex="0">
+        Feipeng Zhao†, Shumin Zhang†, <strong>Shuo Wang†#</strong>, Joel W. Reid, Wei Xia, …, Jinghua Guo, Yining Huang, Tsun-Kong Sham, Yifei Mo, Xueliang Sun​*
 
       </div>
 
@@ -874,8 +908,8 @@
         Chemical Bond Covalency in Superionic Halide Solid‐State Electrolytes
       </a>
 
-      <div class="citation-authors" data-tooltip="Jiamin Fu, Han Su, Jing Luo, Xiaona Li, Jianwen Liang, Changhong Wang, Jung Tae Kim, Yang Hu, Feipeng Zhao, Shumin Zhang, Hui Duan, Xiaoge Hao, Weihan Li, Jian Peng, Jue Liu, **Shuo Wang#**, Tsun‐Kong Sham, Xueliang Sun" tabindex="0">
-        Jiamin Fu, Han Su, Jing Luo, Xiaona Li, Jianwen Liang, …, Jian Peng, Jue Liu, <strong>Shuo Wang#</strong>, Tsun‐Kong Sham, Xueliang Sun
+      <div class="citation-authors" data-tooltip="Jiamin Fu†, Han Su†, Jing Luo, Xiaona Li, Jianwen Liang, Changhong Wang, Jung Tae Kim, Yang Hu, Feipeng Zhao, Shumin Zhang, Hui Duan, Xiaoge Hao, Weihan Li, Jian Peng, Jue Liu, **Shuo Wang#**, Tsun‐Kong Sham, Xueliang Sun" tabindex="0">
+        Jiamin Fu†, Han Su†, Jing Luo, Xiaona Li, Jianwen Liang, …, Jian Peng, Jue Liu, <strong>Shuo Wang#</strong>, Tsun‐Kong Sham, Xueliang Sun
 
       </div>
 
@@ -910,8 +944,8 @@
         Chemical Bond Covalency in Superionic Halide Solid‐State Electrolytes
       </a>
 
-      <div class="citation-authors" data-tooltip="Jiamin Fu, Han Su, Jing Luo, Xiaona Li, Jianwen Liang, Changhong Wang, Jung Tae Kim, Yang Hu, Feipeng Zhao, Shumin Zhang, Hui Duan, Xiaoge Hao, Weihan Li, Jian Peng, Jue Liu, **Shuo Wang#**, Tsun‐Kong Sham, Xueliang Sun" tabindex="0">
-        Jiamin Fu, Han Su, Jing Luo, Xiaona Li, Jianwen Liang, …, Jian Peng, Jue Liu, <strong>Shuo Wang#</strong>, Tsun‐Kong Sham, Xueliang Sun
+      <div class="citation-authors" data-tooltip="Jiamin Fu†, Han Su†, Jing Luo, Xiaona Li, Jianwen Liang, Changhong Wang, Jung Tae Kim, Yang Hu, Feipeng Zhao, Shumin Zhang, Hui Duan, Xiaoge Hao, Weihan Li, Jian Peng, Jue Liu, **Shuo Wang#**, Tsun‐Kong Sham, Xueliang Sun" tabindex="0">
+        Jiamin Fu†, Han Su†, Jing Luo, Xiaona Li, Jianwen Liang, …, Jian Peng, Jue Liu, <strong>Shuo Wang#</strong>, Tsun‐Kong Sham, Xueliang Sun
 
       </div>
 
@@ -1092,8 +1126,8 @@
         Superionic conducting vacancy-rich β-Li3N electrolyte for stable cycling of all-solid-state lithium metal batteries
       </a>
 
-      <div class="citation-authors" data-tooltip="Weihan Li, Minsi Li, **Shuo Wang#**, Po-Hsiu Chien, Jing Luo, Jiamin Fu, Xiaoting Lin, Graham King, Renfei Feng, Jian Wang, Jigang Zhou, Ruying Li, Jue Liu, Yifei Mo, Tsun-Kong Sham, Xueliang Sun" tabindex="0">
-        Weihan Li, Minsi Li, <strong>Shuo Wang#</strong>, Po-Hsiu Chien, Jing Luo, …, Ruying Li, Jue Liu, Yifei Mo, Tsun-Kong Sham, Xueliang Sun
+      <div class="citation-authors" data-tooltip="Weihan Li†, Minsi Li†, **Shuo Wang†#**, Po-Hsiu Chien†, Jing Luo, Jiamin Fu, Xiaoting Lin, Graham King, Renfei Feng, Jian Wang, Jigang Zhou, Ruying Li, Jue Liu, Yifei Mo, Tsun-Kong Sham, Xueliang Sun" tabindex="0">
+        Weihan Li†, Minsi Li†, <strong>Shuo Wang†#</strong>, Po-Hsiu Chien†, Jing Luo, …, Ruying Li, Jue Liu, Yifei Mo, Tsun-Kong Sham, Xueliang Sun
 
       </div>
 
@@ -1311,7 +1345,7 @@
       </a>
 
       <div class="citation-authors" tabindex="0">
-        <strong>Shuo Wang#</strong>, Jiamin Fu, Yunsheng Liu, Ramanuja Srinivasan Saravanan, Jing Luo, Sixu Deng, Tsun-Kong Sham, Xueliang Sun, Yifei Mo
+        <strong>Shuo Wang†#</strong>, Jiamin Fu†, Yunsheng Liu, Ramanuja Srinivasan Saravanan, Jing Luo, Sixu Deng, Tsun-Kong Sham, Xueliang Sun, Yifei Mo
 
       </div>
 
@@ -1352,8 +1386,8 @@
             for high–areal capacity, long-cycling all–solid-state lithium metal batteries
       </a>
 
-      <div class="citation-authors" data-tooltip="Weihan Li, Minsi Li, Po-Hsiu Chien, **Shuo Wang#**, Chuang Yu, Graham King, Yongfeng Hu, Qunfeng Xiao, Mohsen Shakouri, Renfei Feng, Bolin Fu, Hamidreza Abdolvand, Adam Fraser, Ruying Li, Yining Huang, Jue Liu, Yifei Mo, Tsun-Kong Sham, Xueliang Sun" tabindex="0">
-        Weihan Li, Minsi Li, Po-Hsiu Chien, <strong>Shuo Wang#</strong>, Chuang Yu, …, Yining Huang, Jue Liu, Yifei Mo, Tsun-Kong Sham, Xueliang Sun
+      <div class="citation-authors" data-tooltip="Weihan Li†, Minsi Li†, Po-Hsiu Chien†, **Shuo Wang†#**, Chuang Yu, Graham King, Yongfeng Hu, Qunfeng Xiao, Mohsen Shakouri, Renfei Feng, Bolin Fu, Hamidreza Abdolvand, Adam Fraser, Ruying Li, Yining Huang, Jue Liu, Yifei Mo, Tsun-Kong Sham, Xueliang Sun" tabindex="0">
+        Weihan Li†, Minsi Li†, Po-Hsiu Chien†, <strong>Shuo Wang†#</strong>, Chuang Yu, …, Yining Huang, Jue Liu, Yifei Mo, Tsun-Kong Sham, Xueliang Sun
 
       </div>
 

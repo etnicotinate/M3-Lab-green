@@ -132,6 +132,12 @@ header[data-big] .logo {
   height: 80px;
   flex-shrink: 0;
 }
+header[data-big] .homepage-logo {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  height: 40px;
+}
 header[data-big] .title-text {
   flex-direction: column;
   align-items: center;

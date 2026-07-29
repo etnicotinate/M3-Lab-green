@@ -43,21 +43,21 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Multiscale Modeling Materials Lab</title>
+<title>Home | Multiscale Modeling Materials Lab</title>
 
 <link rel="icon" href="/images/icon.png">
 
-<meta name="title" content="">
+<meta name="title" content="Home">
 <meta name="description" content="Led by Prof. Wang Shuo at the Eastern Institute of Technology, Ningbo (EIT). Welcome to the M3-Lab from EIT! Our group investigates computational materials science, machine learning, and multiscale modeling and its applications to all-solid-state batteries.">
 
-<meta property="og:title" content="">
+<meta property="og:title" content="Home">
 <meta property="og:site_title" content="Multiscale Modeling Materials Lab">
 <meta property="og:description" content="Led by Prof. Wang Shuo at the Eastern Institute of Technology, Ningbo (EIT). Welcome to the M3-Lab from EIT! Our group investigates computational materials science, machine learning, and multiscale modeling and its applications to all-solid-state batteries.">
 <meta property="og:url" content="http://m3-lab.wang">
 <meta property="og:image" content="/images/share.png">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="">
+<meta property="twitter:title" content="Home">
 <meta property="twitter:description" content="Led by Prof. Wang Shuo at the Eastern Institute of Technology, Ningbo (EIT). Welcome to the M3-Lab from EIT! Our group investigates computational materials science, machine learning, and multiscale modeling and its applications to all-solid-state batteries.">
 <meta property="twitter:url" content="http://m3-lab.wang">
 <meta property="twitter:card" content="summary_large_image">
@@ -73,9 +73,9 @@
     
       "@type": "WebSite",
     
-    "name": "",
+    "name": "Home",
     "description": "Led by Prof. Wang Shuo at the Eastern Institute of Technology, Ningbo (EIT). Welcome to the M3-Lab from EIT! Our group investigates computational materials science, machine learning, and multiscale modeling and its applications to all-solid-state batteries.",
-    "headline": "",
+    "headline": "Home",
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
@@ -204,6 +204,10 @@
 
   
     <link href="/_styles/highlight.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/home.css" rel="stylesheet">
   
 
   
@@ -344,6 +348,8 @@
 
   
 
+  
+
 
 <!-- include all css in styles folder -->
 
@@ -386,7 +392,7 @@
 <header class="background" style="--image: url('/images/background.bac.jpg')" data-dark="true" data-big>
   <a href="/" class="home">
     
-      <span class="logo">
+      <span class="logo homepage-logo">
         
           <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 400 120">
   <defs>
@@ -414,8 +420,8 @@
   <g id="letters" font-family="'Montserrat', sans-serif" font-weight="900" font-size="72" text-anchor="middle">
     <text x="200" y="80" fill="url(#textGradient)" filter="url(#glow)">
       <tspan>M</tspan>
-      <tspan dx="-2">3</tspan>
-      <tspan dx="-2">-</tspan>
+      <tspan dx="-2" dy="-18" font-size="48">3</tspan>
+      <tspan dx="-2" dy="18">-</tspan>
       <tspan dx="-2">L</tspan>
       <tspan dx="-2">a</tspan>
       <tspan dx="-2">b</tspan>
@@ -455,6 +461,7 @@
     </circle>
   </g>
 </svg>
+
         
       </span>
     
@@ -517,141 +524,79 @@
   
 
   <section class="background" data-size="page">
-    <h1 id="multiscale-modeling-materials-lab">Multiscale Modeling Materials Lab</h1>
-
-<!-- ![plain image](/images/M3-logo.png) -->
-<!-- <figure class="figure">
-  <a
-    
-    class="figure-image"
-    aria-label="figure link"
-  >
-    <img
-      src="/images/M3-logo.png"
-      style="
-        width: 20%;
-        max-height: unset;
-      "
-      alt="figure image"
-      loading="lazy"
-      onerror="this.src = '/images/fallback.svg'; this.onerror = null;"
-
-    >
-  </a>
-  
-</figure>
- -->
-<div class="feature">
-  <a href="/publication" class="feature-image" aria-label="Welcome to the M3-Lab">
-    <img src="/images/index-m3-logo.png" loading="lazy" alt="Welcome to the M3-Lab" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-  <div class="feature-text">
-    
-      <p class="feature-title">Welcome to the M3-Lab</p>
-    
-    
-<p>Our mission is to advance the understanding of materials across multiple scales through innovative modeling and simulation techniques.</p>
-
-<p>Explore our work to see how we bridge the gap between theory and application in materials science.</p>
-
-
-  </div>
-</div>
+    <div class="home-page">
+  <section class="home-hero" aria-labelledby="home-title">
+    <div class="home-hero-copy">
+      <p class="home-kicker">Multiscale Modeling Materials Lab</p>
+      <h1 id="home-title">Welcome to the M<sup>3</sup>-Lab</h1>
+      <p>We use modeling and simulation to understand, design, and improve materials across multiple length and time scales.</p>
+      <a class="text-link" href="/research/">Explore our research <span aria-hidden="true">→</span></a>
+    </div>
   </section>
 
-  
-  
-  
+  <section class="home-explore" aria-labelledby="explore-title">
+    <div class="home-section-heading">
+      <p class="home-kicker">What we do</p>
+      <h2 id="explore-title">Research Interests</h2>
+    </div>
 
-  <section class="background" data-size="page">
-    <!--
-  <background></background>
-  <dark></dark>
-  <size></size>
--->
+    <div class="home-links">
+      <a class="home-link" href="/research/">
+        <img src="/images/index_interests/interest-1-gpt.png" alt="Illustration of understanding materials">
+        <span class="home-link-body">
+          <span class="link-number">01</span>
+          <strong>Understanding Materials</strong>
+          <span class="home-link-description">Ion transport, interfaces, and the mechanisms behind material performance.</span>
+          <span class="link-arrow" aria-hidden="true">→</span>
+        </span>
+      </a>
+      <a class="home-link" href="/projects/">
+        <img src="/images/index_interests/interest-2-gpt.png" alt="Illustration of inventing novel materials">
+        <span class="home-link-body">
+          <span class="link-number">02</span>
+          <strong>Inventing Novel Materials</strong>
+          <span class="home-link-description">High-throughput design and optimization for next-generation energy materials.</span>
+          <span class="link-arrow" aria-hidden="true">→</span>
+        </span>
+      </a>
+      <a class="home-link" href="/team/">
+        <img src="/images/index_interests/interest-3-gpt.png" alt="Illustration of AI for materials innovation">
+        <span class="home-link-body">
+          <span class="link-number">03</span>
+          <strong>AI for Materials Innovation</strong>
+          <span class="home-link-description">Data infrastructure and AI-assisted discovery across multiple scales.</span>
+          <span class="link-arrow" aria-hidden="true">→</span>
+        </span>
+      </a>
+    </div>
+  </section>
 
-<h2 id="research-interests">Research Interests</h2>
+  <section class="home-news" aria-labelledby="home-news-title">
+    <div class="news-heading">
+      <div>
+        <p class="home-kicker">Latest from the group</p>
+        <h2 id="home-news-title">News</h2>
+      </div>
+      <a class="news-more" href="/news/">View all news <span aria-hidden="true">→</span></a>
+    </div>
 
-<div class="feature">
-  <a href="/publication" class="feature-image" aria-label="1. Understanding Materials">
-    <img src="/images/index_interests/interest-1-gpt.png" loading="lazy" alt="1. Understanding Materials" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-  <div class="feature-text">
-    
-      <p class="feature-title">1. Understanding Materials</p>
-    
-    
-<p>Investigate fundamental mechanisms in materials, focusing on:</p>
+    <div class="news-grid">
+      <article class="news-item">
+        <p class="news-label">Funding update</p>
+        <h3>Feilong Wang and Yilin Zhang receive support from the NSFC Postdoctoral Science Fund General Program.</h3>
+      </article>
+      <article class="news-item">
+        <p class="news-label">Funding update</p>
+        <h3>Yilin Zhang receives a Zhejiang Provincial Natural Science Foundation Exploration Project award.</h3>
+      </article>
+      <article class="news-item">
+        <p class="news-label">Funding update</p>
+        <h3>Shuo Wang receives support from the NSFC General Program and the Zhejiang Provincial Natural Science Foundation.</h3>
+      </article>
+    </div>
 
-<ul>
-  <li>
-<strong>Diffusion in Solid Electrolytes:</strong> Unravel the atomic-scale dynamics driving ion transport insolid-state ionic conductors.</li>
-  <li>
-<strong>Interfacial Kinetics and Thermodynamics:</strong> Analyze failure mechanisms at multi-phaseinterfaces to understand degradation pathways and improve material stability.</li>
-</ul>
-
-
-  </div>
-</div>
-
-<div class="feature" data-flip="">
-  <a href="/projects" class="feature-image" aria-label="2. Inventing Novel Materials">
-    <img src="/images/index_interests/interest-2-gpt.png" loading="lazy" alt="2. Inventing Novel Materials" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-  <div class="feature-text">
-    
-      <p class="feature-title">2. Inventing Novel Materials</p>
-    
-    
-<ul>
-  <li>
-<strong>High-Throughput Materials Design:</strong> Leverage computational tools and multiscale models toexplore vast material spaces.</li>
-  <li>
-<strong>Property-Driven Optimization:</strong> Develop and optimize materials tailored for specificapplications, such as batteries, fuel cells, and catalysts.</li>
-</ul>
-
-
-  </div>
-</div>
-
-<div class="feature">
-  <a href="/team" class="feature-image" aria-label="3. Al for Materials Innovation">
-    <img src="/images/index_interests/interest-3-gpt.png" loading="lazy" alt="3. Al for Materials Innovation" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-  <div class="feature-text">
-    
-      <p class="feature-title">3. Al for Materials Innovation</p>
-    
-    
-<ul>
-  <li>
-<strong>Data Infrastructure:</strong> Build comprehensive materials databases that integrate experimentaland computational results.</li>
-  <li>
-<strong>Al-Powered Modeling:</strong> Develop machine learning and Al models to accelerate materials discovery, predict properties, and identify optimal candidates.</li>
-  <li>
-<strong>Integration Across Scales:</strong> Combine Al models with multiscale simulations to bridge atomic micro, and macroscopic scales for holistic material insights.</li>
-</ul>
-
-
-  </div>
-</div>
-
-<!-- Easter Egg -->
-<div style="text-align: center; margin-top: -50 px; margin-bottom: -50 px;opacity: 0.3;">
-
-
-
-
-  <div class="button-wrapper">
-    <a class="button" href="/404.html" data-style="bare" aria-label="button">
-      
-      
-        <span>🎁</span>
-      
-    </a>
-  </div>
-
-
+    <p class="news-footnote">Grant details and additional group updates will be consolidated here as information is finalized.</p>
+  </section>
 </div>
   </section>
 
