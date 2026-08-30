@@ -8,10 +8,13 @@
   {% assign citation = include %}
 {% endif %}
 
+{% assign empty_authors = "" | split: "," | array_filter %}
+{% assign citation_authors = citation.authors | default: empty_authors | array_filter %}
+
 <div class="citation-container">
   {% capture citation_search %}
     {{ citation.title }}
-    {{ citation.authors | join: " " }}
+    {{ citation_authors | join: " " }}
     {{ citation.publisher }}
     {{ citation.date | date: "%Y %b %d" }}
     {{ citation.id }}
@@ -38,21 +41,18 @@
 
       <div
         class="citation-authors"
-        {% if citation.authors.size > 10 %}
-          data-tooltip="{{ citation.authors | join: ", " | xml_escape }}"
+        {% if citation_authors.size > 10 %}
+          data-tooltip="{{ citation_authors | join: ", " | xml_escape }}"
         {% endif %}
         tabindex="0"
       >
-        {{
-          citation.authors
-          | join: ","
-          | split: ","
-          | array_carve: 5
-          | join: ", "
-          | markdownify
-          | remove: "<p>" | remove: "</p>"
-          | default: "[no author info]"
-        }}
+        {% assign display_authors = citation_authors | array_carve: 5 %}
+        {% for author in display_authors %}
+          {% unless forloop.first %}, {% endunless %}
+          {{ author | markdownify | remove: "<p>" | remove: "</p>" }}
+        {% else %}
+          [no author info]
+        {% endfor %}
       </div>
 
       <div class="citation-details">

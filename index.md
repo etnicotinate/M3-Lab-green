@@ -1,5 +1,6 @@
 ---
 title: Home
+size: wide
 ---
 
 <div class="home-page">
@@ -58,18 +59,26 @@ title: Home
       <a class="news-more" href="{{ "/news/" | relative_url }}">View all news <span aria-hidden="true">&#8594;</span></a>
     </div>
 
-    <div class="news-grid">
+    <div class="news-list">
       <article class="news-item">
-        <p class="news-label">Funding update</p>
-        <h3>Feilong Wang and Yilin Zhang receive support from the NSFC Postdoctoral Science Fund General Program.</h3>
+        <p class="news-label">New award</p>
+        <h3>We are thrilled to celebrate Chuliang Fu, awarded an NSFC Young Scientists Fund (Category C) project.</h3>
       </article>
       <article class="news-item">
-        <p class="news-label">Funding update</p>
-        <h3>Yilin Zhang receives a Zhejiang Provincial Natural Science Foundation Exploration Project award.</h3>
+        <p class="news-label">Project milestone</p>
+        <h3>A big congratulations to Fucheng Ren for securing an NSFC Young Scientists Fund (Category C) project.</h3>
       </article>
       <article class="news-item">
-        <p class="news-label">Funding update</p>
-        <h3>Shuo Wang receives support from the NSFC General Program and the Zhejiang Provincial Natural Science Foundation.</h3>
+        <p class="news-label">Postdoctoral support</p>
+        <h3>We are delighted to share that Feilong Wang and Yilin Zhang have received NSFC Postdoctoral Science Fund General Program support.</h3>
+      </article>
+      <article class="news-item">
+        <p class="news-label">Research milestone</p>
+        <h3>Cheers to Yilin Zhang on being awarded a Zhejiang Provincial Natural Science Foundation Exploration Project.</h3>
+      </article>
+      <article class="news-item">
+        <p class="news-label">Lab highlight</p>
+        <h3>Another proud moment for the lab: Shuo Wang has won support from the NSFC General Program and Zhejiang Provincial Natural Science Foundation.</h3>
       </article>
     </div>
 

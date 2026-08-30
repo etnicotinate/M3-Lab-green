@@ -7,7 +7,7 @@
 
 .citation {
   display: flex;
-  margin: 20px 0;
+  margin: 12px 0;
   border-radius: var(--rounded);
   background: var(--background);
   overflow: hidden;
@@ -19,11 +19,11 @@
   display: inline-flex;
   flex: 1 1 auto;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 6px;
   width: 100%;
   max-width: 100%;
   height: min-content;
-  padding: 24px 30px;
+  padding: 16px 22px;
   text-align: left;
   overflow-wrap: break-word;
   z-index: 0;
@@ -72,4 +72,59 @@
   display: inline-flex;
   justify-content: flex-start;
   margin: 0;
+}
+
+.publication-results > h3 {
+  margin: 10px 0 4px;
+  font-size: 1.25rem;
+  line-height: 1.25;
+}
+
+.publication-results > h3:first-child {
+  margin-top: 5px;
+}
+
+.publication-results .citation {
+  margin: 3px 0;
+  border-radius: 5px;
+}
+
+.publication-results .citation-text {
+  gap: 3px;
+  padding: 11px 16px 12px;
+  line-height: 1.35;
+}
+
+.publication-results .citation-title {
+  font-size: 0.92rem;
+  line-height: 1.35;
+}
+
+.publication-results .citation-authors,
+.publication-results .citation-details,
+.publication-results .citation-description {
+  font-size: 0.82rem;
+  line-height: 1.4;
+}
+
+.publication-results .citation-text > .icon {
+  top: 10px;
+  right: 14px;
+  font-size: 22px;
+}
+
+@media (max-width: 600px) {
+  .publication-results .citation-text {
+    padding: 10px 12px;
+  }
+
+  .publication-results .citation-title {
+    font-size: 0.88rem;
+  }
+
+  .publication-results .citation-authors,
+  .publication-results .citation-details,
+  .publication-results .citation-description {
+    font-size: 0.78rem;
+  }
 }
