@@ -19,7 +19,7 @@
   - Sunmoon Yu
   - Haldrian Iriawan
   - Yang Shao-Horn*
-  - Ju Li
+  - Ju Li*
   publisher: Journal of the American Chemical Society
   date: '2026-06-01'
   link: https://doi.org/hb6v59
@@ -44,11 +44,11 @@
   - Pushun Lu
   - Shuaika Liang
   - Caijin Xiao
-  - '**Shuo Wang#**'
+  - '**Shuo Wang#***'
   - Yusheng Zhao
-  - Wei Xia
+  - Wei Xia*
   publisher: Advanced Functional Materials
-  date: '2025-08-24'
+  date: '2026-01-01'
   link: https://doi.org/hbkhd7
   orcid: 0000-0002-7907-9676
   Show-Wang: true
@@ -91,7 +91,7 @@
   - Jinghua Guo
   - Yining Huang
   - Tsun-Kong Sham
-  - Yifei Mo
+  - Yifei Mo*
   - "Xueliang Sun\u200B*"
   publisher: Science
   date: '2025-10-09'
@@ -107,10 +107,10 @@
   - Ming Zhang
   - Yuan He
   - Jitao Li
-  - '**Shuo Wang#**'
-  - '**Fucheng Ren#**'
-  - Zixuan Fang
-  - Mengqiang Wu
+  - '**Shuo Wang#***'
+  - '**Fucheng Ren#***'
+  - Zixuan Fang*
+  - Mengqiang Wu*
   publisher: Energy Storage Materials
   date: '2025-09-01'
   link: https://doi.org/hbkhdx
@@ -140,8 +140,8 @@
   - Sunmoon Yu
   - Haldrian Iriawan
   - Guanzhou Zhu
-  - "Yuriy Rom\xE1n-Leshkov"
-  - Ju Li
+  - "Yuriy Rom\xE1n-Leshkov*"
+  - Ju Li*
   - Yang Shao-Horn
   publisher: Journal of the American Chemical Society
   date: '2025-08-11'
@@ -153,8 +153,8 @@
 - id: doi:10.1002/ange.202508835
   title: "Chemical Bond Covalency in Superionic Halide Solid\u2010State Electrolytes"
   authors:
-  - "Jiamin Fu\u2020"
-  - "Han Su\u2020"
+  - Jiamin Fu
+  - Han Su
   - Jing Luo
   - Xiaona Li
   - Jianwen Liang
@@ -168,7 +168,7 @@
   - Weihan Li
   - Jian Peng
   - Jue Liu
-  - '**Shuo Wang#**'
+  - Shuo Wang
   - "Tsun\u2010Kong Sham"
   - Xueliang Sun
   publisher: Angewandte Chemie
@@ -176,14 +176,14 @@
   link: https://doi.org/hbkhd3
   orcid: 0000-0002-7907-9676
   Show-Wang: true
-  plugin: sources.py
-  file: sources.yaml
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1038/s41586-025-09153-1
   title: A cost-effective all-in-one halide material for all-solid-state batteries
   authors:
-  - Jiamin Fu
-  - Changhong Wang
-  - '**Shuo Wang#**'
+  - "Jiamin Fu\u2020"
+  - "Changhong Wang\u2020"
+  - "**Shuo Wang#\u2020**"
   - Joel W. Reid
   - Jianwen Liang
   - Jing Luo
@@ -203,8 +203,8 @@
   - Jue Liu
   - Hamid Abdolvand
   - Tsun-Kong Sham
-  - Yifei Mo
-  - Xueliang Sun
+  - Yifei Mo*
+  - Xueliang Sun*
   publisher: Nature
   date: '2025-06-25'
   link: https://doi.org/hbj6g3
@@ -216,15 +216,15 @@
   title: "A new class of carbonate\u2013oxychloride solid electrolytes for high-performance\
     \ sodium-ion all-solid-state batteries"
   authors:
-  - Xinmiao Wang
-  - Simeng Zhang
+  - "Xinmiao Wang\u2020"
+  - "Simeng Zhang\u2020"
   - Junyi Yue
   - Xingyu Wang
   - Yang Xu
   - Yue Gong
   - Liyu Zhou
   - Changtai Zhao
-  - Jianwen Liang
+  - Jianwen Liang*
   - Xiangzhen Zhu
   - Han Wu
   - Xiaolong Yan
@@ -232,8 +232,8 @@
   - Meng Li
   - Chenxiang Li
   - '**Shuo Wang#**'
-  - Xueliang Sun
-  - Xiaona Li
+  - Xueliang Sun*
+  - Xiaona Li*
   publisher: Energy &amp; Environmental Science
   date: '2025-01-01'
   link: https://doi.org/hbkhd4
@@ -246,7 +246,7 @@
   authors:
   - "Jiamin Fu\u2020"
   - "Han Su\u2020"
-  - Jing Luo
+  - Jing Luo*
   - Xiaona Li
   - Jianwen Liang
   - Changhong Wang
@@ -260,8 +260,8 @@
   - Jian Peng
   - Jue Liu
   - '**Shuo Wang#**'
-  - "Tsun\u2010Kong Sham"
-  - Xueliang Sun
+  - "Tsun\u2010Kong Sham*"
+  - Xueliang Sun*
   publisher: Angewandte Chemie International Edition
   date: '2025-06-16'
   link: https://doi.org/hbkhd5
@@ -270,10 +270,10 @@
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1021/JACS.5C02411
-  title: Reactivating Molecular Cobalt Catalysts for Electrochemical CO<sub>2</sub>
-    Conversion to Methanol
+  title: "Reactivating Molecular Cobalt Catalysts for Electrochemical CO\n       \
+    \             <sub>2</sub>\n                    Conversion to Methanol"
   authors:
-  - Sunmoon Yu
+  - Sunmoon Yu*
   - Hiroki Yamauchi
   - Davide Menga
   - '**Shuo Wang#**'
@@ -284,7 +284,7 @@
   - Haldrian Iriawan
   - Botao Huang
   - Alexander Nitsche
-  - Yang Shao-Horn
+  - Yang Shao-Horn*
   publisher: Journal of the American Chemical Society
   date: '2025-03-29'
   link: https://doi.org/hbkhd6
@@ -301,7 +301,7 @@
   - Xiaolong Yan
   - Simeng Zhang
   - Xingyu Wang
-  - Jianwen Liang
+  - Jianwen Liang*
   - Nian Zhang
   - Bona Dai
   - Junyi Yue
@@ -312,8 +312,8 @@
   - Xinmiao Wang
   - Liyu Zhou
   - '**Shuo Wang#**'
-  - Xueliang Sun
-  - Xiaona Li
+  - Xueliang Sun*
+  - Xiaona Li*
   publisher: Advanced Materials
   date: '2025-06-02'
   link: https://doi.org/hbkhd8
@@ -363,11 +363,11 @@
   - Biwei Xiao
   - Xiaona Li
   - Jianwen Liang
-  - Zhiqiang Fang
-  - '**Shuo Wang#**'
-  - Shangqian Zhao
-  - Xueliang Sun
-  - Changtai Zhao
+  - Zhiqiang Fang*
+  - '**Shuo Wang#***'
+  - Shangqian Zhao*
+  - Xueliang Sun*
+  - Changtai Zhao*
   publisher: Small Structures
   date: '2025-06-29'
   link: https://doi.org/hbkhd9
@@ -581,10 +581,10 @@
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1126/SCIADV.ADH4626
-  title: "Lithium-compatible and air-stable vacancy-rich Li\n            <sub>9</sub>\n\
-    \            N\n            <sub>2</sub>\n            Cl\n            <sub>3</sub>\n\
-    \            for high\u2013areal capacity, long-cycling all\u2013solid-state lithium\
-    \ metal batteries"
+  title: "Lithium-compatible and air-stable vacancy-rich Li\n                    <sub>9</sub>\n\
+    \                    N\n                    <sub>2</sub>\n                   \
+    \ Cl\n                    <sub>3</sub>\n                    for high\u2013areal\
+    \ capacity, long-cycling all\u2013solid-state lithium metal batteries"
   authors:
   - "Weihan Li\u2020"
   - "Minsi Li\u2020"
@@ -687,8 +687,10 @@
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1021/acsmaterialslett.2c00194
-  title: Mechanisms of Ionic Diffusion and Stability of the Na<sub>4</sub>MnCr(PO<sub>4</sub>)<sub>3</sub>
-    Cathode
+  title: "Mechanisms of Ionic Diffusion and Stability of the Na\n                \
+    \    <sub>4</sub>\n                    MnCr(PO\n                    <sub>4</sub>\n\
+    \                    )\n                    <sub>3</sub>\n                   \
+    \ Cathode"
   authors:
   - Jiahui Liu
   - '**Shuo Wang#**'
@@ -878,7 +880,7 @@
   - Liqiang Mai
   - Chuan Wu
   publisher: Advanced Materials
-  date: '2020-10-21'
+  date: '2020-11-01'
   link: https://doi.org/ghgg6h
   orcid: 0000-0002-7907-9676
   Show-Wang: true
@@ -990,8 +992,8 @@
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1021/acs.jpclett.0c00010
-  title: "Yttrium\u2013Sodium Halides as Promising Solid-State Electrolytes with High\
-    \ Ionic Conductivity and Stability for Na-Ion Batteries"
+  title: "Yttrium\u2013Sodium Halides as Promising Solid-State\nElectrolytes with\
+    \ High Ionic Conductivity and Stability for Na-Ion\nBatteries"
   authors:
   - Yu Qie
   - '**Shuo Wang#**'
@@ -1128,8 +1130,8 @@
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1039/c8cp04851g
-  title: 2D planar penta-MN<sub>2</sub> (M = Pd, Pt) sheets identified through structure
-    search
+  title: "2D planar penta-MN\n                    <sub>2</sub>\n                 \
+    \   (M = Pd, Pt) sheets identified through structure search"
   authors:
   - Kexian Zhao
   - Xiaoyin Li
@@ -1143,8 +1145,9 @@
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1039/c9ta03369f
-  title: A high-pressure induced stable phase of Li<sub>2</sub>MnSiO<sub>4</sub> as
-    an effective poly-anion cathode material from simulations
+  title: "A high-pressure induced stable phase of Li\n                    <sub>2</sub>\n\
+    \                    MnSiO\n                    <sub>4</sub>\n               \
+    \     as an effective poly-anion cathode material from simulations"
   authors:
   - '**Shuo Wang#**'
   - Junyi Liu
@@ -1181,8 +1184,9 @@
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1039/c8ta11276b
-  title: 'Tetragonal C<sub>24</sub>: a topological nodal-surface semimetal with potential
-    as an anode material for sodium ion batteries'
+  title: "Tetragonal C\n                    <sub>24</sub>\n                    : a\
+    \ topological nodal-surface semimetal with potential as an anode material for\
+    \ sodium ion batteries"
   authors:
   - Yu Qie
   - Junyi Liu
@@ -1350,8 +1354,9 @@
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1039/c7ta04941b
-  title: New allotropes of Li<sub>2</sub>MnO<sub>3</sub> as cathode materials with
-    better cycling performance predicted in high pressure synthesis
+  title: "New allotropes of Li\n                    <sub>2</sub>\n               \
+    \     MnO\n                    <sub>3</sub>\n                    as cathode materials\
+    \ with better cycling performance predicted in high pressure synthesis"
   authors:
   - '**Shuo Wang#**'
   - Junyi Liu

@@ -29,6 +29,10 @@ nav:
   .publication-actions .button {
     margin: 0;
   }
+
+  .search-info:empty {
+    margin: 4px 0;
+  }
 </style>
 
 <div class="publication-intro">
@@ -57,7 +61,9 @@ nav:
 
 {% include search-info.html %}
 
+<div class="publication-results">
 {% include list.html data="citations" component="citation" style="rich" %}
+</div>
 
 <!-- 
 ## Highlighted

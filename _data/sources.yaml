@@ -21,7 +21,7 @@
     - Sunmoon Yu
     - Haldrian Iriawan
     - Yang Shao-Horn*
-    - Ju Li
+    - Ju Li*
 - id: doi:10.1021/acs.jpclett.5c02453
   authors:
     - Fiaz Hussain
@@ -50,17 +50,17 @@
     - Jinghua Guo
     - Yining Huang
     - Tsun-Kong Sham
-    - Yifei Mo
+    - Yifei Mo*
     - Xueliang Sun​*
 - id: doi:10.1016/j.ensm.2025.104547
   authors:
     - Ming Zhang
     - Yuan He
     - Jitao Li
-    - "**Shuo Wang#**"
-    - "**Fucheng Ren#**"
-    - Zixuan Fang
-    - Mengqiang Wu
+    - "**Shuo Wang#***"
+    - "**Fucheng Ren#***"
+    - Zixuan Fang*
+    - Mengqiang Wu*
 - id: doi:10.1021/jacs.5c06156
   authors:
     - Hongbin Xu
@@ -81,34 +81,14 @@
     - Sunmoon Yu
     - Haldrian Iriawan
     - Guanzhou Zhu
-    - "Yuriy Rom\xE1n-Leshkov"
-    - Ju Li
+    - "Yuriy Rom\xE1n-Leshkov*"
+    - Ju Li*
     - Yang Shao-Horn
-- id: doi:10.1002/ange.202508835
-  authors:
-    - Jiamin Fu†
-    - Han Su†
-    - Jing Luo
-    - Xiaona Li
-    - Jianwen Liang
-    - Changhong Wang
-    - Jung Tae Kim
-    - Yang Hu
-    - Feipeng Zhao
-    - Shumin Zhang
-    - Hui Duan
-    - Xiaoge Hao
-    - Weihan Li
-    - Jian Peng
-    - Jue Liu
-    - "**Shuo Wang#**"
-    - "Tsun\u2010Kong Sham"
-    - Xueliang Sun
 - id: doi:10.1038/s41586-025-09153-1
   authors:
-    - Jiamin Fu
-    - Changhong Wang
-    - "**Shuo Wang#**"
+    - Jiamin Fu†
+    - Changhong Wang†
+    - "**Shuo Wang#†**"
     - Joel W. Reid
     - Jianwen Liang
     - Jing Luo
@@ -128,19 +108,19 @@
     - Jue Liu
     - Hamid Abdolvand
     - Tsun-Kong Sham
-    - Yifei Mo
-    - Xueliang Sun
+    - Yifei Mo*
+    - Xueliang Sun*
 - id: doi:10.1039/D5EE03490F
   authors:
-    - Xinmiao Wang
-    - Simeng Zhang
+    - Xinmiao Wang†
+    - Simeng Zhang†
     - Junyi Yue
     - Xingyu Wang
     - Yang Xu
     - Yue Gong
     - Liyu Zhou
     - Changtai Zhao
-    - Jianwen Liang
+    - Jianwen Liang*
     - Xiangzhen Zhu
     - Han Wu
     - Xiaolong Yan
@@ -148,13 +128,13 @@
     - Meng Li
     - Chenxiang Li
     - "**Shuo Wang#**"
-    - Xueliang Sun
-    - Xiaona Li
+    - Xueliang Sun*
+    - Xiaona Li*
 - id: doi:10.1002/ANIE.202508835
   authors:
     - Jiamin Fu†
     - Han Su†
-    - Jing Luo
+    - Jing Luo*
     - Xiaona Li
     - Jianwen Liang
     - Changhong Wang
@@ -168,11 +148,11 @@
     - Jian Peng
     - Jue Liu
     - "**Shuo Wang#**"
-    - "Tsun\u2010Kong Sham"
-    - Xueliang Sun
+    - "Tsun\u2010Kong Sham*"
+    - Xueliang Sun*
 - id: doi:10.1021/JACS.5C02411
   authors:
-    - Sunmoon Yu
+    - Sunmoon Yu*
     - Hiroki Yamauchi
     - Davide Menga
     - "**Shuo Wang#**"
@@ -183,8 +163,9 @@
     - Haldrian Iriawan
     - Botao Huang
     - Alexander Nitsche
-    - Yang Shao-Horn
+    - Yang Shao-Horn*
 - id: doi:10.1002/ADFM.202506144
+  date: "2026-01-01"
   authors:
     - Chunlei Zhao
     - "**Yilin Zhang#**"
@@ -200,9 +181,9 @@
     - Pushun Lu
     - Shuaika Liang
     - Caijin Xiao
-    - "**Shuo Wang#**"
+    - "**Shuo Wang#***"
     - Yusheng Zhao
-    - Wei Xia
+    - Wei Xia*
 - id: doi:10.1002/ADMA.202502067
   authors:
     - Han Wu
@@ -210,7 +191,7 @@
     - Xiaolong Yan
     - Simeng Zhang
     - Xingyu Wang
-    - Jianwen Liang
+    - Jianwen Liang*
     - Nian Zhang
     - Bona Dai
     - Junyi Yue
@@ -221,8 +202,8 @@
     - Xinmiao Wang
     - Liyu Zhou
     - "**Shuo Wang#**"
-    - Xueliang Sun
-    - Xiaona Li
+    - Xueliang Sun*
+    - Xiaona Li*
 - id: doi:10.1038/S41565-024-01813-Z
   authors:
     - Weihan Li†
@@ -253,11 +234,11 @@
     - Biwei Xiao
     - Xiaona Li
     - Jianwen Liang
-    - Zhiqiang Fang
-    - "**Shuo Wang#**"
-    - Shangqian Zhao
-    - Xueliang Sun
-    - Changtai Zhao
+    - Zhiqiang Fang*
+    - "**Shuo Wang#***"
+    - Shangqian Zhao*
+    - Xueliang Sun*
+    - Changtai Zhao*
 - id: doi:10.1021/acs.chemmater.4c02257
   authors:
     - "**Shuo Wang#**"

@@ -20,6 +20,7 @@
   %}
   {% assign size = section
     | regex_scan: "<size>(.*?)</size>"
+    | default: page.size
     | default: "page"
   %}
 
