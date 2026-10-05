@@ -1,5 +1,168 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1021/jacs.6c05378
+  title: 'Interplay of Lattice
+
+    Distortion and Cation Disorder
+
+    Governs Li-Ion Transport in Cation-Disordered Rocksalt Cathodes'
+  authors:
+  - Zichang Zhang
+  - Lihua Feng
+  - Jiewei Cheng
+  - Peng-Hu Du
+  - Chu-Liang Fu
+  - Xintao Long
+  - Anchun Tang
+  - Longlong Fan
+  - Kang Dong
+  - Haoyu Wu
+  - Weihan Li
+  - Jian Peng
+  - '**Shuo Wang#**'
+  - Dingguo Xia
+  - Xueliang Sun
+  - Qiang Sun
+  publisher: 'Journal of the American
+
+    Chemical Society'
+  date: '2026-09-18'
+  link: https://doi.org/hcmjzh
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/s41467-026-77622-w
+  title: Reconciling the O3-P3 phase transition in layered oxides to reduce particle
+    strain for stable sodium battery cycling
+  authors:
+  - Zhou Liao
+  - '**Yilin Zhang#**'
+  - Haoxiang Zhuo
+  - Weiyuan Huang
+  - Jiuwei Lei
+  - Kuan Wang
+  - Meng Li
+  - Yang Gu
+  - Yuhao Ye
+  - Jie Peng
+  - Dongniu Wang
+  - Changtai Zhao
+  - Jianwen Liang
+  - Yin Wen
+  - '**Shuo Wang#**'
+  - Xueliang Sun
+  - Jiangtao Hu
+  - Wei Xia
+  - Biwei Xiao
+  publisher: Nature Communications
+  date: '2026-09-16'
+  link: https://doi.org/hcmjzj
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.mattod.2026.103438
+  title: Transition metal halides for high-performance and sustainable solid-state
+    batteries
+  authors:
+  - Keqi Chen
+  - Songjia Kong
+  - '**Shuo Wang#**'
+  - Shumin Zhang
+  - Yanguang Li
+  - Feipeng Zhao
+  publisher: Materials Today
+  date: '2026-09-01'
+  link: https://doi.org/hchtwx
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/ange.7867809
+  title: "Unraveling Bridging\u2010Oxygen\u2010Driven Ultrafast Amorphization in Superionic\
+    \ Oxyhalide Conductors via in Situ Synchrotron X\u2010Ray Scattering"
+  authors:
+  - Wen Tang
+  - Kaixin Zhang
+  - Shuaika Liang
+  - Jiuwei Lei
+  - '**Feilong Wang#**'
+  - Haosheng Li
+  - Jianghai Chen
+  - Qi Guo
+  - Yujuan Yang
+  - Fiaz Hussain
+  - Zhepu Shi
+  - Anchun Tang
+  - Chunyin Zhou
+  - Weihan Li
+  - '**Shuo Wang#**'
+  - "Jo\u2010chi Tseng"
+  - Yusheng Zhao
+  - "Zi\u2010Feng Ma"
+  - Xueliang Sun
+  - Wei Xia
+  publisher: Angewandte Chemie
+  date: '2026-06-03'
+  link: https://doi.org/hchtwz
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/adma.74333
+  title: "Phase\u2010Transition Engineering Enables Low\u2010Strain Cathodes for 192\
+    \ Wh kg\n                    <sup>\u2212</sup>\n                    <sup>1</sup>\n\
+    \                    Sodium\u2010Ion Batteries"
+  authors:
+  - Shufen Ye
+  - '**Yilin Zhang#**'
+  - Junjie Ding
+  - Guihong Mao
+  - Zhenyu Guo
+  - Xuekun Lu
+  - '**Yiru Huang#**'
+  - Hai Yang
+  - Hanyu Huo
+  - Peng Tan
+  - Yu Jiang
+  - Laifa Shen
+  - Ruilin Bai
+  - Jialong Shen
+  - '**Shuo Wang#**'
+  - Yu Yao
+  - Yucheng Wu
+  - Yan Yu
+  publisher: Advanced Materials
+  date: '2026-07-28'
+  link: https://doi.org/hchtw2
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/anie.5558984
+  title: "Tuning Reaction Pathways via Symmetric Fluorination Enables High\u2010Temperature\
+    \ and High\u2010Voltage Electrolytes"
+  authors:
+  - Fangyuan Cheng
+  - Wen Zhang
+  - Chun Fang
+  - Yameng Fan
+  - Zhenxiang Cheng
+  - Changhong Wang
+  - Xiaona Li
+  - Jiamin Fu
+  - '**Shuo Wang#**'
+  - Weihan Li
+  - Xueliang Sun
+  - Jian Peng
+  publisher: Angewandte Chemie International Edition
+  date: '2026-05-28'
+  link: https://doi.org/hchtw3
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1021/jacs.6c02353
   title: "Increasingly Reversible Na/Cl\n                    <sub>2</sub>\n      \
     \              and Li/Cl\n                    <sub>2</sub>\n                 \
@@ -27,6 +190,129 @@
   Show-Wang: true
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.1002/adma.72655
+  title: "Unraveling Working and Degradation Mechanisms of Energy Storage and Conversion\
+    \ Materials at the Nanoscale Using Synchrotron X\u2010Ray Characterizations"
+  authors:
+  - Zhiqiang Wang
+  - Linglong Han
+  - Jun Zhou
+  - '**Feilong Wang#**'
+  - Bin Ji
+  - Longlong Fan
+  - Zhe Ren
+  - '**Shuo Wang#**'
+  - Weihan Li
+  - Jian Peng
+  - Wei Xu
+  - Qingxi Yuan
+  - Jing Zhang
+  - Guangcai Chang
+  - Xueliang Sun
+  - Kang Dong
+  publisher: Advanced Materials
+  date: '2026-02-28'
+  link: https://doi.org/hchtw4
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/s41467-026-69737-x
+  title: Polyanion-stabilized amorphous halide electrolytes with low lithium content
+    for all-solid-state lithium batteries
+  authors:
+  - Wen Tang
+  - '**Feilong Wang#**'
+  - Shuaika Liang
+  - Fiaz Hussain
+  - Jo-chi Tseng
+  - Pengcheng Yu
+  - Jiuwei Lei
+  - Hailun Jin
+  - Chunlei Zhao
+  - Haochang Zhang
+  - Zhepu Shi
+  - Ying Li
+  - Wen Yin
+  - '**Fucheng Ren#**'
+  - '**Shuo Wang#**'
+  - "Zi\u2011Feng Ma"
+  - Xueliang Sun
+  - Wei Xia
+  publisher: Nature Communications
+  date: '2026-02-28'
+  link: https://doi.org/hchtw5
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/aenm.202504045
+  title: "Probing All\u2010Solid\u2010State Batteries with Real\u2010Time Synchrotron\
+    \ and Neutron Techniques"
+  authors:
+  - Suzhe Liang
+  - Yipeng Sun
+  - "Ya\u2010Jun Cheng"
+  - Stephan V. Roth
+  - "Peter M\xFCller\u2010Buschbaum"
+  - Longsheng Cao
+  - Jian Peng
+  - '**Shuo Wang#**'
+  - Xueliang Sun
+  - Changhong Wang
+  publisher: Advanced Energy Materials
+  date: '2025-10-29'
+  link: https://doi.org/g99v2b
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.joule.2025.102233
+  title: Boosting ionic conductivity of fluoride electrolytes by polyanion coordination
+    chemistry enabling 5 V-Class all-solid-state batteries
+  authors:
+  - Huaimin Jin
+  - Xingyu Wang
+  - Simeng Zhang
+  - Xiangzhen Zhu
+  - Chong Liu
+  - Junyi Yue
+  - Jie Qu
+  - Bei Wu
+  - Xu Han
+  - Yueyue Wang
+  - Yang Xu
+  - Han Wu
+  - Liyu Zhou
+  - Mingying Zhang
+  - Hao Lai
+  - '**Shuo Wang#**'
+  - Jianwen Liang
+  - Xueliang Sun
+  - Xiaona Li
+  publisher: Joule
+  date: '2026-01-01'
+  link: https://doi.org/hckqf6
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1063/5.0348588
+  title: Component homogenization enables spectrally stable deep-blue perovskite light-emitting
+    diodes
+  authors:
+  - Yu Xia
+  - Jia-Cheng Li
+  - '**Shuo Wang#**'
+  - Nan Li
+  - Chun-Hao Chen
+  publisher: Applied Physics Letters
+  date: '2026-08-31'
+  link: https://doi.org/hcmjzk
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1002/ADFM.202506144
   title: Reduction Resistible Halide Solid Electrolytes Enabled by Orbital Gap Modulation
   authors:
@@ -293,8 +579,9 @@
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1002/ADMA.202502067
-  title: "Revealing the Underlying Role of Li<sub>2</sub>CO<sub>3</sub> in Enhancing\
-    \ Performance of Oxyhalide\u2010Based Solid\u2010State Batteries"
+  title: "Revealing the Underlying Role of Li\n                    <sub>2</sub>\n\
+    \                    CO\n                    <sub>3</sub>\n                  \
+    \  in Enhancing Performance of Oxyhalide\u2010Based Solid\u2010State Batteries"
   authors:
   - Han Wu
   - Jie Qu
@@ -1265,8 +1552,8 @@
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1039/c8ta05840g
-  title: Discovery of a high-pressure phase of rutile-like CoO<sub>2</sub> and its
-    potential as a cathode material
+  title: "Discovery of a high-pressure phase of rutile-like CoO\n                \
+    \    <sub>2</sub>\n                    and its potential as a cathode material"
   authors:
   - '**Shuo Wang#**'
   - Junyi Liu
