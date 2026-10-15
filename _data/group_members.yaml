@@ -18,7 +18,7 @@
 - name: 'Feilong Wang'
   aliases:
     - 'Wang Feilong'
-  role: 'Alumni'
+  role: 'alumni'
   file: 'Feilong-Wang.md'
 - name: 'Fuchao Yang'
   aliases:
@@ -86,6 +86,12 @@
     - 'Huang Yiru'
   role: 'phd'
   file: 'Yiru-Huang.md'
+- name: 'Yurui Sun'
+  aliases:
+    - 'Sun Yurui'
+    - 'Yurui'
+  role: 'undergrad'
+  file: 'Yurui.md'
 - name: 'Zhihan Li'
   aliases:
     - 'Li Zhihan'
