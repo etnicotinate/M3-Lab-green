@@ -11,11 +11,11 @@ links:
 ## Intro
 
 Yurui Sun is an undergraduate student at the Eastern Institute of Technology,
-Ningbo. His hobbies include 
+Ningbo. His hobbies include music,writing,and cooking.
 
-## Research Field
+## Research Interests
 
-
+Materials and chemistry.
 
 ## Work Experience
 
