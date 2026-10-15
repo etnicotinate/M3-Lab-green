@@ -2,7 +2,7 @@
 name: Feilong Wang
 image: team/photos/Feilong-Wang.jpg
 description: CATL 21C-ML Deparment
-role: Alumni
+role: alumni
 date: 2025-04-01
 links:
   email: flwang@eitech.edu.cn
