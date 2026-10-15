@@ -89,9 +89,8 @@
 - name: 'Yurui Sun'
   aliases:
     - 'Sun Yurui'
-    - 'Yurui'
   role: 'undergrad'
-  file: 'Yurui.md'
+  file: 'Yurui-Sun.md'
 - name: 'Zhihan Li'
   aliases:
     - 'Li Zhihan'
