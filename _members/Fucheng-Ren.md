@@ -1,7 +1,7 @@
 ---
 name: Ren Fucheng
 image: team/photos/Fucheng-Ren.jpg
-description: Research Assistant Professor
+description: Research Associate Professor
 role: faculty
 date: 2025-03-01
 links:

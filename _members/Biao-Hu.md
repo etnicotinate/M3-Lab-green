@@ -4,7 +4,7 @@ image: team/photos/Biao-Hu.jpg
 affiliation: Ningbo University
 role: alumni
 date: 2025-06-01
-description: To University of Macau (PhD Student)
+description: To University of Macau (PhD)
 links:
   email: chuxue_hu@foxmail.com
   orcid: 0009-0002-3567-6839
