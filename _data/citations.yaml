@@ -150,22 +150,6 @@
   Show-Wang: true
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1063/5.0348588
-  title: Component homogenization enables spectrally stable deep-blue perovskite light-emitting
-    diodes
-  authors:
-  - Yu Xia
-  - Jia-Cheng Li
-  - '**Shuo Wang#**'
-  - Nan Li
-  - Chun-Hao Chen
-  publisher: Applied Physics Letters
-  date: '2026-08-31'
-  link: https://doi.org/hcmjzk
-  orcid: 0000-0002-7907-9676
-  Show-Wang: true
-  plugin: orcid.py
-  file: orcid.yaml
 - id: doi:10.48550/arXiv.2602.11579
   title: Coupling Lattice Distortion and Cation Disorder to Control Li-ion Transport
     in Cation-Disordered Rocksalt Oxides
@@ -1117,16 +1101,23 @@
   Show-Wang: true
   plugin: sources.py
   file: sources.yaml
-- id: wosuid:PPRN:12114052
-  title: Web of Science
-  authors: []
-  publisher: ''
-  date: ''
-  link: https://www.webofscience.com/wos/woscc/full-record/WOS:PPRN:12114052
+- id: doi:10.48550/arxiv.2110.13308
+  title: Calibrating DFT formation enthalpy calculations by multi-fidelity machine
+    learning
+  authors:
+  - Sheng Gong
+  - '**Shuo Wang#**'
+  - Tian Xie
+  - Woo Hyun Chae
+  - Runze Liu
+  - Jeffrey C. Grossman
+  publisher: arXiv
+  date: '2021-01-01'
+  link: https://doi.org/hcm6hx
   orcid: 0000-0002-7907-9676
   Show-Wang: true
-  plugin: sources.py
-  file: sources.yaml
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1007/s42979-022-01370-z
   title: Contrastive Metric Learning for Lithium Super-ionic Conductor Screening
   authors:
@@ -1305,39 +1296,6 @@
   Show-Wang: true
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.48550/arxiv.2110.13308
-  title: Calibrating DFT formation enthalpy calculations by multi-fidelity machine
-    learning
-  authors:
-  - Sheng Gong
-  - '**Shuo Wang#**'
-  - Tian Xie
-  - Woo Hyun Chae
-  - Runze Liu
-  - Jeffrey C. Grossman
-  publisher: arXiv
-  date: '2021-01-01'
-  link: https://doi.org/hcm6hx
-  orcid: 0000-0002-7907-9676
-  Show-Wang: true
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.21203/rs.3.rs-139079/v1
-  title: Screening and understanding Li adsorption on 2-dimensional metallic materials
-    by learning physics
-  authors:
-  - Sheng Gong
-  - '**Shuo Wang#**'
-  - Taishan Zhu
-  - Xi Chen
-  - Jeffrey Grossman
-  publisher: Springer Science and Business Media LLC
-  date: '2021-01-08'
-  link: https://doi.org/hcm6hz
-  orcid: 0000-0002-7907-9676
-  Show-Wang: true
-  plugin: orcid.py
-  file: orcid.yaml
 - id: doi:10.1002/adma.202005802
   title: "Co\u2010Construction of Sulfur Vacancies and Heterojunctions in Tungsten\
     \ Disulfide to Induce Fast Electronic/Ionic Diffusion Kinetics for Sodium\u2010\
@@ -1510,16 +1468,6 @@
   Show-Wang: true
   plugin: sources.py
   file: sources.yaml
-- id: wosuid:PPRN:12113762
-  title: Web of Science
-  authors: []
-  publisher: ''
-  date: ''
-  link: https://www.webofscience.com/wos/woscc/full-record/WOS:PPRN:12113762
-  orcid: 0000-0002-7907-9676
-  Show-Wang: true
-  plugin: sources.py
-  file: sources.yaml
 - id: doi:10.48550/arxiv.2101.00067
   title: Screening and understanding Li adsorption on 2-dimensional metallic materials
     by learning physics
@@ -1675,24 +1623,6 @@
   Show-Wang: true
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.48550/arxiv.1907.10649
-  title: Predicting charge density distribution of materials using a local-environment-based
-    graph convolutional network
-  authors:
-  - Sheng Gong
-  - Tian Xie
-  - Taishan Zhu
-  - '**Shuo Wang#**'
-  - Eric R. Fadel
-  - Yawei Li
-  - Jeffrey C. Grossman
-  publisher: arXiv
-  date: '2019-01-01'
-  link: https://doi.org/hcm6h3
-  orcid: 0000-0002-7907-9676
-  Show-Wang: true
-  plugin: orcid.py
-  file: orcid.yaml
 - id: doi:10.1039/c8ta11276b
   title: "Tetragonal C\n                    <sub>24</sub>\n                    : a\
     \ topological nodal-surface semimetal with potential as an anode material for\
@@ -1774,22 +1704,6 @@
   Show-Wang: true
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.48550/arxiv.1805.08368
-  title: A new porous metallic silicon dicarbide for highly efficient Li-ion battery
-    anode identified by targeted structure search
-  authors:
-  - Junyi Liu
-  - '**Shuo Wang#**'
-  - Yu Qie
-  - Jiabing Yu
-  - Qiang Sun
-  publisher: arXiv
-  date: '2018-01-01'
-  link: https://doi.org/hcm6h4
-  orcid: 0000-0002-7907-9676
-  Show-Wang: true
-  plugin: orcid.py
-  file: orcid.yaml
 - id: doi:10.1039/c8ta05840g
   title: "Discovery of a high-pressure phase of rutile-like CoO\n                \
     \    <sub>2</sub>\n                    and its potential as a cathode material"
@@ -1988,6 +1902,26 @@
   publisher: ''
   date: ''
   link: https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:000239906200394
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: sources.py
+  file: sources.yaml
+- id: wosuid:PPRN:12114052
+  title: Web of Science
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:PPRN:12114052
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: sources.py
+  file: sources.yaml
+- id: wosuid:PPRN:12113762
+  title: Web of Science
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:PPRN:12113762
   orcid: 0000-0002-7907-9676
   Show-Wang: true
   plugin: sources.py
