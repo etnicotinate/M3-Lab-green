@@ -2,7 +2,7 @@
 name: Zhihan Li
 image: team/photos/Zhihan-Li.jpg
 affiliation: Eastern Institute of Technology
-description: Undergraduate
+description: Bac
 role: undergrad
 date: 2026-05-28
 links:
