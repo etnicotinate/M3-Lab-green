@@ -1,5 +1,35 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1002/anie.3357957
+  title: "Radical C\u2500N Coupling at Electrified Carbon Nanotube Interfaces"
+  authors:
+  - Fuhua Qin
+  - '**Yanzi Shi#**'
+  - '**Shuo Wang#**'
+  - Yuanlong Huang
+  - Yiming Qin
+  publisher: Angewandte Chemie International Edition
+  date: '2026-11-08'
+  link: https://doi.org/hcrwc9
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/ange.3357957
+  title: "Radical C\u2500N Coupling at Electrified Carbon Nanotube Interfaces"
+  authors:
+  - Fuhua Qin
+  - '**Yanzi Shi#**'
+  - '**Shuo Wang#**'
+  - Yuanlong Huang
+  - Yiming Qin
+  publisher: Angewandte Chemie
+  date: '2026-11-08'
+  link: https://doi.org/hcrwdb
+  orcid: 0000-0002-7907-9676
+  Show-Wang: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1021/jacs.6c05378
   title: 'Interplay of Lattice
 
